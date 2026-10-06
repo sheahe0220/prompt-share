@@ -1,0 +1,16 @@
+{
+  "name": "sgj-prompt",
+  "owner": {
+    "name": "sheahe0220"
+  },
+  "metadata": {
+    "description": "작업 지침 모음을 Claude Code 플러그인으로 배포한다"
+  },
+  "plugins": [
+    {
+      "name": "sgj-prompt",
+      "source": "./dist",
+      "description": "작업 지침 6묶음. 이 PC 에서는 설치하지 마라(이미 ~/.claude 에 있다)"
+    }
+  ]
+}

@@ -1,0 +1,932 @@
+{
+ "ex_results": [
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "Furthermore, KGE statistics (Table 7) for the FPC and RTC scenarios were 0.65 and 0.64, respectively."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "At gauges USGS 02169505, USGS 02169506, and Olympia Park, the KGE values for the RTC scenario were 0.82, 0.57, and 0.64, respectively (Table 7)."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "For the FPC scenario, the KGE values were 0.56, 0.09, and 0.65, respectively."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "For the three storm events used for model calibration, the following mean performance statistics were obtained: Nash–Sutcliffe efficiency of 0.5782, root mean square error of 0.0373 m3 s-1, coefficient of determination (R2) of 0.7756 and regression coefficient (β), which provides a measurement of conditional bias, of 0.8826."
+  },
+  {
+   "doi": "10.5194/hess-21-1559-2017",
+   "sentence": "Low-flow volume errors (±5 %) and Nash–Sutcliffe efficiencies of > 0.8 for individual events, i.e., > 0.7 for longer periods, support the fact that the flow dynamics are reproduced adequately."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "It is found that the maximum ENS remains constant despite a cumulative frequency value varying, while the minimum ENS approaches the peak value of 0.881 when the cumulative frequency value is equal to 50 %."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "Considering that higher minimum ENS contributes to more efficient calibration, the fixed cumulative frequency value of 50 % was selected to determine the ranges of maximum and minimum probability density (i.e. MINR and MAXR) for each parameter."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "It is found that the minimum ENS, excepting extreme outliers, rises from 0.881 to 0.884 and the ENS concentrates at a higher value range, when the MINR is used instead of the initial range."
+  },
+  {
+   "doi": "10.5194/hess-21-6219-2017",
+   "sentence": "We do so on the basis of the absolute relative error ej=jgPCE-jfullmodeljfullmodelifjfullmodel≠0jgPCE-jfullmodelifjfullmodel=0, where j=AMAExi, AMAVxi, AMAγxi or AMAkxi (xi=x1, x2, x3); the subscripts full model and gPCE, respectively, indicate that quantity j is evaluated via Eq. (18) or through a gPCE surrogate model, constructed as outlined in Sect. 2.1."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "The modeled hydrographs are well matched with the measured data at the watershed scale with a Nash–Sutcliffe coefficient = 0.852 and R2=0.871."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "The simulated hydrographs by the developed watershed-scale SWMM model were well matched with observed data over a 2-month continuous simulation (Nash–Sutcliffe coefficient = 0.852; R2=0.871) after minimal calibration effort."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "In this study, NSE and LnNSE of 0.7 and 0.6, respectively, were considered as the threshold values for behavioral models."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "Accordingly, the NSE and LnNSE likelihood measures were respectively assigned weights of 0.54 and 0.46 (Eq. 5)."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "A threshold value of 0.17 was set when using the RMSE in model conditioning."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "The highest performance of the MLMs was observed in year 2014, with R2 values of 0.91, 0.76, and 0.92 for RF, KNN, and NNET, respectively, and the lowest performance was observed in year 2013 with R2 values of 0.86, 0.7, and 0.85 for RF, KNN, and NNET, respectively."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "During the calibration period, minimum NSE values of 0.81, 0.89, and 0.82 were, respectively, obtained for the models identified using RF, KNN, and NNET as emulators."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "Similarly, the maximum NSE values during this period were 0.93, 0.94, and 0.95, respectively, for RF, KNN, and NNET."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "The high-resolution model was successfully calibrated for all calibration strategies, with an event mean NSE for all events ranging from 0.68 to 0.85 (see Table )."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "For the two-stage calibration strategies, the individual stages also produced successful calibrations (stage 1 event mean NSE of 0.70–0.87; stage 2 event mean NSE of 0.78–0.87), except for the second stage in T32S_QV_ppP for the reasons explained above."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "Using the HR model, there were four event characteristics (P_sum, PI_mean, QV_ppP and D_prec) for which the two-stage calibration performed better (up to 0.08 event mean NSE) than the single-stage calibration, while for Q_max the single-stage calibration performed better (0.03 event mean NSE)."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "However, the results of the sensitivity analysis can be considered reliable when the coefficient of determination reflecting the relationship between the dependent variable and explanatory variables is not lower than 0.70."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "This approach may prove especially useful when the results of calculations in the multiple linear regression model exhibit unsatisfactory convergence (R2 < 0.70), and it is therefore advisable to introduce classification variables, which is a simplifying solution."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "The threshold value of the correlation coefficient ensuring that 95 % of the observations were enclosed within 95 % confidence intervals was 0.920."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "The prediction accuracies of the XGBoost models, i.e., NSE>0.7 and R2>0.7, can be considered satisfactory, considering that they were relatively easy to set up and that it was impossible or very difficult to build process-based models for either site."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "In this study, models with high prediction accuracies (NSE >0.7) are obtained for two SuDS catchments of different sizes, SuDS practice types, and data availabilities."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "In this study, models with high prediction accuracies (NSE >0.7) are obtained for two SuDS catchments of different sizes, SuDS practice types, and data availabilities."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "This is supported by a higher CE (0.74 against 0.70) and a lower RMSE (233.45 mg/L against 246.39 mg/L)."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "For the validation phase, OF 1 Range 2 performed much better than OF 1 Range 3 with higher higher CE (0.7 against 0.47) and a lower RMSE (232.42 mg/L against 310.46 mg/L)."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "The scattered dots far below the bisector show the poor performance of 1 Range 1 in both calibration (CE = − 1.03 and RMSE = 175.85 kg) and validation (CE = − 2.98 and RMSE = 157.02 kg) phases, as detailed in Table 5."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "The histogram of Fig. 4 shows the obtained optimal values of NSE (Eq. (2) for each case study, and the average value of NSE (0.87), with the minimum 0.77 for the case study Bellinge 6 and the maximum 0.95 for the case study Bellinge 3.Download: Download high-res image (136KB)Download: Download full-size imageFig. 4."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "For example, for Bellinge 5 (Fig. 5), with NSE = 0.89, the discharges of the first and the second peaks are underestimated by only 8.9%, and 11.8%, respectively, while the first peak time is anticipated by only 1 min, and the second peak time is perfectly predicted."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "For example, the calibrated SM of Bellinge 5 was used to simulate the hydrograph of a different rain event and compared with the hydrograph predicted by the DM (Fig. 6): the NSE was 0.87 with a reduction of only −0.02 with respect to the rain event used for calibration.Download: Download high-res image (225KB)Download: Download full-size imageFig. 6."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "The performance of the calibrated model was calculated by using percentage coverage (observations falling within 95 % prediction intervals), Nash-Sutcliffe efficiency coefficient (NSE), and coefficient of determination (R2)."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "Mean absolute error (MAE) between observed and raw hourly precipitation and temperature data ranges from 0.24-0.29 mm and 0.5–0.9 °C respectively."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "After bias correction, MAE is reduced to 0.20–0.21 mm for precipitation and 0.1–0.2 °C for temperature."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "Typically, when M-NSE > 0.75, the simulated values of the model are considered to have a high level of agreement with the observed values when using the optimised parameter set, which can be used for practical engineering purposes (Servat & Dezetter 1991)."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "When the model was inputted with rainfall of other intensities (moderate rain and light rain), the M-NSE values for the J_44 water level process were all above 0.82, and the M-NSE values for the C_27 pipe flow process were also above 0.79, indicating excellent model verification results (the verification process is not detailed here because of space limitations)."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "Figure 4 indicates that the 1D model tends to slightly overestimate baseflow, whereas it could produce close peak flows (with root mean square error = 0.06, and correlation coefficient r = 0.99 and 0.98 for the magnified two events, respectively) under intensive storm events."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "Here, Gaussian white noise is considered in all cases to approximately represent a typical 10% relative error of the monitoring devices according to the three-sigma rule (i.e., the observation errors are within with 99.7% confidence)."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "The ensemble mean and the NSE mean value indicate the accuracy of state estimate, the 95% confidence interval (i.e., 95% CI) and the NSE standard deviation value (i.e., NSE std) represent the spread of the ensemble that indicate the uncertainty associated with the state estimate."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "More specifically, ES-ILU generally outperforms ES-MDA in terms of the estimation accuracy and the associated uncertainty (see the NSE mean and std values) while both the two methods can achieve highly accurate estimates for the observed states (all the NSE mean values above 0.98)."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "For the SSE, the approach combining GPR and RF increases the mean CC from 0.79 to 0.83 and reduces the mean MAE from 0.057 to 0.051 compared to using GPR alone."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "For the LSE, the mean CC and MAE are 0.82 and 0.054, respectively."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "While normKGE' is used as the objective function in emulators to mitigate the influence of outliers (Section 3.2), the more widely understood KGE' metric is used to demonstrate calibration results."
+  }
+ ],
+ "ex_gap": [
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "However, calibration problems are often ill-posed and non-separable due to measurement errors and model inadequacy, thus leading to response surfaces characterized by long banana-shaped narrow valleys or multiple local optima (e.g., Abbaspour et al., 2004; Arora et al., 2012; Brunetti et al., 2016; Šimůnek and Van Genuchten, 1996)."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "Nevertheless, its local search behavior can still lead to a modest performance in complex optimization tasks (e.g., Sedaghatdoost et al., 2019)."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "However, according to the so-called “no free lunch” theorem (Wolpert and Macready, 1997): “For any algorithm, any elevated performance over one class of problems is offset by poor performance over another class.” Thus, the high performance of global search strategies on complex multimodal problems is counterbalanced by their slow convergence on unimodal problems."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "Nevertheless, since the shape of the response surface (i.e., objective function) is not known a priori when solving real-world problems, it is preferable to apply global optimization methods."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "However, if the local search is performed too early, the swarm can lose diversity and converge to a local optimum."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "However, the limited interaction between the CLPSO and the local search during the optimization process suggests that there is still room for improvement, especially for unimodal problems."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "Starting from this background, the main goal of this study is to develop an optimization strategy that combines the exploitation capability of the ML algorithm with the exploration features of the CLPSO, which was shown to outperform other algorithms for multimodal problems (Liang et al., 2006)."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "However, uncertainty extends beyond parameters and encompasses model structures, inputs, and forcing data."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "However, existing SWMM calibration tools typically optimize model parameters based on long-term hydrologic behavior, lacking simultaneous data assimilation capabilities—except for Bayesian approaches (Gao et al., 2018), which update posterior probability density functions based on prior knowledge of model parameters and observations."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "However, previous optimization methods for urban flood modeling mostly perform post-event model calibration that lacks simultaneous parameter optimization and real-time monitoring capacity (Fava et al., 2020)."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "Accordingly, the main objective of this study is to develop a RTC package employing real-time streamflow monitoring sensors for the SWMM model using Bayesian optimization with a GP-based surrogate model."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "However, the accuracy of radar measurements is in general insufficient, particularly in the case of extreme rainfall magnitudes ."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "Although the radar reflectivity measurements undergo a number of corrections before they are converted into rainfall intensity, it is virtually impossible to have error-free reflectivity measurements."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "However, in reality, it is almost impossible to classify a single storm purely under a specific rainfall type."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "Only few studies have examined the applicability of these adjustment techniques to urban-scale hydrological applications and concluded that they can effectively reduce rainfall bias, thus leading to improvements in the reproduction of hydrological outputs ."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "However, despite the improvements achieved with the current adjustment techniques, underestimation of storm peaks can still be seen after adjustment and this is particularly evident in the case of small drainage areas (such as those of urban catchments) and extreme rainfall magnitudes ."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "Nonetheless, for this particular event records from only a few rain gauge sites were available and these were located away from the area of interest and at points where less intense radar rainfall was observed."
+  },
+  {
+   "doi": "10.5194/hess-21-1559-2017",
+   "sentence": "The main objective of this paper is to investigate the relative contribution of the spatial versus climatic rainfall variability for flow peaks at different locations in the drainage network and for different return periods."
+  },
+  {
+   "doi": "10.5194/hess-21-1559-2017",
+   "sentence": "This work demonstrates the potential of using stochastic rainfall generators for urban applications and the benefits gained compared to other methods, such as bootstrapping rainfall events from a long rainfall series."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "However, it is difficult to obtain an exact optimal solution due to limited enumeration (Boyle et al., 2000)."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "Although the auto-calibration method has been intensively employed to calibrate parameters in the field of hydrology, the most advanced algorithm inevitably falls into local solution because of the strong non-linear problem of a hydrological model and parameter correlation (Chu et al., 2010; Jiang et al., 2010, 2015)."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "Although normal and uniform distributions are greatly studied in practice, other types of probability distributions were seldom investigated in previous research (Kucherenko et al., 2012; Esmaeili et al., 2014)."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "sentence": "However, there have not been many documented studies on how to select the appropriate parameter range for improving the calibration of hydrological models."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "sentence": "However, streamflow data are only available for a number of sites and gauging stations are not always installed at representative locations."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "sentence": "Although technological developments provide the possibility to expand the measurement network, the reality is that, due to budget cuts, observation networks often shrink (Kundzewicz, 1997) rather than expand."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "sentence": "However, it is not feasible to install a staff gauge in every ungauged catchment or to equip all citizen scientists with water level recorders."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "sentence": "However, the (vertical) resolution of these data is less than those of actual stream level measurements."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "sentence": "However, streams are often included in the pictures of existing webcams or time lapse cameras that were installed for other reasons, e.g. to show the snow conditions on a ski slope or to highlight the view from a hotel."
+  },
+  {
+   "doi": "10.5194/hess-21-6219-2017",
+   "sentence": "Here, our distinctive objective is to contribute to bridge the gap between these two types of GSA."
+  },
+  {
+   "doi": "10.5194/hess-21-6219-2017",
+   "sentence": "Only limited attention has been devoted to assessing the relative effects of uncertain model parameters to the first four statistical moments of the target model output."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "Although GI is distributed at higher spatial densities, each unit is relatively inexpensive if the unit can be considered as part of landscaping and, in total, may provide a cost-effective alternative to more traditional larger centralized practices, like detention ponds especially in cases where land is not available or very expensive."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "However, from a stormwater modeling perspective, the approach taken for model representations of GI requires different methodological considerations compared to the traditional large-size, low spatial density of the more centralized and regional control features (Fletcher et al., 2013; USEPA, 2012; Guo, 2008)."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "Since then, while numerous LID/GI modeling studies have been introduced, best modeling practices for simulating GI in SWMM have received comparatively little attention in the literature (Niazi et al., 2017)."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "This study was intent on evaluating approaches to modeling GI effects at a watershed scale using SWMM."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "In this study, we questioned how these spatial and hydrologic realities should be modeled using SWMM."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "This paper describes a suggested method for modeling GI in SWMM and provides critical evaluation."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "sentence": "Primary objectives of this study are to (1) examine how to configure HREs for GI modeling and (2) develop a methodology for parameterizing a SWMM model that reflects this configuration with the goal of demonstrating an urban watershed spatial discretization approach that optimizes model performance in terms of tracking model input values and presumed accuracy of the results."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "In this study, one of the conceptual models of this framework was subjected to uncertainty analysis."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "However, the choice of an adequate likelihood function has been the subject of considerable debate."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "However, identification of models that reproduce the observed system behavior within the limits of measurement error is not easy due to time-varying errors in the input data and model structure (e.g., Beven, 2016)."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "However, the identification of behavioral models without due consideration to such less precise observation error estimates may lead to the rejection of a useful model (i.e., making a type II error)."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "In this study, instead of relaxing the limits, the percentage of observations where model predictions are required to fall within the acceptability limits was relaxed."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "In this study model parameters were constrained using streamflow and the MODIS snow cover product (Hall et al., 2006)."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "However, studies involving combined uncertainty of streamflow and snow cover predictions using the GLUE methodology are still missing in the literature."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "The main objective of this study is to assess parameter uncertainty for a recently developed distributed conceptual hydrological model using the GLUE methodology with due consideration to the model's main application as an operational hydrological model."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "This paper is organized as follows."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "Although assessment results based on historical disaster records can predict the inundation risk of an area, the method requires high numbers of data (Nott, 2006)."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "However, it requires high investments and high-resolution data sources."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "However, these numerical models have the following deficiencies: (i) the characteristics of the landform (e.g. the topographical elevation, slope, and river system) are difficult to model; (ii) a numerical simulation is typically used to estimate the inundation risk in a small area, whereas flooding hazards often occur on a regional scale."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "However, the SWMM cannot be used to determine surface water flows directly."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "Few researchers have focused on the inundation risks of metro systems."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "Nevertheless, research and literature on the inundation risks of metro systems are insufficient."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "The objectives of this study are as follows: (i) propose a method for the prediction of the potential inundation risk on a regional scale with a new algorithm that integrates the SWMM into a GIS for overland flow simulations; (ii) propose an evaluation method for the potential inundation risk of a metro system."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "Although the MC simulation is a widely accepted stochastic modelling technique, it suffers from a heavy computational burden (Yu et al., 2015)."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "In this study three MLMs, i.e. random forest (RF), K nearest neighbours (KNN), and artificial neural network (NNET), are built using a limited number of model parameter sets and response surfaces to emulate the MC simulation through coupling with the limits of acceptability approach."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "The main goal of this study is to emulate the time-consuming MC simulation for parameter identification through the coupling of machine-learning models with the time-relaxed limits of acceptability approach."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "To our best knowledge, RF and KNN have not been used before as emulators of the MC simulation in parameter identification for hydrological models."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "This paper is structured as follows: Sect. 2 presents a brief introduction to parameter identification, using the time-relaxed GLUE LoA approach, and the MLMs used in this study."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "However, the availability of calibration data may be limited, and the nature of the calibration process, by trial and error, requires model iterations for many different parameter sets, which means that the runtime of the model has to be kept short and the length of the simulated periods should be limited."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "Thirdly, the possibility of using different (sets of) events to calibrate different (subsets of) parameters has not been investigated."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "This two-stage calibration has not been investigated for urban drainage models (preliminary findings were published in ), although split-stage calibration where different parameters affect different points or properties of the hydrograph has been investigated for natural catchments (see e.g. )."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "Considering the above findings, the primary objective of this paper is to advance the knowledge of calibration processes for green urban areas by examining different strategies for selecting calibration events and assessing the effects of such selections on the performance of a calibrated hydrodynamic model of a predominantly green urban catchment."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "However, since a large number of parameters must be included in the models, there may be problems with the identification of their values."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "Nevertheless, this method is widely used in the analysis of the sensitivity of models describing runoff in urban catchments, which has been confirmed by numerous studies (Ballinas-González et al., 2020; Liu et al., 2020; Yang et al., 2019)."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "However, the results of the sensitivity analysis can be considered reliable when the coefficient of determination reflecting the relationship between the dependent variable and explanatory variables is not lower than 0.70."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "However, since implementation is complicated, simplified methods are used in many cases despite the major advantage of variance approaches over local analytical methods."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "Despite the limitations of the local sensitivity analytical method and the complex implementation of the global sensitivity analysis, in both cases, the aspects related to local precipitation conditions are treated to a limited extent."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "However, a number of issues have not been fully clarified."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "However, these methods may poorly reflect detailed SuDS design variations (Fassman-Beck et al., 2016)."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "However, they have only been used in a few SuDS-related studies."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "However, there is currently insufficient literature on the application of ML methods to model the temporal evolution of the hydrological responses of SuDS at regular time steps, e.g., daily, hourly, or sub-hourly."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "However, a method to derive these input variables was not described in their study."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "Here, the term trustworthy is defined broadly as the quality of a model to provide predictions that can be trusted (Morton, 1993)."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "This study aims to investigate these questions by examining the ML models that are trained to predict hydrological responses of SuDS catchments at sub-hourly timescales and the means through which the applicability of ML methods to modeling SuDS catchments is also assessed."
+  },
+  {
+   "doi": "10.1002/hyp.13319",
+   "sentence": "Yet it is also one of the model inputs that presents the highest degree of uncertainty (McMillan, Krueger, & Freer, 2012), this originating mainly from two sources."
+  },
+  {
+   "doi": "10.1002/hyp.13319",
+   "sentence": "However, multiple studies have highlighted the sensitivity of hydrological models to the spatial distribution of rainfall and to spatial discretization of the catchment (Fu, Sonnenborg, Jensen, & He, 2011; Shen, Chen, Liao, Liu, & Hong, 2012)."
+  },
+  {
+   "doi": "10.1002/hyp.13319",
+   "sentence": "In this paper, we look at the effect of rainfall uncertainty on the calibration and performance of two hydrological models: a fully distributed and a semidistributed one."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "However, appropriately identifying the land use of catchments is a major task in modeling water quality, as different land use and land cover types are connected with different pollutant accumulation processes which then are transported through stormwater runoff."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "Despite the existence of urban water quality models for many years prior to the implementation of environmental regulations, the last twenty years have seen a dramatic increase in their development."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "However, the inability of statistical methods to predict pollutant changes due to factors such as evolving urbanization or climate conditions has prompted researchers to favor models that link pollutant concentrations in stormwater to conceptual processes and physical description of the urban environment (Sartor and Boyd, 1972)."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "Nevertheless, the researchers demonstrated that the performance of these models at the catchment scale is inadequate in the absence of calibration."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "However, their implementation is often computationally intensive and requires a solid foundation in statistical modeling, which may not be feasible for all applications (Rusanen et al., 2024)."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "However, to the best of our knowledge, no studies have yet assessed this calibration approach in the context of stormwater quality models."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "This work aims to implement and evaluate the integrated event calibration approach in stormwater quality modeling."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "The main aim of this work is to perform accurate and reliable water quality analyses using build-up/wash-off model in an experimental urban catchment located in the city of Pavia (northern Italy)."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2019.124436",
+   "sentence": "However, the results of these and other studies indicated a significant limitation of combining multiple calibration criteria into a single objective function formulation – namely, the alternative objectives (e.g. minimize errors in both peak flow and total flow volume) may conflict with one another (Vrugt et al., 2003, Kollat et al., 2012, Reed et al., 2013)."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2019.124436",
+   "sentence": "Although multi-objective calibration has been applied to numerous hydrologic models in the last two decades (Yapo et al., 1998, Efstratiadis and Koutsoyiannis, 2010, Reed et al., 2013), very few studies have applied this approach in the context of SWMM modeling."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2021.126525",
+   "sentence": "Therefore, the aim of this study is to investigate the influence of multiple factors on the hydrological response of PPs in both short- and long-term modelling scenarios by using the rainfall-runoff model SWMM."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "However, UDS preliminary design, planning studies and many management activities do not require the knowledge of the flow characteristics in every conduit, but rather a reliable estimation of the discharge at specific locations."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "However, the dependence of the CSO behaviour from different hydrological parameters is still largely uninvestigated, and one of the difficulties of conducting a CSO parametric analyses lies in the over parametrization of DMs."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "However, surrogate models, usually mathematical black-boxes, are inherently case-specific, and cannot be easily generalised."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "sentence": "The objective of this paper is therefore to investigate the capability of SMs, the parameters of which could be easily assigned from cartographic information based on literature indications, to reliably model the hydrograph from relevant portions of the UDS, clustered as one or few catchments characterized by few lumped parameters."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "There has been comparatively little work on uncertainty applied to understanding the hydrological impacts of climate change in urban catchments (Lai et al., 2022)."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "However, PRMS does not represent the stormwater pipe network or connectivity of impervious surfaces, which are important determinants of urban hydrologic response (Meierdiercks et al., 2010, Sytsma et al., 2020)."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "However, previous studies that evaluate the impact of climate change in Midwest on hydrological extremes have not focused on urban streamflow, leaving an information gap for urban watershed managers."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "The goal of this research is to consider the effects of parameter uncertainty in hydrologic modeling versus spread among a climate model ensemble on projected changes in urban streamflow and floods for a typical urban watershed in the US Great Lakes region."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "Despite additional parameters required to represent urban watersheds, we hypothesized that uncertainty associated with using multiple climate models would be larger than the parameter uncertainties associated with SWMM hydrologic model calibration for the projection of flow duration curves and flood frequencies in an urban watershed, based on studies in non-urban watersheds (e.g., Chegwidden et al., 2019, Clark et al., 2016)."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "This study demonstrated the suitability of genetic algorithms for optimising watershed model parameters."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "However, the problem of underfitting (i.e. mismatch between the water level and flow process curves) remains significant."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "In this study, sensitive parameters and their value ranges were first determined using the Sobol and generalised likelihood uncertainty estimation (GLUE) methods (Zhao et al. 2009)."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "This study aimed to validate the reliability of the automatic calibration effectiveness of the model, with the goal of providing technical support for the automatic calibration of SWMM model parameters and accurate simulation and application of the model."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "Although it does not capture parameter interactions like global methods, OAT offers a practical trade-off by enabling targeted and interpretable analysis, thereby improving model accessibility for planners and practitioners working in developing tropical cities."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "In addition, few studies have focused specifically on tropical urban catchments, where high-intensity rainfall, rapid urbanization, and data scarcity intersect to complicate flood modeling."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "This study addresses that gap by applying a simplified and practical sensitivity analysis approach within a data-scarce tropical urban environment, using SWMM to investigate how key hydrological and hydraulic design parameters influence critical flood characteristics, such as peak flow, number of flooding nodes, and flood volume."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "Despite existing sophisticated flood risk reduction infrastructure, the city's development potential is hindered by these climate threats."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "This study is presented as a case study of Udon Thani, Thailand, demonstrating the systematic application of an established design storm-based, sensitivity-guided calibration workflow in a data-scarce tropical urban environment."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "To fill the aforementioned research gaps, the main objectives of this study are: (1) to evaluate the sensitivity of hydrological and hydraulic design parameters and their impact on key flood responses and (2) to apply these insights for improving model calibration and informing green-grey infrastructure planning in data-scarce tropical urban catchments."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "This study addresses that gap by applying a simplified sensitivity analysis approach that identifies and prioritizes key hydrological and hydraulic parameters, allowing for targeted calibration based on design storm performance."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "Although many multiobjective optimization algorithms have long been available, such as MOGA [Fonseca and Fleming, 1993], NPGA [Horn et al., 1994], SPEA [Zitzler and Thiele, 1998], PAES [Knowles and Corne, 1999], NSGA-II [Deb et al., 2002], MOSCEM [Vrugt et al., 2003b], and SMS-EMOA [Emmerich et al., 2005], nearly all of them require a large number of model runs (typically as many as 105−106 or even more) to identify the Pareto optimal sets [Li et al., 2012; Liu et al., 2004, 2005; Vrugt et al., 2003a, 2003b]."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "However, although the S metric is theoretically elegant and very intuitive for simple two-objective problems, its application to large problems is very limited because the computational cost grows rapidly if the number of points is large for higher dimensions."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "As summarized by Maier et al. [2014], despite the report of comparative studies, evaluations of effectiveness and efficiency are still limited to testing several selected algorithms with simple test functions or with respect to one or two special problems; furthermore, there are too many statistically indistinguishable algorithms that can be decomposed into common components."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "In this study, we developed a multiobjective adaptive surrogate modeling-based optimization (MO-ASMO) algorithm to meet the special requirements of large, complex geophysical models."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "However, GPR may not serve as the all-purpose surrogate for any problem, and the best surrogate can be problem dependent (as shown in Gong et al. [2015b]) such that surrogate model selection is necessary for each problem [Pilát and Neruda, 2013]."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "In this study, we only used the most representative subsets of the Pareto optimal points for simulation."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "In this study, we developed a mechanism that can make the optimization focus on the region that can improve all of the objectives relative to what can be achieved with the default scheme."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "This paper is organized as follows: Section 2 details the four components of the MO-ASMO algorithm; section 3 evaluates the effectiveness and efficiency of the algorithm using 13 test functions and a case study of a land surface model; and section 4 provides concluding remarks and discusses plans for future work."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "However, these infrastructures usually have a life cycle cost (LCC) associated with their installation and maintenance."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "However, in terms of 2D models or 1D-2D models, it is much more computationally challenging to do optimizations with these evolutional optimization methods. 2D or 1D-2D models are much more computationally intensive than the 1D model."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "To the best of our knowledge, very few studies tried doing optimization analysis on 2D models or 1D-2D models for LID design."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "However, it is not clear how it performs on problems with higher dimensions (>30)."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "However, the GP-based method often scales poorly to high-dimensional problems (Hensman et al., 2013; Regis, 2013)."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "However, no surrogate (e.g., RBF or GP) global optimization algorithm has been used previously for the optimal implementation of LID in an urban watershed."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "However, building an ANN model needs a large set of training data and executions of the original models, and training of the ANN model is also."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "sentence": "In this study, our goal is to investigate the effectiveness of surrogate-based approaches on the LID design analysis based on 1D-2D urban hydraulic models."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "However, its utility relies heavily on the practitioner's experience (Duan & Gao, 2019), and this process is generally labor-intensive and time-consuming (Barco et al., 2008)."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "However, Niazi et al. (2017) reviewed 34 studies using sensitivity analysis for SWMM calibration and found that the identified sensitive parameters are not always the same and even quite different from case to case."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "However, investigations on how observations affect model calibration are still lacking."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "Although this issue has been recognized in some previous studies (Moussa et al., 2007), surprisingly few efforts have been made to explicitly address this issue and formulate a rigorous calibration procedure."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "This paper aims to address the above issues by introducing ensemble smoother (ES) methods to the UDM calibration."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "This paper presents the primary and two enhanced ES methods (i.e., ES, ES-MDA, and ES-ILU) for the UDM calibration."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "sentence": "This paper is organized as follows."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "Yet large-domain LHM optimization is a pressing need (Mizukami et al., 2017; Rakovec et al., 2019), given the use of such models in regional-to-national scale applications such as water prediction and water security assessment in the continental United States (CONUS), supporting water planning and policy (Cosgrove et al., 2024)."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "Despite recent advances in the purely artificial intelligence (AI)-based LHMs (and differentiable models, a hybrid of PB and AI) (Shen et al., 2023), PB models are desired for hydroclimate vulnerability assessment studies because they support multi-variate causal narratives describing hydroclimate trends and variability."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "This study represents the first attempt to calibrate the hydrologic components of CTSM across a large sample of catchments, enhancing its capability for water security applications."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "sentence": "In this paper, we contrast the proof-of-concept LSE results with traditional single-site emulator (SSE) calibration, and comment on avenues for further advances in this direction."
+  }
+ ],
+ "ex_abstract": [
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "first": "Optimization problems in hydrological modeling are frequently solved using local or global search strategies, which either maximize exploitation or exploration.",
+   "last": "Results demonstrate the superior performance of the G-CLPSO, suggesting a potential use in other environmental problems."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "first": "Real-time flood model plays a pivotal role in averting urban flood damage, particularly when there is minimal lead time for preparatory measures.",
+   "last": "Overall, Bayes_Opt-SWMM emerges as a cost-effective and valuable tool for real-time flood modeling and monitoring, with significant potential for managing intelligent storm water systems in urban environments."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "first": "Gauge-based radar rainfall adjustment techniques have been widely used to improve the applicability of radar rainfall estimates to large-scale hydrological modelling.",
+   "last": "Moreover, the ability of the singularity-sensitive technique to preserve the non-normality in rainfall estimates often leads to better reproduction of the urban drainage system's dynamics, particularly of peak runoff flows."
+  },
+  {
+   "doi": "10.5194/hess-21-1559-2017",
+   "first": "The performance of urban drainage systems is typically examined using hydrological and hydrodynamic models where rainfall input is uniformly distributed, i.e., derived from a single or very few rain gauges.",
+   "last": "The results show the importance of using multiple distributed rainfall realizations in urban hydrology studies to capture the total flow variability in the response of the urban drainage systems to heavy rainfall events."
+  },
+  {
+   "doi": "10.5194/hess-21-393-2017",
+   "first": "The parameters of hydrological models are usually calibrated to achieve good performance, owing to the highly non-linear problem of hydrology process modelling.",
+   "last": "The rising of minimum ENS with little change of the maximum may shrink the range of the possible solutions, which can effectively reduce uncertainty of the model performance."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "first": "Citizen science can provide spatially distributed data over large areas, including hydrological data.",
+   "last": "These results are encouraging for citizen science projects and provide a basis for designing observation systems that collect data that are as informative as possible for deriving model based streamflow time series for previously ungauged basins."
+  },
+  {
+   "doi": "10.5194/hess-21-6219-2017",
+   "first": "We propose new metrics to assist global sensitivity analysis, GSA, of hydrological and Earth systems.",
+   "last": "The approach is fully compatible with (and can assist the development of) analysis techniques employed in the context of reduction of model complexity, model calibration, design of experiment, uncertainty quantification and risk assessment."
+  },
+  {
+   "doi": "10.5194/hess-22-2615-2018",
+   "first": "Urban stormwater runoff quantity and quality are strongly dependent upon catchment properties.",
+   "last": "Finally, with a few model adjustments, we show how the simulated stream hydrograph can be separated into the relative contributions from different land cover types and subsurface sources, adding insight to the potential effectiveness of planned green infrastructure scenarios at the watershed scale."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "first": "Parameter uncertainty estimation is one of the major challenges in hydrological modeling.",
+   "last": "Comparable results were obtained from behavioral models selected using the two GLUE methodologies."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "first": "This study presents an integrated approach to evaluate inundation risks, in which an algorithm is proposed to integrate the storm water management model (SWMM) into a geographical information system (GIS).",
+   "last": "In addition, four metro stations are inundated to a depth of over 300 mm."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "first": "Monte Carlo (MC) methods have been widely used in uncertainty analysis and parameter identification for hydrological models.",
+   "last": "Similarly, the models identified using the coupled machine-learning (ML) emulators and limits of acceptability approach have performed very well in reproducing the median streamflow prediction during the calibration and validation periods, with an average Nash–Sutcliffe efficiency value of 0.89 and 0.83, respectively."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "first": "The calibration of urban drainage models is typically performed based on a limited number of observed rainfall–runoff events, which may be selected from a larger dataset in different ways.",
+   "last": "The results show that various strategies for selecting calibration events may lead in some cases to different results in the validation phase and that calibrating impervious and green-area parameters in two separate steps in two-stage strategies may increase the effectiveness of model calibration and validation by reducing the computational demand in the calibration phase and improving model performance in the validation phase."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "first": "Knowledge of the variability of the hydrograph of outflow from urban catchments is highly important for measurements and evaluation of the operation of sewer networks.",
+   "last": "Taking into account the values of the sensitivity coefficients obtained, the calibration of the models should not only cover episodes with high rainfall intensity, since this may lead to calculation errors at the stage of applying the model in practice (assessment of the stormwater system operating conditions, design of reservoirs and flow control devices, green infrastructure, etc.)."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "first": "Sustainable urban drainage systems (SuDS) are decentralized stormwater management practices that mimic natural drainage processes.",
+   "last": "In summary, this study shows that ML methods are a useful tool for predicting the hydrological responses of SuDS catchments, and the hydrological processes inferred from modeling results should be interpreted cautiously due to the existence of large uncertainty in the inference processes."
+  },
+  {
+   "doi": "10.1002/hyp.13319",
+   "first": "This paper analyses the effect of rain data uncertainty on the performance of two hydrological models with different spatial structures: a semidistributed and a fully distributed model.",
+   "last": "Also, in both models, the uncertainty of the predicted discharges increase in similar magnitude when the uncertainty of rainfall input increase."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "first": "Build-up/wash-off models were originally developed for small-scale laboratory facilities with uniform properties.",
+   "last": "Conversely, OF 2 necessitated fewer evaluations to converge toward the optimal solution."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2019.124436",
+   "first": "The USEPA (United States Environmental Protection Agency) Storm Water Management Model (SWMM) is one of the most widely used numerical models to simulate urban runoff and drainage.",
+   "last": "The results demonstrate that OSTRICH-SWMM is a promising tool for automatic calibration of SWMM models."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2021.126525",
+   "first": "The Storm Water Management Model (SWMM), widely used by engineers to design or analyse stormwater networks, allows to model the so-called Low Impact Development (LID) controls, which reduce the flow conveyed to traditional networks.",
+   "last": "At the end, the most influential parameters, and those that can be neglected are presented, showing that we can focus on quite less parameters than initially given when calibrating a PP model in SWMM."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2023.129757",
+   "first": "The management of an Urban Drainage System (UDS) is a complex task, as it requires extensive knowledge about precipitation regime, hydrological features of the catchment, hydraulic characteristics of the drainage network, and information about the water use by the served inhabitants.",
+   "last": "An example of application of SMs to Combined Sewer Overflow prediction is also presented."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "first": "Assessing the uncertainty associated with projections of climate change impacts on hydrological processes can be challenging due to multiple sources of uncertainties within and between climate and hydrological models.",
+   "last": "The uncertainty quantification and comparison approach developed here may be helpful in decision-making and design of engineering infrastructure in urban watersheds."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "first": "To address the issue of low accuracy and inefficiency in the traditional parameter calibration methods for the SWMM model, this paper constructs an automatic parameter calibration model based on multi-objective optimisation algorithms.",
+   "last": "The research findings can provide technical support for the automatic calibration of SWMM model parameters, accurate model simulation, and application."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "first": "Urban areas are increasingly vulnerable to flooding due to rapid urbanization, inadequate stormwater infrastructure, and the intensifying impacts of climate change.",
+   "last": "By integrating sensitivity analysis into the planning and optimization of green-grey infrastructure, the study contributes to the development of resilient and sustainable stormwater management strategies in vulnerable urban areas."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "first": "Parameter specification is an important source of uncertainty in large, complex geophysical models.",
+   "last": "The results demonstrated the effectiveness and efficiency of MO-ASMO."
+  },
+  {
+   "doi": "10.1029/2021wr030928",
+   "first": "Optimization algorithms and urban inundation models are powerful tools to identify cost-effective designs of urban green infrastructures such as low-impact developments (LIDs).",
+   "last": "The result indicates that: (a) DYCORS is a promising method (significantly faster than TuRBO and PSO) for identifying the optimal LID design to minimize the flood damage cost and LID LCC; (b) Optimized LID design could reduce damage cost by as much as $12.14 million for the urban catchment after eliminating its own LCC compared with no LID implementation; (c) LID is effective in reducing the imperviousness of lands in urban areas."
+  },
+  {
+   "doi": "10.1029/2022wr032440",
+   "first": "Urban drainage models (UDMs) are often used to manage urban flooding.",
+   "last": "This should be clearly understood in practical applications."
+  },
+  {
+   "doi": "10.1029/2024wr039525",
+   "first": "AI-based model emulators have emerged as a pragmatic strategy for calibrating Earth System models or their components (e.g., land, atmosphere, ocean), circumventing the previously insurmountable hurdle of the process-heavy models' computational expense.",
+   "last": "This LSE framework offers a promising strategy for effective large-domain process-based model calibration and regionalization."
+  }
+ ],
+ "ex_limit": [
+  {
+   "doi": "10.1016/j.envsoft.2022.105341",
+   "sentence": "To overcome this limitation, multiple studies have externally coupled HYDRUS with global optimization strategies such as the annealing-simplex method (Pan and Wu, 1998), genetic algorithms (Ines and Droogers, 2002), ant colony optimization (Abbaspour et al., 2001), shuffled complex methods (Duan et al., 1993; Vrugt et al., 2003), and particle swarm optimization (Brunetti et al., 2016, 2018), among many others."
+  },
+  {
+   "doi": "10.1016/j.envsoft.2024.106122",
+   "sentence": "Leveraging computational speed, automatic calibration methods help to optimize model parameters through extensive trial and error, mitigating the limitations of manual calibration."
+  },
+  {
+   "doi": "10.5194/hess-19-4001-2015",
+   "sentence": "To address this limitation and improve the applicability of adjustment techniques at urban scales, a method is proposed herein which incorporates a local singularity (identification) analysis into existing adjustment techniques and enables the preservation of the singularity structures throughout the adjustment process."
+  },
+  {
+   "doi": "10.5194/hess-21-4895-2017",
+   "sentence": "These data, however, as promising as they are, have limitations regarding their accuracy and resolution (and will likely have them for the foreseeable future)."
+  },
+  {
+   "doi": "10.5194/hess-21-6219-2017",
+   "sentence": "A key limitation of a variance-based GSA is that the uncertainty of the output is implicitly considered to be fully characterized by its variance."
+  },
+  {
+   "doi": "10.5194/hess-22-5021-2018",
+   "sentence": "Input data uncertainties may arise from measurement limitations and scaling issues, for example, due to forcing data downscaling."
+  },
+  {
+   "doi": "10.5194/hess-23-4293-2019",
+   "sentence": "The multi-criteria index analysis has a few limitations regarding the determination of subjective indices (Jiang et al., 2009; Kazakis et al., 2015)."
+  },
+  {
+   "doi": "10.5194/hess-24-4641-2020",
+   "sentence": "The limits of acceptability-based GLUE methodology (GLUE LoA; Beven, 2006) overcomes the limitations of the residual-based GLUE that arise from the subjectivity in choosing the likelihood and the threshold value by setting error bounds around the observed values."
+  },
+  {
+   "doi": "10.5194/hess-24-869-2020",
+   "sentence": "While the above papers helped elucidate some aspects of the sensitivity of urban drainage model calibration to the calibration events used, such findings possess some limitations."
+  },
+  {
+   "doi": "10.5194/hess-25-5493-2021",
+   "sentence": "Despite the limitations of the local sensitivity analytical method and the complex implementation of the global sensitivity analysis, in both cases, the aspects related to local precipitation conditions are treated to a limited extent."
+  },
+  {
+   "doi": "10.5194/hess-25-5839-2021",
+   "sentence": "This section introduces the methods to map the explanations to imaginary catchments, and more discussions on the limitations are given when the case study results are presented."
+  },
+  {
+   "doi": "10.1002/hyp.13319",
+   "sentence": "Rain gauges represent a reliable way of measuring rainfall depth at a specific location, but they are subject to various kinds of errors (due to mechanical limitations, wind effects, and evaporation losses) that tend to increase with rainfall intensity and sampling frequency (Molini, Lanza, & La Barbera, 2005)."
+  },
+  {
+   "doi": "10.1016/j.jenvman.2024.121244",
+   "sentence": "This approach presents several limitations that can impinge on its efficacy and applicability."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2019.124436",
+   "sentence": "However, the results of these and other studies indicated a significant limitation of combining multiple calibration criteria into a single objective function formulation – namely, the alternative objectives (e.g. minimize errors in both peak flow and total flow volume) may conflict with one another (Vrugt et al., 2003, Kollat et al., 2012, Reed et al., 2013)."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2021.126525",
+   "sentence": "Certain limitations are imposed on the above-mentioned water volumes, defined by the capacity of each layer in terms of available space to keep water, or present water volume."
+  },
+  {
+   "doi": "10.1016/j.jhydrol.2024.131546",
+   "sentence": "Low flows with an exceedance probability greater than 50 % were not used in further analysis, due to the limitations of calibration for low flows using the SWMM model (Avellaneda et al., 2017, Hamel et al., 2013, Hossain et al., 2019, Nayeb Yazdi et al., 2019)."
+  },
+  {
+   "doi": "10.2166/hydro.2024.282",
+   "sentence": "Owing to the inherent limitations of manual parameter tuning and single-objective drainage network optimisation algorithms, such as simple genetic and particle swarm optimisation algorithms, the parameter-calibrated models generated using these methods often exhibit poor agreement with real-world data (Wang & Zhou 2009)."
+  },
+  {
+   "doi": "10.2166/hydro.2026.064",
+   "sentence": "To address data limitations, this study applies an established sensitivity analysis approach within a data-scarce tropical urban setting to support model development and calibration in the absence of observed hydrological data."
+  },
+  {
+   "doi": "10.1002/2015wr018230",
+   "sentence": "It is also worth noting the limitation of parameter optimization."
+  }
+ ]
+}

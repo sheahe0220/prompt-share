@@ -1,0 +1,104 @@
+﻿doi,tab_no,type,n_bold,mode_decimals,n_words_caption,caption
+10.1016/j.envsoft.2022.105341,1,study site/data characteristics,0,3.0,8,Table 1. Formulas and properties of the test functions.
+10.1016/j.envsoft.2022.105341,2,model parameters/ranges,84,1.0,12,Table 2. Soil hydraulic parameters and their search bounds in the inverse estimation.
+10.1016/j.envsoft.2022.105341,3,method comparison,10,3.0,15,"Table 3. Termination criteria for G-CLPSO, ML, PEST, and SCE-UA in scenarios M1, M2, and M3."
+10.1016/j.envsoft.2022.105341,4,method comparison,30,2.0,36,"Table 4. Means and standard deviations of the final SSQ for each strategy (G-CLPSO, CLPSIO, and ML) for three analyzed functions (F1, F2, and F1) and three hypothetical scenarios (M1, M2, and M3) calculated from 10 independent optimizations."
+10.1016/j.envsoft.2024.106122,1,model parameters/ranges,0,,11,Table 1. Description of the Bayesian optimizers engaged in SWMM parameter tuning.
+10.1016/j.envsoft.2024.106122,2,model parameters/ranges,0,,13,Table 2. Selected SWMM rainfall-runoff and flow routing parameters chosen for the sensitivity analysis.
+10.1016/j.envsoft.2024.106122,3,event characteristics,0,2.0,16,Table 3. The storm events considered in the study and their properties and purposes in the analysis.
+10.1016/j.envsoft.2024.106122,4,model parameters/ranges,1,,8,Table 4. Description of sensitive parameters in SMUO framework.
+10.1016/j.envsoft.2024.106122,5,performance metrics,0,2.0,11,Table 5. Performance summary of different Bayesian Optimizers in SWMM parameter optimization.
+10.1016/j.envsoft.2024.106122,6,model parameters/ranges,0,,10,Table 6. Best fit probability distribution function of the fixed parameters.
+10.1016/j.envsoft.2024.106122,7,performance metrics,0,2.0,12,Table 7. Performance summary of the parameter optimization for three different model scenarios.
+10.1016/j.envsoft.2024.106122,8,model parameters/ranges,0,,13,Table A.1. The perturbation range defined to test parameters sensitivity in SWMM model.
+10.1016/j.envsoft.2024.106122,9,other,0,,5,Table B.1. List of acronyms.
+10.5194/hess-19-4001-2015,1,event characteristics,0,2.0,7,Selected rainfall events over the Portobello catchment.
+10.5194/hess-19-4001-2015,2,event characteristics,0,2.0,12,Areal average rainfall accumulations and peak intensities for the different rainfall products.
+10.5194/hess-21-393-2017,1,performance metrics,0,2.0,7,Metro-hydrological statistical data of the study area.
+10.5194/hess-21-393-2017,2,model parameters/ranges,0,,4,Parameters of Xinanjiang model.
+10.5194/hess-21-393-2017,3,model parameters/ranges,0,3.0,12,Range changes and K–S tests (α=0.2) of parameters in the initial schema.
+10.5194/hess-21-393-2017,4,model parameters/ranges,0,3.0,18,The indexed RC and SE of parameters when the optimal range of each parameter is used for calibration.
+10.5194/hess-21-393-2017,5,model parameters/ranges,0,,6,Parameter range setting for different cases.
+10.5194/hess-21-4895-2017,1,performance metrics,0,2.0,100,"Median, maximum and minimum model efficiencies for the 100 catchments for model calibrations using different types of data and the two lower benchmarks. Note that the difference in the median model efficiency for the model calibrations with all streamflow data (Reff) and the median model efficiency "
+10.5194/hess-21-6219-2017,1,other,0,2.0,31,"Global sensitivity index AMAExi Eq. (10), AMAVxi Eq. (12), AMAγxi Eq. (14) and AMAkxi Eq. (16) associated with the Ishigami function Eq. (18). Principal Sobol' indices, Sxi Eq. (7), are also listed; xi=x1, x2, x3."
+10.5194/hess-21-6219-2017,2,other,0,1.0,7,"Intervals of variations of PeT, J, xw."
+10.5194/hess-21-6219-2017,3,other,0,2.0,33,"Global sensitivity index AMAExi Eq. (10), AMAVxi Eq. (12), AMAγxi Eq. (14) and AMAkxi Eq. (16) associated with the critical pumping rate Qc Eq. (27). Principal Sobol' indices, Sxi Eq. (7), are also listed; xi=PeT, J, xw."
+10.5194/hess-22-2615-2018,1,model parameters/ranges,0,1.0,23,Initial and calibrated modeling parameters for the Shayler Crossing watershed. “n/a” indicates the parameter is not applicable to the land cover type.
+10.5194/hess-22-2615-2018,2,performance metrics,0,1.0,9,Profile of the selected eight 24 h single storm statistics.
+10.5194/hess-22-2615-2018,3,study site/data characteristics,0,1.0,7,Land cover status of Shayler Crossing watershed.
+10.5194/hess-22-2615-2018,4,other,0,,0,
+10.5194/hess-22-5021-2018,1,model parameters/ranges,0,1.0,14,Range of model parameters used for the PT_GS_K model stack uncertainty analysis.
+10.5194/hess-22-5021-2018,2,method comparison,0,,34,"Setup of the two-by-two contingency table for binary snow cover data comparison. O and S, respectively, represent observed and simulated binary snow cover and the subscripts refer to a snow-free (0) and snow-covered (1) grid cell."
+10.5194/hess-22-5021-2018,3,performance metrics,0,2.0,9,Statistical summary of the posterior distribution for model parameters.
+10.5194/hess-22-5021-2018,4,other,24,3.0,16,Cross-validation of streamflow predictions against observed values. Bold numbers show the result for the calibration period.
+10.5194/hess-22-5021-2018,5,other,12,3.0,7,Cross-validation of SCF predictions against MODIS SCF.
+10.5194/hess-22-5021-2018,6,other,24,3.0,6,Cross-validation of streamflow and SCF predictions.
+10.5194/hess-22-5021-2018,7,other,24,3.0,11,Cross-validation of streamflow and SCF predictions after relaxing the LOA criteria.
+10.5194/hess-23-4293-2019,1,model parameters/ranges,0,2.0,7,Parameters of the subcatchments in the SWMM.
+10.5194/hess-24-4641-2020,1,model parameters/ranges,0,,12,Parameter samples used in the building and application of the MLM-based emulators.
+10.5194/hess-24-4641-2020,2,model parameters/ranges,0,1.0,13,Range of model parameters used for the PT_GS_K model uncertainty analysis.
+10.5194/hess-24-4641-2020,3,performance metrics,0,3.0,29,"Evaluation results of the predicted target variables, i.e. pLoA (in fraction) and Score, through comparison against values estimated using the MC simulation for the test and validation samples."
+10.5194/hess-24-4641-2020,4,performance metrics,36,2.0,28,Cross-validation of the streamflow predictions of models identified using the coupled ML emulators and MC simulation. The efficiency metrics for the calibration period are shown in bold font.
+10.5194/hess-24-869-2020,1,event characteristics,0,1.0,12,Characteristics of all rainfall events used in one or more calibration strategies.
+10.5194/hess-24-869-2020,2,model parameters/ranges,0,1.0,5,Calibration parameters and their ranges.
+10.5194/hess-24-869-2020,3,model parameters/ranges,0,3.0,9,Calibration parameters and their ranges for the low-resolution model.
+10.5194/hess-24-869-2020,4,performance metrics,6,2.0,11,Calibration results. Bold font indicates the best value in each column.
+10.5194/hess-24-869-2020,5,event characteristics,0,2.0,17,Calibrated rainfall multipliers (HR model) for all rainfall events that were used in at least one CS.
+10.5194/hess-24-869-2020,6,performance metrics,13,2.0,18,Summarized validation performance (over 19 events) for the high-resolution model. Bold font indicates the best value in each column.
+10.5194/hess-24-869-2020,7,performance metrics,10,2.0,39,"Summarized validation performance (over 19 events) for the low-resolution model. Bold font indicates the best value in each column. The columns marked with * are not discussed in the text, but they are shown here for completeness and comparability with Table ."
+10.5194/hess-24-869-2020,8,event characteristics,0,2.0,10,Characteristics of all rainfall events used in the validation phase.
+10.5194/hess-25-5493-2021,1,model parameters/ranges,0,1.0,7,"Ranges of SWMM coefficients (Kiczko et al., 2018)."
+10.5194/hess-25-5493-2021,2,performance metrics,84,3.0,39,"Calculated coefficients (αj) and measures of the goodness of fit of measurement results to the logit model calculations of the Qg,m and Vg values for rainfall distributions R1, R2, R3, and R4. Statistically significant parameters are in bold."
+10.5194/hess-25-5493-2021,3,other,0,2.0,9,Results of validation of logit models shown in Table 2.
+10.5194/hess-25-5493-2021,4,method comparison,0,1.0,10,Comparison of measurement and calculated results in the analyzed period.
+10.5194/hess-25-5493-2021,5,other,0,,0,
+10.5194/hess-25-5839-2021,1,model parameters/ranges,0,1.0,8,Hyperparameter values considered for the two study sites.
+10.1002/hyp.13319,1,event characteristics,0,2.0,34,Table 1. Characteristics of the analysed rain events. Imax and σI correspond to the maximum rainfall intensity and the rainfall intensity standard deviation registered at rain gauge RG3 using an aggregation time step of 30 min
+10.1002/hyp.13319,2,study site/data characteristics,0,2.0,9,Table 2. Characteristics of the subbasins of the semidistributed model
+10.1002/hyp.13319,3,model parameters/ranges,0,2.0,14,Table 3. Hydrological model input parameters and corresponding ranges of variation considered in their calibration
+10.1002/hyp.13319,4,study site/data characteristics,0,2.0,18,Table 4. Percentage of experimental rain data within the 95% confidence interval and confidence interval amplitude at each rain gauge
+10.1002/hyp.13319,5,event characteristics,0,,18,Table 5. Percentage of experimental discharge data within the 95% confidence interval computed with (RU) and without (NRU) rainfall uncertainties
+10.1002/hyp.13319,6,event characteristics,0,2.0,27,Table 6. Mean predicted discharges at the catchment outlet computed with (RU) and without (NRU) rainfall uncertainties. Results in brackets correspond to the amplitude of the 95% confidence interval
+10.1016/j.jenvman.2024.121244,1,event characteristics,0,1.0,25,Table 1. Main characteristics of the twelve selected rainfall events. The first six events are used for calibration. The remaining six events are used for validation.
+10.1016/j.jenvman.2024.121244,2,model parameters/ranges,0,1.0,16,Table 2. Parameters variations for build-up and wash-off equations for TSS in urban catchment in literature review.
+10.1016/j.jenvman.2024.121244,3,model parameters/ranges,0,1.0,7,Table 3. Ranges of calibration parameters C1–C4.
+10.1016/j.jenvman.2024.121244,4,performance metrics,0,3.0,31,"Table 4. The calibrated parameters of build-up (C1 and C2) and wash-off (C3 and C4) for the two objective functions utilizing the proposed ranges, along with the number of function evaluations (FE)."
+10.1016/j.jenvman.2024.121244,5,performance metrics,0,2.0,27,"Table 5. The goodness-of-fit indices for total mass, peak mass flow rate, and time to peak across ranges of the two objective functions in calibration and validation set."
+10.1016/j.jhydrol.2019.124436,1,model parameters/ranges,0,3.0,20,"Table 1. Selected input parameters, their estimated uncertainty class, recommended perturbation range (James, 2005), and the case study results of sensitivity analysis."
+10.1016/j.jhydrol.2019.124436,2,model parameters/ranges,0,3.0,28,Table 2. Results of single-objective calibration: Percentage of change in calibrated parameters from initial value and percentage of change in peak flow/total flow volume from the base model.
+10.1016/j.jhydrol.2019.124436,3,performance metrics,0,2.0,18,"Table 3. Model error values of base model, single and multi-objective calibration for calibration and model assessment time periods."
+10.1016/j.jhydrol.2021.126525,1,model parameters/ranges,0,2.0,8,Table 1. SWMM parameters for PP type LID control.
+10.1016/j.jhydrol.2021.126525,2,method comparison,0,2.0,12,"Table 2. Sum of first-order indices, ∑𝑘𝑖=1𝑆𝑖, and total-effect indices, ∑𝑘𝑖=1𝑆𝑇𝑖, for each modelling scenario."
+10.1016/j.jhydrol.2021.126525,3,other,0,,9,Table 3. Factors influence for PP type LID in SWMM.
+10.1016/j.jhydrol.2023.129757,1,model parameters/ranges,1,1.0,42,"Table 1. Ranges of values adopted for the coefficients 𝑓𝑝 introduced for the definition of the intervals of variation of the parameters of the simplified models (SM). Ten values were assigned to each range, linearly sampling them between the minimum and the maximum value."
+10.1016/j.jhydrol.2023.129757,2,performance metrics,0,1.0,39,"Table 2. Summary of the major characteristics of the UDS case studies: Eldoret, Kenya (a) (Abraham Metto et al., 2021); Luleå, Sweden (b) (Broekhuizen et al., 2020, Broekhuizen et al., 2021); Bellinge (Odense), Denmark (c) (Pedersen et al., 2021a, Pedersen et al., 2021b)."
+10.1016/j.jhydrol.2023.129757,3,model parameters/ranges,0,1.0,39,"Table 3. Ranges of values adopted for the calibration of the hydrological parameters, for each case study. For each parameter, the range was obtained multiplying a calibration coefficient 𝑓𝑝 (Table 1) by a typical value obtained from maps or from the literature."
+10.1016/j.jhydrol.2023.129757,4,performance metrics,0,1.0,15,"Table 4. Simulation times for DMs and SMs for a one-month period of simulation, and NSE."
+10.1016/j.jhydrol.2023.129757,5,performance metrics,0,2.0,32,"Table 5. Results from the OF evaluation for all the case studies and optimal sets of calibration coefficients 𝑓𝑝. When a parameter had no significant influence on the OF, it was marked as “ineffective”."
+10.1016/j.jhydrol.2023.129757,6,model parameters/ranges,0,1.0,32,"Table 6. Optimal sets of parameters found for the SMs for each case study, and group of parameters 𝑊𝑆⁢𝑀⁢√𝑆𝑛𝑖. When a parameter had no significant influence on the OF, it was marked as “ineffective”."
+10.1016/j.jhydrol.2024.131546,1,model parameters/ranges,0,1.0,31,Table 1. Parameters used for calibration of the SWMM model. The limits for calibration of width and imperviousness represent the proportional change from the values for each subwatershed in the uncalibrated model.
+10.1016/j.jhydrol.2024.131546,2,performance metrics,0,2.0,20,Table 2. Summary of model performance statistics for the median discharge time series and the 224 parameter sets sampled after model convergence.
+10.2166/hydro.2024.282,1,event characteristics,0,1.0,5,Sensitivity analysis of selected rainfall
+10.2166/hydro.2024.282,2,model parameters/ranges,0,,10,The main parameters and physical meaning of the SWMM model
+10.2166/hydro.2024.282,3,model parameters/ranges,0,3.0,9,Sensitivity calculation results of parameters of Rain1 rainfall condition
+10.2166/hydro.2024.282,4,model parameters/ranges,0,3.0,11,Sensitivity calculation results of parameters of Rain2 and Rain3 rainfall condition
+10.2166/hydro.2024.282,5,model parameters/ranges,0,1.0,6,Determine the range of parameter (rain1)
+10.2166/hydro.2024.282,6,model parameters/ranges,0,4.0,3,Optimisation parameter set
+10.2166/hydro.2024.282,7,model parameters/ranges,0,4.0,5,Optimised parameter set of SGA
+10.2166/hydro.2026.064,1,study site/data characteristics,0,2.0,13,"Udon Thani NDVI data on blue, built, and green area (Tuhkanen et al. 2022)"
+10.2166/hydro.2026.064,2,study site/data characteristics,0,1.0,3,Data and sources
+10.2166/hydro.2026.064,3,model parameters/ranges,0,,5,Parameters considered in sensitivity analysis
+10.2166/hydro.2026.064,4,model parameters/ranges,0,,8,Ranking of SWMM parameters according to sensitivity analysis
+10.2166/hydro.2026.064,5,model parameters/ranges,0,,14,A comparison with few previous studies focusing on the sensitivity analysis of SWMM parameters
+10.1002/2015wr018230,1,other,0,,6,Table 1. Simple Multiobjective Optimization Test Functions
+10.1002/2015wr018230,2,other,0,,14,Table 2. The Family of ZDT Multiobjective Optimization Test Functions Proposed in Zitzler et al. [2000]
+10.1002/2015wr018230,3,other,0,,14,Table 3. The Family of DTLZ Multiobjective Optimization Test Functions Proposed in Deb et al. [2005]
+10.1002/2015wr018230,4,method comparison,0,,11,Table 4. Optimization Algorithm Setup for the Case Studies in This Papera
+10.1002/2015wr018230,5,performance metrics,0,4.0,21,Table 5. Mean and Standard Deviation of the Convergence and Diversity Metrics of the Pareto Optimal Solutions Given by NSGA-II and MO-ASMOa
+10.1002/2015wr018230,6,model parameters/ranges,0,2.0,12,"Table 6. Screened Parameters for Multiobjective Optimization and Their Categories, Meanings and Ranges"
+10.1029/2021wr030928,1,study site/data characteristics,0,1.0,18,Table 1. Monetary Value Per Unit Area and Relative Damage Tables for Different Types of Land Uses or Assets
+10.1029/2021wr030928,2,other,4,,14,Table B1. Definitions for Symbols in the Formulations of LID Design Optimization Problem (Equations 1-10)
+10.1029/2022wr032440,1,other,0,3.0,7,Table 1. System Information of the Three Cases
+10.1029/2022wr032440,2,event characteristics,0,1.0,9,Table 2. Key Characteristics of the Five Real Rainfall Events
+10.1029/2022wr032440,3,model parameters/ranges,0,1.0,10,Table 3. Hydrological Parameters to Be Calibrated for the Three Cases
+10.1029/2022wr032440,4,other,0,,6,Table 4. Monitoring Schemes for Cases 1 and 2

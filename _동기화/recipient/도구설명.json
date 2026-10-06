@@ -1,0 +1,1446 @@
+[
+ {
+  "id": "andrepimenta.claude-code-chat",
+  "종류": "확장",
+  "이름": "클로드 대화창 (비공식)",
+  "무엇": "개인 개발자가 만든 비공식 확장으로, 클로드 코드를 까만 명령창 대신 대화창 모양으로 쓰게 해 줍니다. 대화 기록, 되돌리기 기능이 있습니다.",
+  "비유": "공식 확장(anthropic.claude-code)도 대화창을 제공하므로 보통은 필요 없습니다. 공식 화면이 불편할 때만 고려합니다.",
+  "등급": "권하지않음",
+  "조건": "클로드 코드와 Claude 계정이 먼저 있어야 합니다.",
+  "설치": "code --install-extension andrepimenta.claude-code-chat",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=andrepimenta.claude-code-chat",
+  "확인": true
+ },
+ {
+  "id": "anthropic.claude-code",
+  "종류": "확장",
+  "이름": "클로드 코드 (공식)",
+  "무엇": "Anthropic 이 직접 만든 공식 확장입니다. VS Code 안에서 클로드에게 일을 시키고, 클로드가 고치려는 내용을 편집 창에서 바로 보여 줍니다.",
+  "비유": "하천 설계보고서 폴더를 열어 두고 \"3 장 수리계산 표의 단위를 맞춰 줘\" 라고 말하면, 고칠 곳을 화면에 띄워 보여 주고 승인을 받은 뒤 고칩니다.",
+  "등급": "기본",
+  "조건": "Claude 유료 요금제(Pro, Max, Team, Enterprise) 또는 사용량 과금 계정이 필요합니다.",
+  "설치": "code --install-extension anthropic.claude-code",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code",
+  "확인": true
+ },
+ {
+  "id": "batisteo.vscode-django",
+  "종류": "확장",
+  "이름": "장고 (웹 개발)",
+  "무엇": "파이썬으로 웹사이트를 만드는 도구인 장고(Django)의 문법에 색을 입히고 자주 쓰는 틀을 넣어 줍니다.",
+  "비유": "웹사이트를 직접 개발하는 사람용입니다. 설계 실무와는 관계가 없습니다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "code --install-extension batisteo.vscode-django",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django",
+  "확인": true
+ },
+ {
+  "id": "codeflow-studio.claude-code-extension",
+  "종류": "확장",
+  "이름": "클로드 보조창 (비공식)",
+  "무엇": "Anthropic 과 관계없는 비공식 확장입니다. 옆 막대에서 클로드 코드를 켜고 이전 대화를 이어 가게 해 줍니다.",
+  "비유": "공식 확장과 하는 일이 겹칩니다. 공식 확장 하나로 충분합니다.",
+  "등급": "권하지않음",
+  "조건": "클로드 코드 명령 프로그램(CLI)을 따로 설치해야 합니다.",
+  "설치": "code --install-extension codeflow-studio.claude-code-extension",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=codeflow-studio.claude-code-extension",
+  "확인": true
+ },
+ {
+  "id": "davidanson.vscode-markdownlint",
+  "종류": "확장",
+  "이름": "마크다운 맞춤법 점검",
+  "무엇": "마크다운(.md) 문서의 모양 규칙(제목 단계, 빈 줄, 목록 표시)을 어긴 곳에 밑줄을 그어 알려 줍니다.",
+  "비유": "클로드용 작업 규칙 문서나 회의 메모를 .md 로 많이 쓰는 사람에게 도움이 됩니다. 설계 문서 자체와는 관계가 적습니다.",
+  "등급": "물어봄",
+  "조건": "",
+  "설치": "code --install-extension davidanson.vscode-markdownlint",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint",
+  "확인": true
+ },
+ {
+  "id": "donjayamanne.python-environment-manager",
+  "종류": "확장",
+  "이름": "파이썬 환경 관리 (옛것)",
+  "무엇": "파이썬 환경과 부품을 보여 주고 관리하던 확장인데, 마켓플레이스에 사용 중지(deprecated) 로 표시되어 있습니다.",
+  "비유": "새 공식 확장(ms-python.vscode-python-envs)이 같은 일을 하므로 깔지 않아도 됩니다.",
+  "등급": "권하지않음",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension donjayamanne.python-environment-manager",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager",
+  "확인": true
+ },
+ {
+  "id": "donjayamanne.python-extension-pack",
+  "종류": "확장",
+  "이름": "파이썬 묶음 설치",
+  "무엇": "파이썬 관련 확장 여러 개(파이썬, 문서 주석 자동 작성, 들여쓰기 도우미, 장고, 진자, 옛 환경 관리 등)를 한 번에 까는 묶음입니다.",
+  "비유": "웹 프로그램 개발용 부품까지 함께 깔리므로 설계 실무자에게는 과합니다. 필요하면 ms-python.python 하나만 까는 편이 낫습니다.",
+  "등급": "권하지않음",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension donjayamanne.python-extension-pack",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack",
+  "확인": true
+ },
+ {
+  "id": "dotjoshjohnson.xml",
+  "종류": "확장",
+  "이름": "XML 정리 도구",
+  "무엇": "XML 파일(태그로 둘러싼 자료 파일)을 줄 맞춰 보기 좋게 정리하고, 원하는 부분을 찾아 줍니다.",
+  "비유": "hwpx 파일 속은 XML 로 되어 있어서, 클로드가 한글 문서 속을 직접 뜯어 볼 때 사람이 내용을 확인하는 데 쓸 수 있습니다. 대부분은 필요 없습니다.",
+  "등급": "물어봄",
+  "조건": "",
+  "설치": "code --install-extension dotjoshjohnson.xml",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=dotjoshjohnson.xml",
+  "확인": true
+ },
+ {
+  "id": "eamodio.gitlens",
+  "종류": "확장",
+  "이름": "깃렌즈 (변경 이력 자세히)",
+  "무엇": "깃(Git, 파일 변경 이력 관리 프로그램)의 기록을 코드 줄마다 보여 줍니다. 누가 언제 이 줄을 고쳤는지 바로 보입니다.",
+  "비유": "설계 스크립트나 규칙 문서를 깃으로 관리하면서 \"이 계수 누가 바꿨지\" 를 추적하는 사람용입니다. 일부 기능은 유료입니다.",
+  "등급": "권하지않음",
+  "조건": "Git 프로그램이 설치되어 있어야 합니다.",
+  "설치": "code --install-extension eamodio.gitlens",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+  "확인": true
+ },
+ {
+  "id": "edwardkim.rhwp-vscode",
+  "종류": "확장",
+  "이름": "한글 문서 보기 (rhwp)",
+  "무엇": "한글(HWP, HWPX) 문서를 한컴오피스 없이 VS Code 안에서 열어 봅니다. 쪽 이동, 확대, 개요(목차) 이동이 되고 문서가 밖으로 전송되지 않습니다. 보기 전용입니다.",
+  "비유": "하천 설계보고서 hwpx 를 클로드가 고친 뒤, 한글 프로그램을 따로 켜지 않고 VS Code 안에서 바로 열어 표와 그림이 제자리에 있는지 확인할 때 씁니다.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "code --install-extension edwardkim.rhwp-vscode",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=edwardkim.rhwp-vscode",
+  "확인": true
+ },
+ {
+  "id": "esbenp.prettier-vscode",
+  "종류": "확장",
+  "이름": "코드 모양 정리 (Prettier)",
+  "무엇": "자바스크립트, HTML, CSS, JSON 같은 코드의 들여쓰기와 줄바꿈을 정해진 모양으로 자동 정리합니다.",
+  "비유": "웹 개발자용입니다. 설계 문서와는 관계가 적습니다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "code --install-extension esbenp.prettier-vscode",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+  "확인": true
+ },
+ {
+  "id": "github.vscode-pull-request-github",
+  "종류": "확장",
+  "이름": "깃허브 검토 요청",
+  "무엇": "깃허브(GitHub, 온라인 파일 저장소)의 검토 요청(Pull Request)과 할 일(Issue)을 VS Code 안에서 보고 처리합니다.",
+  "비유": "여러 사람이 깃허브로 함께 개발하는 사람용입니다.",
+  "등급": "권하지않음",
+  "조건": "GitHub 계정이 필요합니다.",
+  "설치": "code --install-extension github.vscode-pull-request-github",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github",
+  "확인": true
+ },
+ {
+  "id": "kevinrose.vsc-python-indent",
+  "종류": "확장",
+  "이름": "파이썬 들여쓰기 도우미",
+  "무엇": "파이썬 코드에서 줄을 바꿀 때 들여쓰기 칸 수를 알아서 맞춰 줍니다.",
+  "비유": "파이썬 코드를 손으로 직접 많이 치는 사람용입니다. 클로드에게 맡기면 필요 없습니다.",
+  "등급": "권하지않음",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension kevinrose.vsc-python-indent",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=kevinrose.vsc-python-indent",
+  "확인": true
+ },
+ {
+  "id": "mathematic.vscode-pdf",
+  "종류": "확장",
+  "이름": "PDF 보기",
+  "무엇": "PDF 파일을 VS Code 안에서 엽니다. 파이어폭스와 같은 PDF 엔진(PDF.js)을 써서 가볍습니다.",
+  "비유": "상수도 시설기준 PDF 와 설계계산서를 한 화면에 나란히 띄워 놓고 조항을 대조할 때 씁니다.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "code --install-extension mathematic.vscode-pdf",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=mathematic.vscode-pdf",
+  "확인": true
+ },
+ {
+  "id": "mechatroner.rainbow-csv",
+  "종류": "확장",
+  "이름": "CSV 색칠 보기",
+  "무엇": "쉼표로 나눈 표 파일(CSV, TSV)의 열마다 색을 달리 칠해 읽기 쉽게 합니다. 간단한 조건 검색도 됩니다.",
+  "비유": "강우 관측 자료나 관로 제원표 CSV 를 열었을 때 어느 값이 몇 번째 열(관경, 경사, 연장)인지 색으로 바로 구분됩니다.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "code --install-extension mechatroner.rainbow-csv",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv",
+  "확인": true
+ },
+ {
+  "id": "mhutchie.git-graph",
+  "종류": "확장",
+  "이름": "깃 그래프",
+  "무엇": "깃(Git) 변경 기록을 가지가 뻗는 그림으로 보여 주고, 그림에서 바로 되돌리기 같은 작업을 하게 해 줍니다.",
+  "비유": "클로드가 보고서 파일을 여러 번 고친 이력을 깃으로 남겨 두었다면, 어느 시점 판으로 돌아갈지 그림으로 보고 고를 때 씁니다. 도면 개정 이력표를 그림으로 보는 것과 비슷합니다.",
+  "등급": "물어봄",
+  "조건": "Git 프로그램이 설치되어 있어야 합니다.",
+  "설치": "code --install-extension mhutchie.git-graph",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph",
+  "확인": true
+ },
+ {
+  "id": "mjyoo2.hwpx-editor",
+  "종류": "확장",
+  "이름": "한글 문서 편집 (HWPX)",
+  "무엇": "HWP 는 열어 보고, HWPX 는 VS Code 안에서 글과 표를 고칠 수 있습니다. HWP 와 HWPX 사이 변환도 되고, AI 가 문서를 직접 고칠 수 있게 하는 연결 도구(MCP 서버)가 들어 있습니다.",
+  "비유": "도로 설계 과업지시서 hwpx 에서 \"2025 년\" 을 \"2026 년\" 으로 한꺼번에 바꾸거나, 옛 hwp 파일을 hwpx 로 바꿔 클로드가 고칠 수 있게 할 때 씁니다.",
+  "등급": "물어봄",
+  "조건": "",
+  "설치": "code --install-extension mjyoo2.hwpx-editor",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=mjyoo2.hwpx-editor",
+  "확인": true
+ },
+ {
+  "id": "ms-azuretools.vscode-containers",
+  "종류": "확장",
+  "이름": "컨테이너 도구",
+  "무엇": "프로그램을 통째로 담아 옮기는 상자(컨테이너, Docker 등)를 만들고 관리합니다.",
+  "비유": "서버 프로그램을 배포하는 개발자용입니다. 설계 실무와는 관계가 없습니다.",
+  "등급": "권하지않음",
+  "조건": "Docker 같은 컨테이너 프로그램이 필요합니다.",
+  "설치": "code --install-extension ms-azuretools.vscode-containers",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers",
+  "확인": true
+ },
+ {
+  "id": "ms-ceintl.vscode-language-pack-ko",
+  "종류": "확장",
+  "이름": "한국어 화면",
+  "무엇": "VS Code 의 메뉴와 안내 문구를 한국어로 바꿔 줍니다.",
+  "비유": "영문판 CAD 메뉴를 한글판으로 바꿔 쓰는 것과 같습니다. 처음 VS Code 를 켰을 때 메뉴를 알아보기 쉽게 해 줍니다.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "code --install-extension ms-ceintl.vscode-language-pack-ko",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-ceintl.vscode-language-pack-ko",
+  "확인": true
+ },
+ {
+  "id": "ms-python.debugpy",
+  "종류": "확장",
+  "이름": "파이썬 오류 추적",
+  "무엇": "파이썬 프로그램을 한 줄씩 멈춰 가며 돌려 보고, 그때 값이 무엇인지 확인하게 해 줍니다.",
+  "비유": "파이썬 확장을 깔면 같이 깔립니다. 계산 스크립트가 틀린 값을 낼 때 어디서 틀렸는지 직접 따라가 보는 사람용입니다.",
+  "등급": "물어봄",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension ms-python.debugpy",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy",
+  "확인": true
+ },
+ {
+  "id": "ms-python.python",
+  "종류": "확장",
+  "이름": "파이썬",
+  "무엇": "파이썬 프로그램을 VS Code 에서 쓰고 돌리게 해 주는 마이크로소프트 공식 확장입니다. 설치하면 파이썬 관련 보조 확장(Pylance, 디버거, 환경 관리)이 같이 깔립니다.",
+  "비유": "클로드가 만든 관로 수리계산이나 강우 자료 정리 스크립트(.py)를 직접 열어 보고 돌려 볼 때 필요합니다. 클로드에게만 맡긴다면 없어도 됩니다.",
+  "등급": "물어봄",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension ms-python.python",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-python.python",
+  "확인": true
+ },
+ {
+  "id": "ms-python.vscode-pylance",
+  "종류": "확장",
+  "이름": "파이썬 도우미 (Pylance)",
+  "무엇": "파이썬 코드를 쓸 때 오타와 잘못된 이름을 미리 알려 주고, 쓸 수 있는 명령을 자동으로 추천합니다.",
+  "비유": "파이썬 확장을 깔면 같이 깔립니다. 스크립트를 직접 고치는 사람에게만 의미가 있습니다.",
+  "등급": "물어봄",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension ms-python.vscode-pylance",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance",
+  "확인": true
+ },
+ {
+  "id": "ms-python.vscode-python-envs",
+  "종류": "확장",
+  "이름": "파이썬 환경 관리",
+  "무엇": "파이썬 실행 환경(어떤 버전과 부품을 쓸지)을 만들고 고르는 화면을 제공합니다.",
+  "비유": "파이썬 확장을 깔면 같이 깔립니다. 과업마다 다른 파이썬 환경을 쓰는 사람용입니다.",
+  "등급": "물어봄",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다. 파이썬 확장(ms-python.python)도 필요합니다.",
+  "설치": "code --install-extension ms-python.vscode-python-envs",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs",
+  "확인": true
+ },
+ {
+  "id": "ms-toolsai.jupyter",
+  "종류": "확장",
+  "이름": "주피터 노트북",
+  "무엇": "계산 코드와 결과 표, 그래프를 한 문서에 칸칸이 섞어 쓰는 주피터 노트북(.ipynb)을 VS Code 에서 엽니다.",
+  "비유": "유출량 계산을 한 칸씩 돌려 가며 중간 그래프를 바로 보고 싶을 때 씁니다. 엑셀 시트에 수식과 차트를 같이 두는 것과 비슷합니다.",
+  "등급": "물어봄",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension ms-toolsai.jupyter",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter",
+  "확인": true
+ },
+ {
+  "id": "ms-toolsai.jupyter-keymap",
+  "종류": "확장",
+  "이름": "주피터 단축키",
+  "무엇": "VS Code 의 노트북 단축키를 원래 주피터 프로그램과 같게 맞춥니다.",
+  "비유": "주피터 확장과 같이 깔립니다. 주피터를 원래 쓰던 사람에게만 의미가 있습니다.",
+  "등급": "권하지않음",
+  "조건": "주피터 확장(ms-toolsai.jupyter)이 필요합니다.",
+  "설치": "code --install-extension ms-toolsai.jupyter-keymap",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-keymap",
+  "확인": true
+ },
+ {
+  "id": "ms-toolsai.jupyter-renderers",
+  "종류": "확장",
+  "이름": "주피터 그림 표시",
+  "무엇": "주피터 노트북 안에서 그래프와 그림(png, svg, gif 등)을 보여 주는 보조 확장입니다.",
+  "비유": "주피터 확장과 같이 깔립니다. 노트북에서 수위 그래프가 안 보일 때 필요한 부품입니다.",
+  "등급": "물어봄",
+  "조건": "주피터 확장(ms-toolsai.jupyter)이 필요합니다.",
+  "설치": "code --install-extension ms-toolsai.jupyter-renderers",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers",
+  "확인": true
+ },
+ {
+  "id": "ms-toolsai.vscode-jupyter-cell-tags",
+  "종류": "확장",
+  "이름": "주피터 칸 꼬리표",
+  "무엇": "주피터 노트북의 칸마다 꼬리표(태그)를 붙이고 고치게 해 줍니다.",
+  "비유": "주피터 확장과 같이 깔립니다. 프로그램을 직접 개발하는 사람용이라 설계 실무와는 거리가 멉니다.",
+  "등급": "권하지않음",
+  "조건": "주피터 확장(ms-toolsai.jupyter)이 필요합니다.",
+  "설치": "code --install-extension ms-toolsai.vscode-jupyter-cell-tags",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-cell-tags",
+  "확인": true
+ },
+ {
+  "id": "ms-toolsai.vscode-jupyter-slideshow",
+  "종류": "확장",
+  "이름": "주피터 발표 모드",
+  "무엇": "주피터 노트북의 칸을 발표 슬라이드로 나누는 설정을 하게 해 줍니다.",
+  "비유": "주피터 확장과 같이 깔립니다. 노트북 자체로 발표하는 사람용이며, 설계 발표는 보통 파워포인트로 합니다.",
+  "등급": "권하지않음",
+  "조건": "주피터 확장(ms-toolsai.jupyter)이 필요합니다.",
+  "설치": "code --install-extension ms-toolsai.vscode-jupyter-slideshow",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-slideshow",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.cmake-tools",
+  "종류": "확장",
+  "이름": "CMake 도구",
+  "무엇": "C, C++ 프로그램을 조립(빌드)하는 도구인 CMake 를 VS Code 에서 쓰게 합니다.",
+  "비유": "C++ 프로그램을 직접 개발하는 사람용입니다. SWMM 같은 해석 프로그램 원본을 직접 고쳐 다시 만들 때나 필요합니다.",
+  "등급": "권하지않음",
+  "조건": "CMake 와 C++ 컴파일러가 필요합니다.",
+  "설치": "code --install-extension ms-vscode.cmake-tools",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.cpp-devtools",
+  "종류": "확장",
+  "이름": "C++ 개발 도구",
+  "무엇": "C++ 개발을 돕는 보조 기능 모음입니다.",
+  "비유": "프로그램을 직접 개발하는 사람용이라 설계 실무와는 거리가 멉니다.",
+  "등급": "권하지않음",
+  "조건": "C++ 컴파일러가 필요합니다.",
+  "설치": "code --install-extension ms-vscode.cpp-devtools",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpp-devtools",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.cpptools-extension-pack",
+  "종류": "확장",
+  "이름": "C++ 묶음 설치",
+  "무엇": "C, C++ 개발에 쓰는 확장 여러 개(C++ 도구, 색 테마, CMake 도구 등)를 한 번에 까는 묶음입니다.",
+  "비유": "프로그램을 직접 개발하는 사람용이라 설계 실무와는 거리가 멉니다.",
+  "등급": "권하지않음",
+  "조건": "C++ 컴파일러가 필요합니다.",
+  "설치": "code --install-extension ms-vscode.cpptools-extension-pack",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.cpptools-themes",
+  "종류": "확장",
+  "이름": "C++ 색 테마",
+  "무엇": "C, C++ 코드를 보기 위한 화면 색 조합입니다.",
+  "비유": "프로그램을 직접 개발하는 사람용이라 설계 실무와는 거리가 멉니다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "code --install-extension ms-vscode.cpptools-themes",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-themes",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.notepadplusplus-keybindings",
+  "종류": "확장",
+  "이름": "노트패드++ 단축키",
+  "무엇": "VS Code 의 단축키를 노트패드++ 프로그램과 같게 바꿉니다.",
+  "비유": "노트패드++ 로 입력 파일(SWMM inp 같은 것)을 고치던 손버릇이 있는 사람에게만 해당합니다.",
+  "등급": "물어봄",
+  "조건": "",
+  "설치": "code --install-extension ms-vscode.notepadplusplus-keybindings",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.notepadplusplus-keybindings",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.powershell",
+  "종류": "확장",
+  "이름": "파워셸",
+  "무엇": "윈도우 명령 스크립트(PowerShell, .ps1)를 쓰고 돌리는 것을 돕습니다.",
+  "비유": "여러 설계 폴더의 파일 이름을 한꺼번에 바꾸는 스크립트를 직접 고치는 사람용입니다. 클로드는 이 확장 없이도 파워셸을 씁니다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "code --install-extension ms-vscode.powershell",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.powershell",
+  "확인": true
+ },
+ {
+  "id": "ms-vscode.vscode-chat-customizations-evaluations",
+  "종류": "확장",
+  "이름": "AI 지시문 점검",
+  "무엇": "AI 에게 주는 지시문 파일(SKILL.md 같은 것)에 서로 부딪히는 말이나 애매한 말이 있는지 AI 로 검사합니다.",
+  "비유": "클로드용 작업 규칙을 직접 만들어 다듬는 사람용입니다. 처음 쓰는 사람에게는 필요 없습니다.",
+  "등급": "권하지않음",
+  "조건": "GitHub Copilot 계정이 필요합니다.",
+  "설치": "code --install-extension ms-vscode.vscode-chat-customizations-evaluations",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-chat-customizations-evaluations",
+  "확인": true
+ },
+ {
+  "id": "njpwerner.autodocstring",
+  "종류": "확장",
+  "이름": "파이썬 설명문 자동 작성",
+  "무엇": "파이썬 함수 위에 들어갈 설명문(docstring)의 틀을 자동으로 만들어 줍니다.",
+  "비유": "프로그램을 직접 개발하는 사람용이라 설계 실무와는 거리가 멉니다.",
+  "등급": "권하지않음",
+  "조건": "파이썬(Python)이 이 PC 에 깔려 있어야 합니다.",
+  "설치": "code --install-extension njpwerner.autodocstring",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring",
+  "확인": true
+ },
+ {
+  "id": "openai.chatgpt",
+  "종류": "확장",
+  "이름": "코덱스 (OpenAI)",
+  "무엇": "ChatGPT 를 만든 OpenAI 의 코딩 도우미 코덱스(Codex)를 VS Code 에서 씁니다. 클로드와 비슷한 역할의 다른 회사 AI 입니다.",
+  "비유": "클로드 대신, 또는 클로드와 함께 다른 AI 의 의견도 듣고 싶을 때 씁니다. 예를 들어 클로드가 만든 우수관 수리계산 스크립트를 코덱스에게 한 번 더 검토받는 식입니다.",
+  "등급": "물어봄",
+  "조건": "ChatGPT 유료 요금제(Plus, Pro, Business, Edu, Enterprise)가 필요합니다.",
+  "설치": "code --install-extension openai.chatgpt",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=openai.chatgpt",
+  "확인": true
+ },
+ {
+  "id": "openai.codex-audio",
+  "종류": "확장",
+  "이름": "코덱스 음성 입력",
+  "무엇": "코덱스에게 글 대신 마이크로 말해서 지시하게 해 주는 보조 확장입니다. 코덱스를 깔면 같이 깔립니다.",
+  "비유": "코덱스를 쓰는 사람만 해당합니다. 도면을 보면서 손을 쓰기 어려울 때 말로 지시하는 용도입니다.",
+  "등급": "권하지않음",
+  "조건": "코덱스(openai.chatgpt)와 마이크가 필요합니다.",
+  "설치": "code --install-extension openai.codex-audio",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=openai.codex-audio",
+  "확인": true
+ },
+ {
+  "id": "pablodelucca.pixel-agents",
+  "종류": "확장",
+  "이름": "픽셀 사무실",
+  "무엇": "클로드 코드가 일하는 모습을 작은 픽셀 사무실의 캐릭터로 보여 줍니다. 파일을 고칠 때는 타자를 치고, 찾을 때는 책을 읽는 식으로 움직입니다.",
+  "비유": "일에 직접 도움이 되지는 않습니다. 클로드 여러 개를 동시에 돌릴 때 누가 무엇을 하는지 재미있게 보고 싶은 사람용입니다.",
+  "등급": "권하지않음",
+  "조건": "클로드 코드가 필요합니다.",
+  "설치": "code --install-extension pablodelucca.pixel-agents",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=pablodelucca.pixel-agents",
+  "확인": true
+ },
+ {
+  "id": "shahilkumar.docxreader",
+  "종류": "확장",
+  "이름": "워드 문서 보기",
+  "무엇": "워드(docx)와 오픈오피스(odt) 문서를 VS Code 안에서 열어 봅니다. 목차 이동, 찾기, 확대가 됩니다. 보기 전용입니다.",
+  "비유": "발주처가 보낸 과업 검토의견서 docx 를 워드를 켜지 않고 VS Code 안에서 열어 클로드와 함께 읽을 때 씁니다.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "code --install-extension shahilkumar.docxreader",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=shahilkumar.docxreader",
+  "확인": true
+ },
+ {
+  "id": "tomoki1207.pdf",
+  "종류": "확장",
+  "이름": "PDF 보기 (예전 것)",
+  "무엇": "PDF 파일을 VS Code 안에서 보여 줍니다. 위 \"PDF 보기\"(mathematic.vscode-pdf)와 하는 일이 같습니다.",
+  "비유": "기능이 겹치므로 둘 중 하나만 있으면 됩니다. 위의 것을 이미 깔았다면 필요 없습니다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "code --install-extension tomoki1207.pdf",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf",
+  "확인": true
+ },
+ {
+  "id": "vscode-icons-team.vscode-icons",
+  "종류": "확장",
+  "이름": "파일 아이콘",
+  "무엇": "파일 목록에서 확장자마다 알아보기 쉬운 그림(아이콘)을 붙여 줍니다.",
+  "비유": "설계 폴더에 hwpx, pdf, xlsx, dwg 목록이 섞여 있을 때 종류를 아이콘으로 한눈에 구분합니다.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "code --install-extension vscode-icons-team.vscode-icons",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons",
+  "확인": true
+ },
+ {
+  "id": "wholroyd.jinja",
+  "종류": "확장",
+  "이름": "진자 (문서 틀 문법)",
+  "무엇": "진자(Jinja)라는 틀 문서 문법에 색을 입혀 읽기 쉽게 합니다.",
+  "비유": "웹 화면이나 자동 생성 문서의 틀을 직접 만드는 개발자용입니다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "code --install-extension wholroyd.jinja",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja",
+  "확인": true
+ },
+ {
+  "id": "yzane.markdown-pdf",
+  "종류": "확장",
+  "이름": "마크다운을 PDF 로",
+  "무엇": "클로드가 자주 쓰는 간단한 문서 형식(마크다운, .md)을 PDF, HTML, 그림 파일로 바꿔 줍니다.",
+  "비유": "클로드가 정리해 준 현장조사 요약 .md 파일을 팀장님께 보낼 PDF 로 바꿀 때 씁니다.",
+  "등급": "물어봄",
+  "조건": "",
+  "설치": "code --install-extension yzane.markdown-pdf",
+  "출처": "https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf",
+  "확인": true
+ },
+ {
+  "id": "agent-sdk-dev@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "에이전트 SDK 개발 도구",
+  "무엇": "Claude 를 부품으로 써서 자기만의 AI 프로그램을 새로 만드는 개발 도구(Claude Agent SDK Development Plugin).",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "claude plugin install agent-sdk-dev@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\agent-sdk-dev\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "claude-code-setup@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "클로드 설정 도우미",
+  "무엇": "지금 폴더를 훑어보고 Claude Code 를 더 편하게 쓸 자동화(훅, 스킬, 외부 연결, 보조 에이전트)를 추천해 준다.",
+  "비유": "새 과업 폴더를 만들고 나서 '이 폴더에서는 무엇을 자동으로 해 두면 좋을까' 를 물어볼 때, 현장 착수 전 장비 점검표를 받아 보는 것과 비슷하다.",
+  "등급": "기본",
+  "조건": "추천만 하고 스스로 설치하지는 않는다. 추천 내용은 코드 폴더 기준이 많아 일부는 건너뛴다.",
+  "설치": "claude plugin install claude-code-setup@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\claude-code-setup\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "claude-md-management@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "작업 규칙 파일 관리",
+  "무엇": "클로드가 매번 읽는 규칙 파일(CLAUDE.md)의 품질을 점검하고, 대화에서 배운 것을 규칙 파일에 보태 준다.",
+  "비유": "과업마다 '보고서 표기는 이렇게, 수치는 출처와 함께' 같은 약속을 적어 둔 업무지침서를 다듬고 최신으로 유지할 때.",
+  "등급": "기본",
+  "조건": "",
+  "설치": "claude plugin install claude-md-management@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\claude-md-management\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "code-review@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "코드 검토(PR)",
+  "무엇": "GitHub 의 변경 요청(PR)을 여러 보조 에이전트가 나눠 검토하고 확신도가 높은 문제만 알려 준다.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "GitHub 저장소와 PR 을 쓰는 사람에게만 해당한다.",
+  "설치": "claude plugin install code-review@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\code-review\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "code-simplifier@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "코드 다듬기",
+  "무엇": "기능은 그대로 두고 방금 짠 코드를 읽기 쉽게 정리하는 보조 에이전트.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "claude plugin install code-simplifier@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\code-simplifier\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "coderabbit@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "CodeRabbit 코드 검토",
+  "무엇": "외부 회사 CodeRabbit 의 AI 코드 검토를 Claude Code 안에서 부른다.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "CodeRabbit CLI 를 따로 설치하고 계정 로그인(coderabbit auth login)이 필요하다. 만든 곳 CodeRabbit AI.",
+  "설치": "claude plugin install coderabbit@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\coderabbit\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "context7@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "라이브러리 최신 문서 조회",
+  "무엇": "파이썬 등 프로그래밍 라이브러리의 최신 공식 문서와 예제를 찾아 클로드에게 넣어 준다(Upstash Context7, 인터넷 연결).",
+  "비유": "클로드에게 엑셀 정리나 그래프 파이썬 스크립트를 짜 달라고 할 때 옛날 사용법으로 틀리게 짜는 일을 줄여 준다. 개정된 설계기준을 찾아보고 적용하는 것과 비슷하다.",
+  "등급": "물어봄",
+  "조건": "클로드에게 파이썬 스크립트를 자주 짜게 할 사람에게 쓸모가 있다. 키 없이 동작하고 키를 넣으면 조회 한도가 늘어난다. 만든 곳 Upstash.",
+  "설치": "claude plugin install context7@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\context7\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "eli5@claude-community",
+  "종류": "플러그인",
+  "이름": "아주 쉽게 설명(ELI5)",
+  "무엇": "어떤 주제든 큰 그림과 짧은 글로 된 HTML 설명 한 장을 만들어 준다. /eli5 주제 로 부른다.",
+  "비유": "처음 듣는 개념(예: 저영향개발, 머신러닝 보정)을 그림 한 장으로 먼저 감을 잡고 싶을 때, 발주처 담당자에게 개념을 한 장으로 보여 줄 때.",
+  "등급": "물어봄",
+  "조건": "다른 사람이 만든 것이라 설치 전에 내용을 확인한다. 커뮤니티 장터(claude-community)에 올라온 것으로 만든 사람은 Thariq Shihipar 로 적혀 있다. 먼저 커뮤니티 장터를 추가해야 한다.",
+  "설치": "claude plugin marketplace add anthropics/claude-plugins-community 를 먼저 하고, claude plugin install eli5@claude-community",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-community\\eli5\\1.0.0\\.claude-plugin\\plugin.json, GitHub anthropics/claude-plugins-community 의 marketplace.json",
+  "확인": true
+ },
+ {
+  "id": "feature-dev@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "기능 개발 절차",
+  "무엇": "프로그램에 새 기능을 넣을 때 코드 탐색, 설계, 검토를 보조 에이전트가 나눠 맡는 절차.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "claude plugin install feature-dev@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\feature-dev\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "figma@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "Figma 연결",
+  "무엇": "디자인 도구 Figma 를 연결해 화면 디자인을 읽거나 만든다(Figma MCP 서버와 스킬). 제작자 PC 에서는 꺼 둔 상태.",
+  "비유": "Figma 로 발표 그림이나 화면 시안을 만드는 사람이 아니면 쓸 일이 없다. 웹 화면을 만드는 사람용.",
+  "등급": "권하지않음",
+  "조건": "Figma 계정이 필요하다. 만든 곳 Figma.",
+  "설치": "claude plugin install figma@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\figma\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "frontend-design@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "웹 화면 디자인 안내",
+  "무엇": "웹 화면(UI)을 만들 때 틀에 박히지 않은 디자인을 하도록 안내하는 스킬.",
+  "비유": "프로그램을 개발하는 사람용. 웹 페이지나 앱 화면을 만들 때만 쓴다.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "claude plugin install frontend-design@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\frontend-design\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "github@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "GitHub 연결",
+  "무엇": "GitHub 공식 연결. 저장소, 이슈, PR 을 Claude Code 에서 바로 다룬다.",
+  "비유": "과업 폴더의 규칙 파일과 스크립트를 GitHub 비공개 저장소에 백업하고 변경 이력을 볼 때. 다만 대부분은 이것 없이 git 과 gh 명령으로도 된다.",
+  "등급": "물어봄",
+  "조건": "GitHub 계정과 인증 토큰이 필요하다. 제작자 PC 에서도 인증 형식 오류로 연결이 실패한 적이 있다(2026-09-29 세션). 과업 자료를 공개 저장소에 올리지 않는다. 만든 곳 GitHub.",
+  "설치": "claude plugin install github@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\github\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "gitlab@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "GitLab 연결",
+  "무엇": "GitLab 저장소, 병합 요청, 배포 파이프라인, 이슈를 다룬다.",
+  "비유": "프로그램을 개발하는 사람용. 회사가 GitLab 을 쓸 때만 해당한다.",
+  "등급": "권하지않음",
+  "조건": "GitLab 계정 인증이 필요하다. 만든 곳 GitLab.",
+  "설치": "claude plugin install gitlab@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\gitlab\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "harness@harness-marketplace",
+  "종류": "플러그인",
+  "이름": "하네스(에이전트 팀 구성기)",
+  "무엇": "'하네스 구성해줘' 한마디로 분야에 맞는 전문 에이전트 팀과 그 에이전트가 쓸 스킬을 만들어 주는 메타 스킬. 한국어 설명이 있다.",
+  "비유": "우수관 설계 과업을 자료조사 담당, 모의 담당, 검토 담당으로 나눠 팀을 짜듯이, 클로드 안에 역할별 보조 에이전트 팀을 짜 둘 때.",
+  "등급": "물어봄",
+  "조건": "다른 사람이 만든 것이라 설치 전에 내용을 확인한다. 만든 사람 revfactory(robin). 클로드를 어느 정도 써 본 뒤에 권한다. 폴더 안에 에이전트와 스킬 파일을 새로 만든다.",
+  "설치": "claude plugin marketplace add https://github.com/revfactory/harness.git 를 먼저 하고, claude plugin install harness@harness-marketplace",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\harness-marketplace\\harness\\1.2.0\\.claude-plugin\\plugin.json 와 README.md, GitHub revfactory/harness",
+  "확인": true
+ },
+ {
+  "id": "huggingface-skills@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "Hugging Face 도구",
+  "무엇": "공개 AI 모델, 데이터셋, Spaces 를 찾고 받고 학습시키는 Hugging Face 도구 모음(hf CLI 기반).",
+  "비유": "AI 모델을 직접 학습시키거나 배포하는 연구자용. 일반 설계 실무에서는 쓸 일이 드물다.",
+  "등급": "권하지않음",
+  "조건": "Hugging Face 계정이 필요한 기능이 많다. 만든 곳 Hugging Face.",
+  "설치": "claude plugin install huggingface-skills@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\huggingface-skills\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "playwright@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "웹 브라우저 자동 조작",
+  "무엇": "클로드가 웹 브라우저를 직접 열어 클릭, 입력, 화면 캡처를 한다(Microsoft Playwright).",
+  "비유": "로그인 없이 보이는 공공 누리집에서 같은 조회 화면을 여러 번 눌러 내려받아야 할 때 [추정]. 대부분은 웹 프로그램 시험용이다.",
+  "등급": "권하지않음",
+  "조건": "주로 웹 프로그램 시험용이다. 로그인이 필요한 사이트나 이용약관이 자동 수집을 막는 사이트에는 쓰지 않는다. 만든 곳 Microsoft.",
+  "설치": "claude plugin install playwright@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\playwright\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "plugin-dev@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "플러그인 개발 도구",
+  "무엇": "Claude Code 플러그인(에이전트, 명령, 훅, 외부 연결)을 직접 만드는 안내와 도구.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "claude plugin install plugin-dev@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\plugin-dev\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "pr-review-toolkit@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "PR 검토 도구 모음",
+  "무엇": "주석, 시험, 오류 처리, 타입 설계, 코드 품질을 나눠 보는 PR 검토 보조 에이전트 모음.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "",
+  "설치": "claude plugin install pr-review-toolkit@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\pr-review-toolkit\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "pyright-lsp@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "파이썬 문법 검사기(Pyright)",
+  "무엇": "파이썬 코드의 자료형 오류를 미리 잡고 정의 찾기 같은 코드 이해 기능을 준다.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "Pyright 를 따로 설치해야 한다(npm, pip 또는 pipx). 만든 곳 Anthropic.",
+  "설치": "claude plugin install pyright-lsp@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 plugins/pyright-lsp/README.md 와 marketplace.json(이 PC 사본 C:\\Users\\SGJEONG99\\.claude\\plugins\\marketplaces\\claude-plugins-official\\plugins\\pyright-lsp)",
+  "확인": true
+ },
+ {
+  "id": "ralph-loop@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "끝날 때까지 반복(Ralph Loop)",
+  "무엇": "같은 지시를 일이 끝날 때까지 되풀이해서 클로드를 돌리는 반복 실행 도구.",
+  "비유": "프로그램을 개발하는 사람용. 끝나는 조건을 코드로 정해 두지 않으면 헛돌며 사용량만 늘 수 있다.",
+  "등급": "권하지않음",
+  "조건": "훅을 심는다. 사용량이 많이 늘 수 있다.",
+  "설치": "claude plugin install ralph-loop@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\ralph-loop\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "security-guidance@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "보안 점검 안내",
+  "무엇": "클로드가 짠 코드에서 해킹에 취약한 부분(주입, 비밀번호 하드코딩 등)을 경고하고 검토한다. 제작자 PC 에서는 꺼 둔 상태.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "훅을 심어 편집할 때마다 검사한다. 만든 사람 David Dworken.",
+  "설치": "claude plugin install security-guidance@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\security-guidance\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "serena@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "코드 의미 분석(Serena)",
+  "무엇": "큰 코드 묶음에서 함수와 참조를 의미 단위로 찾아 다니게 해 주는 분석 서버. 제작자 PC 에서는 꺼 둔 상태.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "만든 곳 Oraios.",
+  "설치": "claude plugin install serena@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\serena\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "skill-creator@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "스킬 만들기",
+  "무엇": "자주 하는 일을 클로드의 '스킬'(작업 요령 묶음)로 새로 만들고 고치고 성능을 시험한다.",
+  "비유": "매번 설명하는 '설계강우 산정 순서'나 '보고서 표 양식 맞추기' 를 한 번 스킬로 만들어 두고 다음부터 한마디로 부를 때. 표준 작업 절차서를 만들어 두는 것과 비슷하다.",
+  "등급": "물어봄",
+  "조건": "클로드를 몇 주 써 보고 반복되는 일이 보일 때 권한다.",
+  "설치": "claude plugin install skill-creator@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\skill-creator\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "stripe@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "Stripe 결제 개발",
+  "무엇": "온라인 결제 서비스 Stripe 를 프로그램에 붙이는 개발 도구.",
+  "비유": "프로그램을 개발하는 사람용. 결제 서비스를 만드는 사람만 쓴다.",
+  "등급": "권하지않음",
+  "조건": "Stripe 계정 인증이 필요하다. 만든 곳 Stripe.",
+  "설치": "claude plugin install stripe@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\stripe\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "superpowers@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "슈퍼파워(개발 작업 습관 모음)",
+  "무엇": "기획 질문, 계획 세우기, 시험 먼저 쓰기, 체계적 오류 찾기, 완료 전 검증 같은 소프트웨어 개발 습관을 스킬로 묶은 것.",
+  "비유": "프로그램을 개발하는 사람용. 다만 '됐다고 하기 전에 돌려 보고 확인' 같은 습관은 분석 스크립트를 짤 때도 도움이 된다.",
+  "등급": "권하지않음",
+  "조건": "만든 사람 Jesse Vincent(obra). 스킬이 대화마다 자동으로 켜져 초보에게는 질문이 많고 느리게 느껴질 수 있다 [추정].",
+  "설치": "claude plugin install superpowers@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "typescript-lsp@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "타입스크립트 문법 검사기",
+  "무엇": "TypeScript, JavaScript 코드의 정의 찾기, 참조 찾기, 오류 검사를 준다.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "typescript-language-server 를 따로 설치해야 한다(npm). 만든 곳 Anthropic.",
+  "설치": "claude plugin install typescript-lsp@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 plugins/typescript-lsp/README.md 와 marketplace.json(이 PC 사본 C:\\Users\\SGJEONG99\\.claude\\plugins\\marketplaces\\claude-plugins-official\\plugins\\typescript-lsp)",
+  "확인": true
+ },
+ {
+  "id": "understand-anything@understand-anything",
+  "종류": "플러그인",
+  "이름": "무엇이든 이해하기(코드 지도)",
+  "무엇": "프로젝트 파일을 여러 에이전트가 분석해 파일, 함수, 의존 관계를 지식 그래프로 만들고 화면(대시보드)에 그려 준다. 마크다운 위키 지식 그래프 기능(understand-knowledge)도 있다.",
+  "비유": "남이 짜 준 수리계산 스크립트 수십 개가 무엇이 무엇을 부르는지 관로 계통도처럼 한 장에 그려 보고 싶을 때.",
+  "등급": "물어봄",
+  "조건": "다른 사람이 만든 것이라 설치 전에 내용을 확인한다. 만든 곳 Egonex. 훅을 심고 node_modules 를 포함한다. 자동 갱신(autoUpdate)은 켜지 않는다. 장터 저장소는 Egonex-AI/Understand-Anything 이고, 커뮤니티 장터 목록에는 Lum1104/Understand-Anything 으로 적혀 있어 두 주소가 다르다.",
+  "설치": "claude plugin marketplace add Egonex-AI/Understand-Anything 를 먼저 하고, claude plugin install understand-anything@understand-anything",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\understand-anything\\understand-anything\\2.9.7\\.claude-plugin\\plugin.json 와 skills 폴더, GitHub Egonex-AI/Understand-Anything",
+  "확인": true
+ },
+ {
+  "id": "vercel@claude-plugins-official",
+  "종류": "플러그인",
+  "이름": "Vercel 배포",
+  "무엇": "웹 앱을 Vercel 에 올리고 배포 상태와 로그를 관리한다. 제작자 PC 에서는 꺼 둔 상태.",
+  "비유": "프로그램을 개발하는 사람용.",
+  "등급": "권하지않음",
+  "조건": "Vercel 계정이 필요하다. 올리면 인터넷에 공개될 수 있으므로 과업 자료에는 쓰지 않는다. 만든 곳 Vercel.",
+  "설치": "claude plugin install vercel@claude-plugins-official",
+  "출처": "GitHub anthropics/claude-plugins-official 의 장터 목록(marketplace.json)과 이 PC 설치본 C:\\Users\\SGJEONG99\\.claude\\plugins\\cache\\claude-plugins-official\\vercel\\...\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "pdf-viewer@synced",
+  "종류": "플러그인",
+  "이름": "PDF 보기와 표시",
+  "무엇": "PDF 를 화면에 띄워 클로드와 함께 보면서 표시(주석), 양식 채우기, 서명 넣기를 하고 표시한 사본을 내려받는다.",
+  "비유": "과업지시서 PDF 를 클로드와 함께 화면에 띄워 '설계빈도와 산정 방법이 적힌 쪽' 에 표시하며 볼 때, 준공 서류 양식을 채울 때.",
+  "등급": "물어봄",
+  "조건": "Node.js 가 있어야 한다. PDF 를 읽기만 하는 것은 이것 없이 Python 으로도 된다. 원작자 PC 에는 claude.ai 계정에서 켜져 내려왔지만, 친구 PC 에서는 Anthropic 의 knowledge-work-plugins 장터에서 깐다.",
+  "설치": "claude plugin marketplace add anthropics/knowledge-work-plugins 를 먼저 하고, claude plugin install pdf-viewer@knowledge-work-plugins",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\manifest.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\pdf-viewer\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "engineering@synced",
+  "종류": "플러그인",
+  "이름": "소프트웨어 엔지니어링 업무",
+  "무엇": "스탠드업, 코드 검토, 시스템 설계, 장애 대응, 기술 문서 같은 소프트웨어 개발팀 업무 스킬 모음.",
+  "비유": "프로그램을 개발하는 사람용. 이름은 engineering 이지만 토목 공학이 아니라 소프트웨어 공학이다.",
+  "등급": "권하지않음",
+  "조건": "Slack, Asana, Linear 같은 외부 서비스 연결은 따로 인증해야 쓴다. 원작자 PC 에는 claude.ai 계정에서 켜져 내려왔지만, 친구 PC 에서는 Anthropic 의 knowledge-work-plugins 장터에서 깐다.",
+  "설치": "claude plugin marketplace add anthropics/knowledge-work-plugins 를 먼저 하고, claude plugin install engineering@knowledge-work-plugins",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\manifest.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\engineering\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "cowork-plugin-management@synced",
+  "종류": "플러그인",
+  "이름": "조직용 플러그인 만들기",
+  "무엇": "회사 도구와 업무 방식에 맞게 플러그인을 만들고 고친다(Cowork 플러그인 관리).",
+  "비유": "회사 전체가 같은 클로드 도구를 나눠 쓰도록 사내 표준 플러그인을 만드는 관리자용.",
+  "등급": "권하지않음",
+  "조건": "원작자 PC 에는 claude.ai 계정에서 켜져 내려왔지만, 친구 PC 에서는 Anthropic 의 knowledge-work-plugins 장터에서 깐다.",
+  "설치": "claude plugin marketplace add anthropics/knowledge-work-plugins 를 먼저 하고, claude plugin install cowork-plugin-management@knowledge-work-plugins",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\manifest.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\cowork-plugin-management\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "productivity@synced",
+  "종류": "플러그인",
+  "이름": "업무 관리(할 일, 기억)",
+  "무엇": "할 일 목록, 하루 계획, 업무 맥락 기억을 관리하고 일정, 메일, 메신저와 맞춰 준다.",
+  "비유": "여러 과업의 납품 일정과 발주처 회의 후속 조치를 클로드와 함께 정리해 둘 때.",
+  "등급": "물어봄",
+  "조건": "일정, 메일, ClickUp, monday 같은 외부 서비스 연결은 따로 인증해야 한다. 원작자 PC 에는 claude.ai 계정에서 켜져 내려왔지만, 친구 PC 에서는 Anthropic 의 knowledge-work-plugins 장터에서 깐다.",
+  "설치": "claude plugin marketplace add anthropics/knowledge-work-plugins 를 먼저 하고, claude plugin install productivity@knowledge-work-plugins",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\manifest.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\productivity\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "bio-research@synced",
+  "종류": "플러그인",
+  "이름": "생명과학 연구",
+  "무엇": "생명과학 문헌, 유전체 분석, 임상시험, 화합물 데이터베이스를 연결하는 전임상 연구 도구.",
+  "비유": "생명과학 연구자용. 토목 설계에서는 쓸 일이 없다.",
+  "등급": "권하지않음",
+  "조건": "원작자 PC 에는 claude.ai 계정에서 켜져 내려왔지만, 친구 PC 에서는 Anthropic 의 knowledge-work-plugins 장터에서 깐다.",
+  "설치": "claude plugin marketplace add anthropics/knowledge-work-plugins 를 먼저 하고, claude plugin install bio-research@knowledge-work-plugins",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\manifest.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\synced\\(계정 폴더)\\bio-research\\.claude-plugin\\plugin.json",
+  "확인": true
+ },
+ {
+  "id": "claude-plugins-official",
+  "종류": "장터",
+  "이름": "Anthropic 공식 장터",
+  "무엇": "Claude 를 만든 Anthropic 이 운영하는 공식 플러그인 목록. 이 목록의 플러그인 가운데 일부는 GitHub, Figma, Stripe 같은 다른 회사가 만들었다.",
+  "비유": "공식 조달 목록처럼, 여기서 고른 것은 일단 출처가 분명하다.",
+  "등급": "기본",
+  "조건": "Claude Code 에 기본으로 들어 있을 수 있다 [추정]. claude plugin marketplace list 로 확인하고 없을 때만 추가한다.",
+  "설치": "claude plugin marketplace add anthropics/claude-plugins-official",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\known_marketplaces.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\marketplaces\\claude-plugins-official\\.claude-plugin\\marketplace.json(owner Anthropic)",
+  "확인": true
+ },
+ {
+  "id": "harness-marketplace",
+  "종류": "장터",
+  "이름": "하네스 장터",
+  "무엇": "하네스 플러그인 하나만 들어 있는 개인 장터(revfactory).",
+  "비유": "개인 기술자가 만든 전용 공구점. 필요한 공구가 하나뿐이면 그것만 사러 간다.",
+  "등급": "물어봄",
+  "조건": "다른 사람이 만든 것이라 설치 전에 내용을 확인한다. harness 를 쓸 때만 추가한다.",
+  "설치": "claude plugin marketplace add https://github.com/revfactory/harness.git",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\known_marketplaces.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\marketplaces\\harness-marketplace\\.claude-plugin\\marketplace.json(owner revfactory, 플러그인 1 개)",
+  "확인": true
+ },
+ {
+  "id": "claude-community",
+  "종류": "장터",
+  "이름": "커뮤니티 장터",
+  "무엇": "Anthropic 이 모아 둔 커뮤니티 플러그인 목록. 이 PC 사본 기준 2,282 개가 올라 있고 만든 사람은 제각각이다.",
+  "비유": "누구나 자재를 올리는 큰 오픈마켓. 쓸 만한 것도 있지만 하나하나 시방을 확인하고 들여야 한다.",
+  "등급": "물어봄",
+  "조건": "다른 사람이 만든 것이라 설치 전에 내용을 확인한다. eli5 처럼 필요한 것이 있을 때만 추가한다.",
+  "설치": "claude plugin marketplace add anthropics/claude-plugins-community",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\known_marketplaces.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\marketplaces\\claude-community\\.claude-plugin\\marketplace.json(owner Anthropic, 목록 2,282 개)",
+  "확인": true
+ },
+ {
+  "id": "understand-anything",
+  "종류": "장터",
+  "이름": "Understand-Anything 장터",
+  "무엇": "understand-anything 플러그인 하나만 들어 있는 장터(Egonex).",
+  "비유": "특정 제품 전용 대리점.",
+  "등급": "물어봄",
+  "조건": "다른 사람이 만든 것이라 설치 전에 내용을 확인한다. understand-anything 을 쓸 때만 추가하고, 자동 갱신은 켜지 않는다.",
+  "설치": "claude plugin marketplace add Egonex-AI/Understand-Anything",
+  "출처": "C:\\Users\\SGJEONG99\\.claude\\plugins\\known_marketplaces.json 와 C:\\Users\\SGJEONG99\\.claude\\plugins\\marketplaces\\understand-anything\\.claude-plugin\\marketplace.json(owner Egonex, 플러그인 1 개)",
+  "확인": true
+ },
+ {
+  "id": "claude.ai Claude Docs",
+  "종류": "MCP",
+  "이름": "Claude Docs (클로드 문서)",
+  "무엇": "클로드가 claude.ai 안에 문서를 새로 만들고 고쳐 주는 기능이다. 만든 문서는 claude.ai 에 저장되고 링크로 열어 본다.",
+  "비유": "회의 결과를 정리한 검토 메모 초안을 클로드에게 문서로 만들어 달라고 하고, 링크로 열어 함께 고칠 때.",
+  "등급": "물어봄",
+  "조건": "문서가 claude.ai 서버에 저장된다. 발주처 자료를 넣어도 되는지 회사 규정을 먼저 확인한다. claude.ai 계정만 있으면 된다. 문서가 claude.ai 서버에 저장되므로 발주처 자료를 넣기 전에 회사 규정 확인.",
+  "설치": "따로 켤 것이 없다. Claude Docs 를 쓸 수 있는 계정이면 Claude Code 의 /mcp 목록에 'claude.ai Claude Docs' 가 설정 없이 나타난다.",
+  "출처": [
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai DeepL",
+  "종류": "MCP",
+  "이름": "DeepL (번역)",
+  "무엇": "번역 서비스 DeepL 과 연결한다. 글이나 문서 파일 전체를 100 개 넘는 언어로 번역하고, 문체를 다듬거나 교정한다. 회사 용어집이 있으면 자동으로 적용한다.",
+  "비유": "영문 설계기준(예: 해외 기준서 일부)이나 해외 발주 과업지시서를 번역할 때, 용어를 일관되게 맞추고 싶을 때.",
+  "등급": "물어봄",
+  "조건": "DeepL 계정으로 로그인해야 한다. 무료 계정으로 되는지, 유료(Pro · API)가 필요한지는 공식 페이지에 적혀 있지 않다[판정보류: 연결 시 DeepL 로그인 화면에서 확인]. 번역할 문서가 DeepL 서버로 넘어가므로 발주처 자료는 회사 규정 확인.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/deepl",
+   "https://claude.ai/customize/connectors",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": false
+ },
+ {
+  "id": "claude.ai PDF Viewer",
+  "종류": "MCP",
+  "이름": "PDF Viewer (claude.ai 판, 시연용)",
+  "무엇": "허용된 일부 인터넷 주소(예: arxiv.org)의 PDF 만 화면에 띄워 보여 주는 시연용 도구다. 내 PC 의 PDF 는 다루지 않는다.",
+  "비유": "해외 논문 사이트의 PDF 를 클로드 화면에서 바로 펼쳐 볼 때. 설계도서 PDF 에는 쓸 수 없다.",
+  "등급": "권하지않음",
+  "조건": "claude.ai 로그인이 필요하다. 내 PC 의 PDF 를 보거나 표시하려면 아래 plugin:pdf-viewer:pdf 가 맞다. 클로드는 PDF 를 원래 읽을 수 있으므로 읽기만 할 거면 둘 다 필요 없다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/pdf-viewer",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Anthropic Economic Index",
+  "종류": "MCP",
+  "이름": "Anthropic Economic Index (클로드 사용 통계)",
+  "무엇": "Anthropic 이 공개한 '사람들이 클로드를 어떤 일에 쓰는가' 통계를 조회한다. 나라별 · 직무별 사용 비중 같은 자료다.",
+  "비유": "업무와 관계가 적다. AI 도입 보고서에 '국내 클로드 사용 비중' 같은 배경 통계를 인용할 때 정도.",
+  "등급": "권하지않음",
+  "조건": "계정 조건은 확인하지 못했다. 통계 원문은 https://www.anthropic.com/economic-index 에서 볼 수 있다.",
+  "설치": "claude.ai 커넥터 목록에서 켠 것으로 보이나, 공식 커넥터 소개 페이지(claude.com/connectors)를 찾지 못했다[판정보류: claude.ai/customize/connectors 에서 이름으로 검색해 확인].",
+  "출처": [
+   "이 PC 의 MCP 서버 안내문(2026-09-29 세션)",
+   "https://www.anthropic.com/economic-index"
+  ],
+  "확인": false
+ },
+ {
+  "id": "claude.ai Notion",
+  "종류": "MCP",
+  "이름": "Notion (노션)",
+  "무엇": "메모 · 문서 정리 서비스 Notion 의 내 작업공간을 검색하고, 페이지를 만들고 고친다.",
+  "비유": "과업별 회의록과 검토 의견을 노션에 모아 두는 팀이라면, '지난달 ○○ 과업 회의록에서 설계변경 결정 사항만 모아 줘' 라고 할 때.",
+  "등급": "물어봄",
+  "조건": "Notion 계정이 필요하다(회사가 노션을 쓰지 않으면 필요 없다). 작업공간 내용을 읽고 고칠 수 있으므로 발주처 자료가 든 페이지는 회사 규정 확인.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/notion",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Google Drive",
+  "종류": "MCP",
+  "이름": "Google Drive (구글 드라이브)",
+  "무엇": "내 구글 드라이브의 파일을 찾고 읽는다(문서 · 시트 · 슬라이드 · PDF · 그림). 파일을 올리거나, 공유 · 이동 · 휴지통 보내기, 클로드가 만든 파일을 드라이브에 저장하는 것도 된다.",
+  "비유": "드라이브에 쌓인 과업 폴더에서 '○○ 교량 구조계산서 최신판' 을 찾아 요약하거나, 수량표 시트의 합계를 확인할 때.",
+  "등급": "물어봄",
+  "조건": "Google 계정이 필요하다. 발주처 자료가 든 메일 · 드라이브는 회사 규정 확인. 회사 메일이 Google 이 아니면 쓸 수 없다. 파일 공유 · 삭제까지 할 수 있으니 처음에는 찾기 · 읽기만 시킨다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다. 대화창의 + 단추 > Connectors 에서 켜고 끌 수도 있다.",
+  "출처": [
+   "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Gmail",
+  "종류": "MCP",
+  "이름": "Gmail (지메일)",
+  "무엇": "내 지메일을 검색하고 읽고, 답장 초안을 쓴다. 보내기 · 답장 · 전달과 라벨 정리도 되며, 보내기는 기본적으로 사용자 승인을 거친다.",
+  "비유": "발주처와 주고받은 메일에서 과업 변경 요청만 찾아 날짜순으로 정리할 때, 협의 회신 초안을 쓸 때.",
+  "등급": "물어봄",
+  "조건": "Google(Gmail) 계정이 필요하다. 발주처 자료가 든 메일 · 드라이브는 회사 규정 확인. 회사 메일이 Google 이 아니면 쓸 수 없다. 보내기 전에 초안을 반드시 직접 읽는다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다. 대화창의 + 단추 > Connectors 에서 켜고 끌 수도 있다.",
+  "출처": [
+   "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Google Calendar",
+  "종류": "MCP",
+  "이름": "Google Calendar (구글 캘린더)",
+  "무엇": "내 구글 캘린더 일정을 보고, 일정을 만들고 고치고 지운다. 참석자들의 빈 시간도 찾아 준다.",
+  "비유": "착수 · 중간 · 최종 보고회 날짜를 캘린더에 올리고, 관계기관 협의 일정을 잡을 빈 시간을 찾을 때.",
+  "등급": "물어봄",
+  "조건": "Google 계정이 필요하다. 회사 일정 규정 확인. 일정을 지울 수도 있으니 바꾸기 전에 확인을 받게 한다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다. 대화창의 + 단추 > Connectors 에서 켜고 끌 수도 있다.",
+  "출처": [
+   "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Figma",
+  "종류": "MCP",
+  "이름": "Figma (피그마)",
+  "무엇": "화면 디자인 도구 Figma 의 디자인을 읽어 프로그램 코드로 바꾸거나, 반대로 디자인을 만든다. 앱 · 웹 화면 개발용이다.",
+  "비유": "토목 설계와는 거리가 멀다. 사내 웹 프로그램 화면을 직접 만드는 사람이 아니면 쓸 일이 없다.",
+  "등급": "권하지않음",
+  "조건": "Figma 계정이 필요하다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/figma",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Mermaid Chart",
+  "종류": "MCP",
+  "이름": "Mermaid Chart (흐름도 그리기)",
+  "무엇": "글로 적은 흐름도 · 순서도(Mermaid 문법)를 검사하고 그림(SVG)으로 그려 보여 준다.",
+  "비유": "설계 업무 흐름(현황조사, 기본설계, 관계기관 협의, 실시설계)이나 우수 배제 계통을 간단한 흐름도로 그려 보고서 초안에 넣을 때.",
+  "등급": "물어봄",
+  "조건": "로그인이 필요 없다. 그린 내용이 외부 서비스로 넘어가므로 민감한 내용은 넣지 않는다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 추가한다(이 항목은 따로 로그인이 필요 없다). 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/mermaid-chart",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Context7",
+  "종류": "MCP",
+  "이름": "Context7 (프로그래밍 문서)",
+  "무엇": "프로그래밍 라이브러리의 최신 사용법과 예제 코드를 클로드에게 가져다준다. 옛 사용법을 지어내는 것을 막는다.",
+  "비유": "파이썬으로 수리계산이나 엑셀 자동화 코드를 직접 짜는 사람에게만 쓸모가 있다. 코드를 쓰지 않으면 필요 없다.",
+  "등급": "권하지않음",
+  "조건": "Context7 로그인이 필요하다(공식 페이지 기준).",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/context7",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Microsoft Learn",
+  "종류": "MCP",
+  "이름": "Microsoft Learn (마이크로소프트 공식 문서)",
+  "무엇": "마이크로소프트 공식 문서(엑셀 · 워드 · 윈도우 등)를 검색하고 본문과 예제 코드를 가져온다.",
+  "비유": "엑셀 함수나 매크로(VBA)로 수량 집계표를 만들다 막혔을 때, 공식 설명서를 근거로 답을 받고 싶을 때.",
+  "등급": "물어봄",
+  "조건": "로그인이 필요 없다. 공개 문서만 검색하므로 개인 자료 유출 걱정은 적다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 추가한다(이 항목은 따로 로그인이 필요 없다). 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/microsoft-learn",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Canva",
+  "종류": "MCP",
+  "이름": "Canva (캔바)",
+  "무엇": "디자인 서비스 Canva 의 내 디자인을 찾고, 요약하고, 새 디자인(발표 장표 · 포스터 등)을 만들고 내보낸다.",
+  "비유": "주민설명회 안내 포스터나 설계 성과 홍보 한 장짜리 자료를 빠르게 만들 때.",
+  "등급": "물어봄",
+  "조건": "Canva 계정이 필요하다. 올린 자료가 Canva 서버에 저장되므로 발주처 자료는 회사 규정 확인.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/canva",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Hugging Face",
+  "종류": "MCP",
+  "이름": "Hugging Face (AI 모델 저장소)",
+  "무엇": "AI 모델 · 데이터셋 · 논문을 모아 둔 Hugging Face 에서 검색하고 일부 AI 도구를 실행한다. AI 개발자용이다.",
+  "비유": "토목 설계 실무에는 쓸 일이 거의 없다. AI 모델을 직접 찾아 돌려 보는 사람용이다.",
+  "등급": "권하지않음",
+  "조건": "Hugging Face 계정이 필요하다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/hugging-face",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "claude.ai Scholar Gateway",
+  "종류": "MCP",
+  "이름": "Scholar Gateway (Wiley 학술지 검색)",
+  "무엇": "출판사 Wiley 가 운영한다. Wiley 학술지의 심사를 거친 논문을 의미 검색해, 출처(DOI 링크)가 붙은 답을 준다.",
+  "비유": "해외 학술지에서 '저영향개발 시설의 유출 저감 효과' 같은 선행연구를 찾아 근거를 붙일 때. Wiley 가 낸 학술지만 찾는다는 점을 알고 쓴다.",
+  "등급": "물어봄",
+  "조건": "로그인이 필요하다(공식 페이지 기준, 어떤 계정인지는 연결 화면에서 확인). 국내 논문은 찾지 못한다.",
+  "설치": "웹 브라우저로 claude.ai 에 로그인한 뒤 Customize > Connectors 화면(주소 claude.ai/customize/connectors)에서 이 항목을 찾아 Connect 를 누르고 안내에 따라 로그인한다. 같은 계정으로 로그인한 Claude Code 에 자동으로 나타나며, Claude Code 에서 /mcp 를 입력해 목록과 연결 상태를 확인한다. 팀 · 기업 요금제는 관리자만 추가할 수 있다.",
+  "출처": [
+   "https://claude.com/connectors/scholar-gateway",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:huggingface-skills:huggingface",
+  "종류": "MCP",
+  "이름": "Hugging Face (플러그인 판)",
+  "무엇": "huggingface-skills 플러그인에 들어 있는 Hugging Face 연결이다. 위의 claude.ai Hugging Face 와 하는 일이 같다.",
+  "비유": "토목 설계 실무에는 쓸 일이 거의 없다. AI 모델을 다루는 개발자용이다.",
+  "등급": "권하지않음",
+  "조건": "Hugging Face 계정이 필요하다. claude.ai 판과 겹치므로 둘 다 둘 필요는 없다.",
+  "설치": "huggingface-skills 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin install huggingface-skills@claude-plugins-official' 를 실행한다. 지울 때도 플러그인 단위로 지운다.",
+  "출처": [
+   "이 PC 의 플러그인 설정 .mcp.json (주소 https://huggingface.co/mcp?login)",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:pdf-viewer:pdf",
+  "종류": "MCP",
+  "이름": "PDF Viewer (플러그인 판, 내 PC 용)",
+  "무엇": "내 PC 의 PDF 를 화면에 띄워 형광펜 · 메모 · 도장(승인 · 초안 등) 표시, 서식 칸 채우기, 서명 그림 붙이기를 하고 표시한 사본을 내려받는다. 내 PC 안에서 돌아가며 따로 계정이나 키가 필요 없다.",
+  "비유": "검토 요청받은 설계도서 PDF 에 클로드와 함께 검토 의견을 표시해 두거나, 발주처 서식 PDF 의 빈칸을 채울 때.",
+  "등급": "물어봄",
+  "조건": "계정은 필요 없다. 내 PC 에서 npx 로 실행하므로 Node.js 가 깔려 있어야 한다. PDF 를 읽고 요약만 할 거면 이것 없이도 클로드가 바로 읽는다.",
+  "설치": "이 항목은 pdf-viewer 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install pdf-viewer@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "pdf-viewer 플러그인 README.md (이 PC 사본)",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:engineering:gmail",
+  "종류": "MCP",
+  "이름": "Gmail (engineering 플러그인 자리)",
+  "무엇": "engineering 플러그인이 Gmail 을 붙일 자리만 만들어 둔 것이다. 주소가 비어 있어 이 PC 에서도 'not configured' 로 나온다. 실제로는 아무 일도 하지 않는다.",
+  "비유": "메일을 다루려면 이것이 아니라 claude.ai Gmail 커넥터를 켠다.",
+  "등급": "권하지않음",
+  "조건": "없음. engineering 플러그인은 소프트웨어 개발 팀용(스탠드업, 코드 검토, 장애 대응)이라 토목 실무에는 맞지 않는다.",
+  "설치": "이 항목은 engineering 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install engineering@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "engineering 플러그인 .mcp.json (이 PC 사본, gmail 주소 빈칸)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:productivity:gmail",
+  "종류": "MCP",
+  "이름": "Gmail (productivity 플러그인 자리)",
+  "무엇": "productivity 플러그인이 Gmail 을 붙일 자리만 만들어 둔 것이다. 주소가 비어 있어 'not configured' 로 나온다. 실제로는 아무 일도 하지 않는다.",
+  "비유": "메일을 다루려면 이것이 아니라 claude.ai Gmail 커넥터를 켠다.",
+  "등급": "권하지않음",
+  "조건": "없음. productivity 플러그인 자체(할 일 · 일정 정리)는 쓸 만할 수 있으나 이 Gmail 항목은 빈자리다.",
+  "설치": "이 항목은 productivity 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install productivity@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "productivity 플러그인 .mcp.json (이 PC 사본, gmail 주소 빈칸)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:pubmed",
+  "종류": "MCP",
+  "이름": "PubMed (의생명 논문 검색)",
+  "무엇": "미국 국립의학도서관(NLM)의 의생명 논문 데이터베이스 PubMed 를 검색하고 초록 · 전문을 가져온다. Anthropic 이 만들었고 로그인이 필요 없다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://claude.com/connectors/pubmed",
+   "https://github.com/anthropics/knowledge-work-plugins"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:biorender",
+  "종류": "MCP",
+  "이름": "BioRender (과학 삽화)",
+  "무엇": "생명과학 논문용 그림(세포 · 실험 과정 삽화)을 만드는 서비스다. BioRender 계정이 필요하다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:biorxiv",
+  "종류": "MCP",
+  "이름": "bioRxiv (생명과학 사전공개 논문)",
+  "무엇": "심사 전 생명과학 · 의학 논문(bioRxiv · medRxiv)을 날짜 · 분야로 찾는다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)",
+   "이 PC 의 MCP 서버 안내문"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:consensus",
+  "종류": "MCP",
+  "이름": "Consensus (논문 근거 검색)",
+  "무엇": "심사를 거친 논문을 AI 로 찾아 요약하는 검색 서비스다. 분야가 생명과학에 한정되지는 않지만, 여기서는 bio-research 플러그인에 묶여 들어온다.",
+  "비유": "생명과학 연구자용 묶음에 들어 있다. 일반 논문 검색이 필요하면 claude.ai 의 Consensus 커넥터나 Scholar Gateway, 국내 논문은 KCI · DBpia 를 쓰는 편이 낫다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:c-trials",
+  "종류": "MCP",
+  "이름": "ClinicalTrials.gov (임상시험 등록부)",
+  "무엇": "미국 NIH/NLM 의 임상시험 등록 정보를 질환 · 약 · 지역 · 후원사로 찾는다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)",
+   "이 PC 의 MCP 서버 안내문"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:chembl",
+  "종류": "MCP",
+  "이름": "ChEMBL (화합물 · 약물 데이터베이스)",
+  "무엇": "EMBL-EBI 의 생리활성 화합물 · 약물 데이터베이스를 검색한다(작용 기전, 활성 값 등).",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)",
+   "이 PC 의 MCP 서버 안내문"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:synapse",
+  "종류": "MCP",
+  "이름": "Synapse (연구 데이터 저장소)",
+  "무엇": "Sage Bionetworks 가 운영하는 공동 연구 데이터 저장 · 관리 서비스다. 로그인이 필요하다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:wiley",
+  "종류": "MCP",
+  "이름": "Wiley Scholar Gateway (플러그인 판)",
+  "무엇": "위의 claude.ai Scholar Gateway 와 같은 서비스(Wiley 학술지 검색)다. 주소도 connector.scholargateway.ai 로 같다. 플러그인에 묶여 온 사본이라 따로 둘 필요가 없다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)",
+   "bio-research 플러그인 .mcp.json (이 PC 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:owkin",
+  "종류": "MCP",
+  "이름": "Owkin (생물학 AI)",
+  "무엇": "Owkin 의 병리 조직 영상 · 신약 개발용 AI 서비스다. 로그인이 필요하다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:ot",
+  "종류": "MCP",
+  "이름": "Open Targets (약물 표적 발굴)",
+  "무엇": "유전자와 질환의 관계를 모아 약물 표적 후보를 찾는 공개 데이터 플랫폼이다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "plugin:bio-research:benchling",
+  "종류": "MCP",
+  "이름": "Benchling (실험실 데이터 관리, 빈자리)",
+  "무엇": "실험실 기록 · 데이터 관리 서비스 Benchling 을 붙일 자리다. 플러그인 문서에 '주소가 아직 설정되지 않은 자리' 로 적혀 있어 실제로는 동작하지 않는다.",
+  "비유": "토목 설계 실무자에게는 필요 없다. 생명과학 · 의학 연구자용이다.",
+  "등급": "권하지않음",
+  "조건": "bio-research 플러그인 전체를 설치해야 따라온다. 토목 실무에는 설치하지 않는 것을 권한다.",
+  "설치": "이 항목은 bio-research 플러그인을 설치하면 같이 들어온다. 터미널에서 'claude plugin marketplace add anthropics/knowledge-work-plugins' 를 한 번 실행하고 'claude plugin install bio-research@knowledge-work-plugins' 를 실행한다. 지울 때도 플러그인 단위로 지운다(/mcp 로 개별 삭제 불가).",
+  "출처": [
+   "https://github.com/anthropics/knowledge-work-plugins",
+   "bio-research 플러그인 README.md · CONNECTORS.md (이 PC 의 홈폴더/.claude/plugins/synced 사본)"
+  ],
+  "확인": true
+ },
+ {
+  "id": "alphaxiv",
+  "종류": "MCP",
+  "이름": "alphaXiv (arXiv 논문 검색)",
+  "무엇": "논문 사전공개 사이트 arXiv 의 약 250 만 편 논문을 찾고, 본문을 읽고, 내 논문 폴더에 모아 둔다. 분야는 전산 · 수학 · 물리 · 통계 · 전기공학 쪽이며 토목 · 수자원 논문은 적다.",
+  "비유": "기계학습으로 유출량이나 침수를 예측한 해외 연구를 찾아 방법을 비교할 때. 일반 토목 설계 기준 조사에는 맞지 않는다.",
+  "등급": "물어봄",
+  "조건": "alphaXiv 계정으로 인증해야 한다(처음 쓸 때 Claude Code 에서 /mcp 를 열어 브라우저로 로그인). claude.ai 커넥터가 아니라 Claude Code 에 직접 넣는 방식이다.",
+  "설치": "터미널에서 'claude mcp add --transport http alphaxiv https://api.alphaxiv.org/mcp/v1' 를 실행하고, Claude Code 에서 /mcp 를 입력해 alphaxiv 를 골라 인증한다. 모든 프로젝트에서 쓰려면 '--scope user' 를 붙인다(기본값은 현재 폴더에만 적용되는 local).",
+  "출처": [
+   "https://www.alphaxiv.org/docs/mcp",
+   "https://x.com/askalphaxiv/status/2034003208146940407",
+   "이 PC 의 'claude mcp add --help' 출력 (2026-09-29)",
+   "https://code.claude.com/docs/en/mcp"
+  ],
+  "확인": true
+ }
+]

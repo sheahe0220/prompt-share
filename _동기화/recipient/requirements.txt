@@ -1,0 +1,14 @@
+# 이 지침의 점검 도구 · 자동화 스크립트가 쓰는 Python 패키지.
+# 설치: python -m pip install -r _동기화\requirements.txt
+# pyswmm 은 SWMM 모의를 할 때만 따로 설치한다.
+pandas
+numpy
+matplotlib
+openpyxl
+python-docx
+python-pptx
+pdfplumber
+pywin32
+lxml
+Pillow
+tqdm

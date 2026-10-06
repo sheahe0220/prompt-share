@@ -1,0 +1,11 @@
+# apply.bat 은 cp949 · CRLF 로 저장해야 cmd 가 한글을 읽는다.
+# git 이 줄바꿈이나 인코딩을 건드리지 않게 이진 파일로 다룬다.
+*.bat   -text
+
+# 나머지 글은 LF 로 둔다
+*.md    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+
+*.zip   binary

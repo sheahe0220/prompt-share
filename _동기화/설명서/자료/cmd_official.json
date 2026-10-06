@@ -1,0 +1,2596 @@
+{
+ "메타": {
+  "만든날": "2026-09-29",
+  "CLI버전": "2.1.283 (claude --version)",
+  "VSCode확장": "anthropic.claude-code-2.1.284-win32-x64",
+  "공식문서": [
+   "https://code.claude.com/docs/en/commands",
+   "https://code.claude.com/docs/en/cli-reference",
+   "https://code.claude.com/docs/en/interactive-mode",
+   "https://code.claude.com/docs/en/vs-code",
+   "https://code.claude.com/docs/en/settings",
+   "https://code.claude.com/docs/en/keybindings",
+   "https://code.claude.com/docs/en/skills",
+   "https://code.claude.com/docs/en/hooks",
+   "https://code.claude.com/docs/en/plugins",
+   "https://code.claude.com/docs/en/remote-control",
+   "https://code.claude.com/docs/en/scheduled-tasks",
+   "https://code.claude.com/docs/en/model-config",
+   "https://code.claude.com/docs/en/permission-modes",
+   "https://code.claude.com/docs/en/sessions",
+   "https://code.claude.com/docs/en/memory",
+   "https://code.claude.com/docs/en/desktop"
+  ]
+ },
+ "slash": [
+  {
+   "name": "/add-dir",
+   "aliases": "",
+   "args": "<path>",
+   "하는일": "이번 세션에서 파일을 읽고 고칠 작업 폴더를 하나 더 붙인다.",
+   "쓰는때": "과업 폴더에서 일하다 공용 원자료 폴더도 읽게 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/advisor",
+   "aliases": "",
+   "args": "[model|off]",
+   "하는일": "작업 중 요소마다 두 번째 모델에게 조언을 받는 advisor 도구를 켜거나 끈다.",
+   "쓰는때": "까다로운 보정 스크립트를 짤 때 다른 모델의 검토를 곁들일 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "모델·속도",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/agents",
+   "aliases": "",
+   "args": "",
+   "하는일": "v2.1.198 부터는 서브에이전트를 만들려면 Claude 에게 요청하거나 agents 폴더를 직접 고치라는 안내만 출력한다.",
+   "쓰는때": "자료 조사용 서브에이전트를 새로 두고 싶을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/artifacts",
+   "aliases": "",
+   "args": "",
+   "하는일": "내가 소유하거나 공유받은 아티팩트 목록을 보고 세션에 붙이거나 브라우저로 연다.",
+   "쓰는때": "지난번 만든 결과 대시보드를 다시 열 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/auto-mode-setup",
+   "aliases": "",
+   "args": "",
+   "하는일": "프로젝트와 최근 세션을 보고 auto 모드의 environment 항목 초안을 만들어 사용자 설정에 저장한다.",
+   "쓰는때": "auto 모드가 자주 막는 명령을 줄이고 싶을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "권한·안전",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/autocompact",
+   "aliases": "",
+   "args": "[auto|<tokens>]",
+   "하는일": "문맥 창이 얼마나 차면 자동 압축할지 정하고 사용자 설정에 저장한다.",
+   "쓰는때": "긴 모의 로그를 다루는 세션에서 압축 시점을 늦출 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "모델·속도",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/autofix-pr",
+   "aliases": "",
+   "args": "[prompt]",
+   "하는일": "현재 브랜치의 PR 을 지켜보다가 CI 실패나 리뷰 의견이 오면 고쳐 올리는 클라우드 세션을 띄운다.",
+   "쓰는때": "GitHub 에 올린 분석 코드 PR 의 검사 실패를 맡길 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/background",
+   "aliases": "/bg",
+   "args": "[prompt]",
+   "하는일": "현재 세션을 백그라운드 에이전트로 떼어 내 계속 돌리고 터미널을 비운다.",
+   "쓰는때": "648 회 모의 같은 긴 작업을 걸어 두고 다른 일을 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/batch",
+   "aliases": "",
+   "args": "<instruction>",
+   "하는일": "[번들 스킬] 큰 변경을 5-30 개 독립 단위로 나눠 계획하고, 승인하면 단위마다 worktree 에서 병렬 서브에이전트로 처리한다.",
+   "쓰는때": "스크립트 수십 개의 경로 변수를 한꺼번에 바꿀 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/branch",
+   "aliases": "",
+   "args": "[name]",
+   "하는일": "지금 시점에서 대화를 갈라 다른 방향을 시험하고 원래 대화는 보존한다.",
+   "쓰는때": "보정 방법 A 와 B 를 따로 시험해 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 같은 기능은 메시지 위 되감기 버튼의 Fork conversation from here",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/btw",
+   "aliases": "",
+   "args": "[question]",
+   "하는일": "대화 기록에 남기지 않고 현재 세션에 대해 곁가지 질문을 한다.",
+   "쓰는때": "모의 도중 이 변수가 무슨 뜻인지 잠깐 물을 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (답이 옆 패널에 열림)",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/bug",
+   "aliases": "/share",
+   "args": "[report]",
+   "하는일": "버그를 신고하거나 대화를 공유한다. 보낼 기록 범위를 고르고 동의 화면을 거친다.",
+   "쓰는때": "도구가 이상하게 멈춘 상황을 신고할 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시, commands 문서도 확장에서는 자체 신고 창이 열린다고 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/cd",
+   "aliases": "",
+   "args": "<path>",
+   "하는일": "대화를 유지한 채 세션의 작업 폴더를 옮긴다.",
+   "쓰는때": "과업 폴더를 잘못 잡고 시작했을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/chrome",
+   "aliases": "",
+   "args": "",
+   "하는일": "Claude in Chrome 연동 설정을 연다.",
+   "쓰는때": "기상청 누리집 자료 내려받기를 브라우저로 맡길 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (claude.ai 로그인 필요)",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/claude-api",
+   "aliases": "",
+   "args": "[migrate|upgrade|managed-agents-onboard|prompt-audit|cost-optimize|build-eval|hillclimb]",
+   "하는일": "[번들 스킬] Claude API 와 Managed Agents 참고 자료를 불러오고 이전, 비용 절감, 평가 작성 같은 하위 작업을 돕는다.",
+   "쓰는때": "사내 문서 요약 도구를 API 로 짤 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/clear",
+   "aliases": "/reset, /new",
+   "args": "[name]",
+   "하는일": "문맥을 비운 새 대화를 시작한다. 이전 대화는 /resume 으로 돌아갈 수 있다.",
+   "쓰는때": "SWMM 작업을 끝내고 보고서 작업으로 넘어갈 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/code-review",
+   "aliases": "/review",
+   "args": "[low|medium|high|xhigh|max|ultra] [--fix] [--comment] [pr#|branch|path]",
+   "하는일": "[번들 스킬] 현재 변경분이나 지정 PR 의 정확성 버그를 검토하고, --fix 로 고치거나 ultra 로 클라우드 심층 검토를 돌린다.",
+   "쓰는때": "집계 스크립트를 고친 뒤 버그가 없는지 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/color",
+   "aliases": "",
+   "args": "[color|default]",
+   "하는일": "이 세션의 입력창 색을 바꾼다.",
+   "쓰는때": "여러 창을 띄워 두고 과업별로 색을 구분할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/compact",
+   "aliases": "",
+   "args": "[instructions]",
+   "하는일": "지금까지의 대화를 요약해 문맥 공간을 비운다. 요약 초점을 지시할 수 있다.",
+   "쓰는때": "긴 자료 조사 뒤 핵심만 남기고 이어갈 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (문맥 표시기 설명에 /compact 수동 실행 명시)",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/config",
+   "aliases": "/settings",
+   "args": "[key=value ...]",
+   "하는일": "설정 화면을 열거나 key=value 로 설정을 바로 바꾼다.",
+   "쓰는때": "테마나 기본 모델을 바꿀 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/context",
+   "aliases": "",
+   "args": "[all]",
+   "하는일": "현재 문맥 사용량을 색 격자로 보여 주고 줄일 곳을 제안한다.",
+   "쓰는때": "응답이 느려져 문맥이 얼마나 찼는지 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 입력창에 문맥 표시기가 따로 있음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/copy",
+   "aliases": "",
+   "args": "[N]",
+   "하는일": "마지막(또는 N 번째 전) 응답을 클립보드로 복사한다. 코드 블록이 있으면 고르게 한다.",
+   "쓰는때": "Claude 가 쓴 표를 보고서에 붙여 넣을 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (v2.1.277 이상)",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/cost",
+   "aliases": "",
+   "args": "",
+   "하는일": "/usage 의 별칭이다.",
+   "쓰는때": "이번 세션 비용을 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/dataviz",
+   "aliases": "",
+   "args": "[request]",
+   "하는일": "[번들 스킬] 차트와 대시보드 설계 지침을 불러와 형태, 색, 색각 이상 대비 검사를 적용한다.",
+   "쓰는때": "수위 시계열 그래프 색을 정할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/debug",
+   "aliases": "",
+   "args": "[description]",
+   "하는일": "[번들 스킬] 이 세션의 디버그 로그를 켜고 로그를 읽어 문제를 진단한다.",
+   "쓰는때": "MCP 서버가 계속 연결 실패할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/deep-research",
+   "aliases": "",
+   "args": "<question>",
+   "하는일": "[번들 워크플로] 웹 검색을 여러 갈래로 펼쳐 출처를 교차 확인하고 인용 달린 보고서를 만든다.",
+   "쓰는때": "LID 시설 해외 설계기준 동향을 조사할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/design",
+   "aliases": "",
+   "args": "[brief]",
+   "하는일": "[번들 스킬] UI 시안, 화면 흐름, 포스터를 Claude Design 아티팩트 캔버스로 만든다.",
+   "쓰는때": "학회 포스터 배치 시안을 잡을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/design-login",
+   "aliases": "",
+   "args": "",
+   "하는일": "/design-sync 용 디자인 시스템 접근을 claude.ai 계정으로 승인한다.",
+   "쓰는때": "사내 디자인 시스템을 올리기 전",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/design-sync",
+   "aliases": "",
+   "args": "[hint]",
+   "하는일": "[번들 스킬] 저장소의 React 디자인 시스템을 변환해 Claude Design 에 올린다.",
+   "쓰는때": "웹 대시보드 부품을 Claude Design 에서 쓰려 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/desktop",
+   "aliases": "/app",
+   "args": "",
+   "하는일": "현재 세션을 Claude Code 데스크톱 앱에서 이어 간다. macOS 나 x64 Windows 와 구독이 필요하다.",
+   "쓰는때": "터미널 작업을 데스크톱 앱 화면으로 옮길 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/diff",
+   "aliases": "",
+   "args": "",
+   "하는일": "작업 트리의 변경 사항과 Claude 가 한 편집을 검토한다.",
+   "쓰는때": "Claude 가 스크립트를 고친 내용을 확인할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 편집마다 diff 를 따로 보여 줌",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/doctor",
+   "aliases": "/checkup",
+   "args": "[prompt-audit [path]]",
+   "하는일": "[번들 스킬] 설치, PATH, 설정 파일, 안 쓰는 스킬과 MCP, 느린 훅을 점검하고 확인을 받아 고친다. prompt-audit 은 지침 파일 점검이다.",
+   "쓰는때": "업데이트 뒤 Claude Code 가 이상할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/effort",
+   "aliases": "",
+   "args": "[level|auto|status|ultracode [on|off]]",
+   "하는일": "추론 노력 수준(low 에서 xhigh, max, auto)을 정하거나 ultracode 를 켜고 끈다.",
+   "쓰는때": "간단한 파일 정리는 low, 수식 검토는 high 로 둘 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 모델 선택기의 Effort 줄로 같은 조정",
+   "분류": "모델·속도",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/exit",
+   "aliases": "/quit",
+   "args": "",
+   "하는일": "CLI 를 끝낸다. 백그라운드 세션에 붙어 있으면 떼어 내기만 한다.",
+   "쓰는때": "터미널 세션을 마칠 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/export",
+   "aliases": "",
+   "args": "[filename]",
+   "하는일": "현재 대화를 평문으로 내보낸다. 파일명을 주면 바로 저장한다.",
+   "쓰는때": "그날 대화를 일지 근거로 남길 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (v2.1.280 이상)",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/fast",
+   "aliases": "",
+   "args": "[on|off]",
+   "하는일": "fast 모드를 켜거나 끈다.",
+   "쓰는때": "간단한 이름 바꾸기를 빨리 끝낼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "모델·속도",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/feedback",
+   "aliases": "",
+   "args": "[report]",
+   "하는일": "제품 의견을 보낸다. /bug 와 같은 창과 동의 절차를 쓴다.",
+   "쓰는때": "기능 개선 의견을 보낼 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/fewer-permission-prompts",
+   "aliases": "",
+   "args": "",
+   "하는일": "[번들 스킬] 기록을 훑어 자주 쓰는 읽기 전용 Bash 와 MCP 호출을 찾아 프로젝트 settings.json 허용 목록에 넣는다.",
+   "쓰는때": "ls, git status 허용을 매번 누르기 번거로울 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "권한·안전",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/focus",
+   "aliases": "",
+   "args": "",
+   "하는일": "마지막 입력, 도구 호출 한 줄 요약, 최종 답만 보이는 focus 보기를 켜고 끈다. fullscreen 렌더링 전용이다.",
+   "쓰는때": "긴 도구 출력 없이 결론만 볼 때",
+   "VSCode": "안 됨",
+   "VSCode근거": "commands 문서: fullscreen 렌더링 전용이고 VS Code 확장은 명령 메뉴의 자체 Focus view 토글(Ctrl+Alt+F)을 쓴다고 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/fork",
+   "aliases": "",
+   "args": "[prompt]",
+   "하는일": "현재 대화를 새 백그라운드 세션으로 복사하고 여기서는 계속 일한다.",
+   "쓰는때": "같은 문맥으로 그림 작업을 따로 돌릴 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/goal",
+   "aliases": "",
+   "args": "[condition|clear]",
+   "하는일": "조건이 충족될 때까지 여러 턴에 걸쳐 계속 일하게 하는 목표를 건다.",
+   "쓰는때": "검증 스크립트가 통과할 때까지 고치게 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/heapdump",
+   "aliases": "",
+   "args": "",
+   "하는일": "메모리 진단용 힙 스냅숏과 메모리 분석을 바탕화면에 쓴다. 메뉴에 숨겨져 있어 전체 이름을 쳐야 한다.",
+   "쓰는때": "Claude Code 메모리 사용이 비정상적으로 클 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/help",
+   "aliases": "",
+   "args": "",
+   "하는일": "도움말과 사용 가능한 명령을 보여 준다.",
+   "쓰는때": "명령 이름이 기억나지 않을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/hooks",
+   "aliases": "",
+   "args": "",
+   "하는일": "도구 이벤트에 걸린 훅 설정을 본다.",
+   "쓰는때": "자동 저장 훅이 걸려 있는지 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 명령 메뉴 Customize 의 Hooks 로 보기와 편집 가능",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/ide",
+   "aliases": "",
+   "args": "",
+   "하는일": "IDE 연동을 관리하고 상태를 본다.",
+   "쓰는때": "외부 터미널의 claude 를 VS Code 와 잇을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 외부 터미널에서 /ide 를 실행해 VS Code 에 연결하라고 적음(확장 패널 안에서의 동작은 언급 없음)",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/import",
+   "aliases": "",
+   "args": "[codex|gemini|cursor] [--dry-run] [--yes]",
+   "하는일": "Codex, Gemini CLI, Cursor 설정(지침, MCP, 명령, 스킬)을 Claude Code 로 가져온다.",
+   "쓰는때": "다른 AI 도구에서 쓰던 지침을 옮길 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/init",
+   "aliases": "",
+   "args": "",
+   "하는일": "프로젝트에 CLAUDE.md 안내 파일을 만든다.",
+   "쓰는때": "새 과업 폴더를 처음 열었을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "지침·기억",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/insights",
+   "aliases": "",
+   "args": "",
+   "하는일": "이 PC 의 최근 세션을 분석한 HTML 보고서를 만든다.",
+   "쓰는때": "한 달간 어떻게 썼는지 돌아볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/install-github-app",
+   "aliases": "",
+   "args": "",
+   "하는일": "저장소에 Claude GitHub App 과 GitHub Actions 를 설치하도록 안내한다.",
+   "쓰는때": "과업 코드 저장소에 자동 리뷰를 붙일 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/install-slack-app",
+   "aliases": "",
+   "args": "",
+   "하는일": "Claude Slack 앱을 설치한다(브라우저 OAuth).",
+   "쓰는때": "팀 Slack 에 Claude 를 들일 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/keybindings",
+   "aliases": "",
+   "args": "",
+   "하는일": "단축키 설정 파일을 연다.",
+   "쓰는때": "Ctrl+S 같은 키를 바꾸고 싶을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/list-agents",
+   "aliases": "/peers",
+   "args": "",
+   "하는일": "메시지를 보낼 수 있는 서브에이전트, 팀원, 다른 세션 이름을 나열한다.",
+   "쓰는때": "다른 창의 세션에 결과를 넘기려 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/login",
+   "aliases": "",
+   "args": "",
+   "하는일": "Anthropic 계정으로 로그인한다.",
+   "쓰는때": "구독 계정을 바꿀 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/logout",
+   "aliases": "",
+   "args": "",
+   "하는일": "Anthropic 계정에서 로그아웃한다.",
+   "쓰는때": "공용 PC 에서 작업을 마칠 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (v2.1.277 이상)",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/loop",
+   "aliases": "/proactive",
+   "args": "[interval] [prompt]",
+   "하는일": "[번들 스킬] 세션이 열려 있는 동안 프롬프트를 주기적으로 되풀이한다. 간격을 빼면 Claude 가 스스로 정한다.",
+   "쓰는때": "10 분마다 모의 로그 진행률을 확인할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/mcp",
+   "aliases": "",
+   "args": "[reconnect <server>|enable|disable [<server>|all]]",
+   "하는일": "MCP 서버 연결과 OAuth 인증을 관리한다.",
+   "쓰는때": "Notion 연결이 끊겼을 때 다시 잇기",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (MCP 절: 채팅 패널에서 /mcp)",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/memory",
+   "aliases": "",
+   "args": "",
+   "하는일": "CLAUDE.md 파일을 편집하고 auto memory 를 켜고 끄거나 항목을 본다.",
+   "쓰는때": "과업 고정사실을 지침에 추가할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 명령 메뉴 Customize 의 Memory, Instructions 로 같은 일",
+   "분류": "지침·기억",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/mobile",
+   "aliases": "/ios, /android",
+   "args": "",
+   "하는일": "Claude 모바일 앱 내려받기 QR 코드를 보여 준다.",
+   "쓰는때": "현장에서 폰으로 이어 보려 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/model",
+   "aliases": "",
+   "args": "[model]",
+   "하는일": "모델을 바꾸고 새 세션 기본값으로 저장한다. 선택기에서 좌우 화살표로 노력 수준도 조정한다.",
+   "쓰는때": "보고서 문장 다듬기는 가벼운 모델로 바꿀 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 명령 메뉴의 Switch model 과 모델 이름 버튼으로 같은 일",
+   "분류": "모델·속도",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/output-style",
+   "aliases": "",
+   "args": "[style]",
+   "하는일": "출력 스타일 목록을 보거나 바꾼다.",
+   "쓰는때": "설명형 답이 필요할 때 스타일을 바꿈",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 Customize 의 Output styles",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/passes",
+   "aliases": "",
+   "args": "",
+   "하는일": "친구에게 Claude Code 무료 1 주를 공유한다. 자격 계정에만 보인다.",
+   "쓰는때": "동료에게 체험을 권할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/permissions",
+   "aliases": "/allowed-tools",
+   "args": "",
+   "하는일": "도구 권한의 allow, ask, deny 규칙을 관리한다.",
+   "쓰는때": "rm 명령은 늘 묻게 규칙을 걸 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 Customize 의 Permissions",
+   "분류": "권한·안전",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/plan",
+   "aliases": "",
+   "args": "[description]",
+   "하는일": "plan 모드로 바로 들어간다. 설명을 주면 그 작업의 계획부터 세운다.",
+   "쓰는때": "보고서 장 구성을 바꾸기 전에 계획부터 볼 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (v2.1.280 이상, /plan open 도 있음)",
+   "분류": "권한·안전",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/plugin",
+   "aliases": "",
+   "args": "[subcommand]",
+   "하는일": "플러그인 메뉴를 열거나 list, install, enable, disable 을 바로 실행한다.",
+   "쓰는때": "새 플러그인을 들일 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서: 프롬프트 창에 /plugins 를 치면 Manage plugins 화면이 열림",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/powerup",
+   "aliases": "",
+   "args": "",
+   "하는일": "짧은 대화형 강습으로 Claude Code 기능을 익힌다.",
+   "쓰는때": "처음 쓰는 동료에게 기능을 보여 줄 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/pr-comments",
+   "aliases": "",
+   "args": "[PR]",
+   "하는일": "v2.1.91 에서 삭제됐다. 예전에는 PR 댓글을 가져와 보였다.",
+   "쓰는때": "해당 없음(삭제됨)",
+   "VSCode": "안 됨",
+   "VSCode근거": "commands 문서: Removed in v2.1.91",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/privacy-settings",
+   "aliases": "",
+   "args": "",
+   "하는일": "개인정보 설정을 보고 바꾼다. Pro, Max 전용이다.",
+   "쓰는때": "대화가 학습에 쓰이는지 확인할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/radio",
+   "aliases": "",
+   "args": "",
+   "하는일": "Claude FM lo-fi 라디오를 브라우저로 연다.",
+   "쓰는때": "긴 모의를 기다릴 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/rate-limit-options",
+   "aliases": "",
+   "args": "",
+   "하는일": "사용 한도에 걸렸을 때 기다렸다 자동 계속, 사용 크레딧 추가, 요금제 올리기 선택지를 보인다. 메뉴에 없어 전체 이름을 쳐야 한다.",
+   "쓰는때": "한도에 걸려 작업이 멈췄을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/recap",
+   "aliases": "",
+   "args": "",
+   "하는일": "현재 세션을 한 줄로 요약한다.",
+   "쓰는때": "점심 뒤 어디까지 했는지 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/release-notes",
+   "aliases": "",
+   "args": "",
+   "하는일": "버전별 변경 기록을 본다.",
+   "쓰는때": "업데이트 뒤 무엇이 바뀌었는지 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/reload-plugins",
+   "aliases": "",
+   "args": "[--force]",
+   "하는일": "재시작 없이 활성 플러그인을 다시 읽는다.",
+   "쓰는때": "플러그인을 설치한 직후",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/reload-skills",
+   "aliases": "",
+   "args": "",
+   "하는일": "스킬과 명령 폴더를 다시 훑어 세션 중 추가된 스킬을 쓸 수 있게 한다.",
+   "쓰는때": "새 스킬 파일을 방금 만들었을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/remote-control",
+   "aliases": "/rc",
+   "args": "",
+   "하는일": "이 세션을 claude.ai 나 모바일 앱에서 원격 조작할 수 있게 한다.",
+   "쓰는때": "사무실 PC 의 모의를 출장지 폰으로 살필 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서: Customize 의 Slash commands 목록에서 /usage, /remote-control 같은 명령을 골라 실행",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/remote-env",
+   "aliases": "",
+   "args": "",
+   "하는일": "CLI 에서 여는 클라우드 세션의 기본 클라우드 환경을 고른다.",
+   "쓰는때": "클라우드 세션을 자주 쓸 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/rename",
+   "aliases": "",
+   "args": "[name]",
+   "하는일": "현재 세션 이름을 바꾼다. 이름을 빼면 대화에서 자동으로 짓는다.",
+   "쓰는때": "세션을 과업명으로 구분할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 명령 팔레트 Rename Session Tab",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/resume",
+   "aliases": "/continue",
+   "args": "[session]",
+   "하는일": "ID 나 이름으로 예전 대화를 이어 가거나 세션 선택기를 연다.",
+   "쓰는때": "어제 하던 보고서 대화를 이어 갈 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/review",
+   "aliases": "",
+   "args": "[low|medium|high|xhigh|max|ultra] [--fix] [--comment] [pr#|branch|path]",
+   "하는일": "/code-review 의 별칭이다.",
+   "쓰는때": "PR 번호를 주고 검토할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/rewind",
+   "aliases": "/checkpoint, /undo",
+   "args": "",
+   "하는일": "대화나 코드(또는 둘 다)를 이전 시점으로 되돌리거나 선택 메시지부터 요약한다.",
+   "쓰는때": "Claude 가 스크립트를 잘못 고쳐 되돌릴 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. 확장은 메시지 위 되감기 버튼(Rewind code to here 등)으로 같은 일",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/run",
+   "aliases": "",
+   "args": "",
+   "하는일": "[번들 스킬] 프로젝트 앱을 띄우고 조작해 변경이 실제로 동작하는지 본다.",
+   "쓰는때": "대시보드 앱을 고친 뒤 실제로 띄워 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/run-skill-generator",
+   "aliases": "",
+   "args": "",
+   "하는일": "[번들 스킬] /run 과 /verify 가 앱을 빌드, 실행하는 법을 프로젝트 스킬로 적는다.",
+   "쓰는때": "앱 실행 절차를 한 번 정리해 둘 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/sandbox",
+   "aliases": "",
+   "args": "",
+   "하는일": "sandbox 모드를 켜고 끈다(지원 플랫폼 한정).",
+   "쓰는때": "모르는 스크립트를 격리해 돌릴 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (v2.1.280 이상)",
+   "분류": "권한·안전",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/schedule",
+   "aliases": "/routines",
+   "args": "[description]",
+   "하는일": "클라우드에서 도는 루틴(예약 작업)을 만들고 고치고 나열하고 실행한다.",
+   "쓰는때": "매일 아침 관측 자료 수집을 예약할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/scroll-speed",
+   "aliases": "",
+   "args": "",
+   "하는일": "마우스 휠 스크롤 속도를 조정한다. fullscreen 렌더링 전용이다.",
+   "쓰는때": "터미널 스크롤이 너무 빠를 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "commands 문서: fullscreen 렌더링 전용(터미널). 확장에서의 동작은 언급 없음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/security-review",
+   "aliases": "",
+   "args": "",
+   "하는일": "현재 브랜치와 origin 기본 브랜치의 차이를 보안 취약점 관점에서 검토한다.",
+   "쓰는때": "외부에 공개할 웹 도구를 올리기 전",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "권한·안전",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/setup-bedrock",
+   "aliases": "",
+   "args": "",
+   "하는일": "Amazon Bedrock 인증, 리전, 모델을 설정하는 마법사다. 환경변수 설정 전에는 숨겨져 있다.",
+   "쓰는때": "사내 AWS 로 Claude 를 쓸 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/setup-vertex",
+   "aliases": "",
+   "args": "",
+   "하는일": "Google Cloud Agent Platform 인증과 리전을 설정하는 마법사다. 환경변수 설정 전에는 숨겨져 있다.",
+   "쓰는때": "사내 GCP 로 Claude 를 쓸 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/simplify",
+   "aliases": "",
+   "args": "[target]",
+   "하는일": "[번들 스킬] 바뀐 코드를 재사용, 단순화, 효율, 추상화 수준 관점으로 검토해 고친다(버그 탐색은 아님).",
+   "쓰는때": "급히 짠 집계 스크립트를 정리할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/skill-doctor",
+   "aliases": "",
+   "args": "",
+   "하는일": "스킬마다 문맥 비용과 사용 빈도를 보여 줘 끌 스킬을 찾게 한다.",
+   "쓰는때": "스킬이 너무 많아 문맥이 무거울 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/skills",
+   "aliases": "",
+   "args": "",
+   "하는일": "사용 가능한 스킬 목록을 보고 스킬마다 보이기 설정을 바꾼다.",
+   "쓰는때": "과업 스킬이 제대로 실렸는지 볼 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (/skills 입력 시 목록 창, v2.1.280 이상)",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/slides",
+   "aliases": "",
+   "args": "[brief]",
+   "하는일": "[번들 스킬] 요약 지시로 Claude Slides 아티팩트 발표자료를 새로 만든다.",
+   "쓰는때": "중간보고 초안 슬라이드를 빠르게 잡을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/stats",
+   "aliases": "",
+   "args": "",
+   "하는일": "/usage 의 별칭이며 Stats 탭으로 열린다.",
+   "쓰는때": "사용 통계를 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/status",
+   "aliases": "",
+   "args": "",
+   "하는일": "버전, 모델, 계정, 연결 상태를 보여 준다.",
+   "쓰는때": "어느 계정과 모델로 돌고 있는지 확인할 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (v2.1.280 이상)",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/statusline",
+   "aliases": "",
+   "args": "",
+   "하는일": "Claude Code 상태 줄을 설정한다.",
+   "쓰는때": "터미널 하단에 과업명과 모델을 띄울 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/stickers",
+   "aliases": "",
+   "args": "",
+   "하는일": "Claude Code 스티커를 주문한다.",
+   "쓰는때": "해당 업무 없음",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/stop",
+   "aliases": "",
+   "args": "",
+   "하는일": "붙어 있는 백그라운드 세션을 멈춘다(기록과 worktree 는 남는다).",
+   "쓰는때": "백그라운드 모의 세션을 끝낼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "commands 문서: 백그라운드 세션에 붙어 있을 때만 사용 가능. 확장에서의 동작은 언급 없음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/subtask",
+   "aliases": "",
+   "args": "<task>",
+   "하는일": "전체 대화를 물려받은 서브에이전트를 백그라운드로 띄우고 결과를 이 대화로 돌려받는다.",
+   "쓰는때": "본 작업 중 참고문헌 확인만 따로 맡길 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "대화·세션",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/tasks",
+   "aliases": "/bashes",
+   "args": "",
+   "하는일": "이 세션의 백그라운드 작업(서브에이전트, 셸)을 보고 관리한다.",
+   "쓰는때": "돌려 둔 모의 셸이 아직 도는지 볼 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (에이전트 지도가 열림, v2.1.277 이상)",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/team-onboarding",
+   "aliases": "",
+   "args": "",
+   "하는일": "최근 30 일 사용 기록으로 팀원용 온보딩 안내서를 만든다.",
+   "쓰는때": "신입에게 Claude Code 사용법을 넘길 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/teleport",
+   "aliases": "/tp",
+   "args": "",
+   "하는일": "클라우드 세션을 이 터미널로 끌어온다.",
+   "쓰는때": "웹에서 시작한 작업을 PC 에서 이어 갈 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/terminal-setup",
+   "aliases": "",
+   "args": "",
+   "하는일": "VS Code 등 터미널에 줄바꿈용 Shift+Enter 단축키를 설치한다.",
+   "쓰는때": "통합 터미널에서 claude 를 쓰며 여러 줄을 입력할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "commands 문서: VS Code 를 포함한 터미널용 설정. 확장 패널 안의 동작은 언급 없음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/theme",
+   "aliases": "",
+   "args": "",
+   "하는일": "색 테마를 바꾼다(자동, 밝게, 어둡게, 색각 보정 등).",
+   "쓰는때": "밝은 사무실에서 화면이 안 보일 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/tui",
+   "aliases": "",
+   "args": "[default|fullscreen]",
+   "하는일": "터미널 UI 렌더러를 바꾸고 대화를 유지한 채 다시 띄운다.",
+   "쓰는때": "터미널 화면이 깜빡일 때 fullscreen 으로",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "commands 문서: 터미널 렌더러 설정. 확장에서의 동작은 언급 없음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/ultraplan",
+   "aliases": "",
+   "args": "<prompt>",
+   "하는일": "삭제됐다. plan 모드를 쓰라고 안내한다.",
+   "쓰는때": "해당 없음(삭제됨)",
+   "VSCode": "안 됨",
+   "VSCode근거": "commands 문서: Removed",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/ultrareview",
+   "aliases": "",
+   "args": "[PR or branch]",
+   "하는일": "클라우드 샌드박스에서 다중 에이전트 심층 코드 검토를 돌린다. /code-review ultra 의 별칭이다.",
+   "쓰는때": "공개 전 중요한 코드 변경을 깊게 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/update-config",
+   "aliases": "",
+   "args": "[request]",
+   "하는일": "[번들 스킬] 말로 설명한 설정 변경(허용 명령, 환경변수, 훅)을 settings.json 에 반영한다.",
+   "쓰는때": "python 실행 경로를 늘 허용하게 할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/upgrade",
+   "aliases": "",
+   "args": "",
+   "하는일": "상위 요금제로 바꾸는 페이지를 브라우저로 연다.",
+   "쓰는때": "한도가 자주 찰 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "계정·설정",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/usage",
+   "aliases": "",
+   "args": "",
+   "하는일": "세션 비용, 요금제 사용 한도, 활동 통계를 보여 준다.",
+   "쓰는때": "이번 주 한도가 얼마나 남았는지 볼 때",
+   "VSCode": "됨",
+   "VSCode근거": "vs-code 문서 'Use the prompt box' 절에 명시 (Account & usage 창이 열림)",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/usage-credits",
+   "aliases": "",
+   "args": "",
+   "하는일": "한도에 걸렸을 때 사용 크레딧을 설정하거나 관리자에게 요청한다. 예전 이름은 /extra-usage.",
+   "쓰는때": "마감 직전 한도에 걸렸을 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "상태·사용량",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/verify",
+   "aliases": "",
+   "args": "",
+   "하는일": "[번들 스킬] 앱을 빌드, 실행, 관찰해 코드 변경이 의도대로 동작하는지 확인한다.",
+   "쓰는때": "고친 대시보드가 실제로 뜨는지 확인할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/vim",
+   "aliases": "",
+   "args": "",
+   "하는일": "v2.1.92 에서 삭제됐다. /config 의 Editor mode 를 쓴다.",
+   "쓰는때": "해당 없음(삭제됨)",
+   "VSCode": "안 됨",
+   "VSCode근거": "commands 문서: Removed in v2.1.92",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/voice",
+   "aliases": "",
+   "args": "[hold|tap|off]",
+   "하는일": "음성 받아쓰기를 켜거나 모드를 정한다. Claude.ai 계정이 필요하다.",
+   "쓰는때": "긴 지시를 말로 입력할 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음. [추정] 확장 번들(2.1.284)에 'Speech-to-text is not supported in this environment' 문구가 있음",
+   "분류": "기타",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/web-setup",
+   "aliases": "",
+   "args": "",
+   "하는일": "로컬 gh 자격으로 클라우드 세션용 GitHub 계정을 연결한다.",
+   "쓰는때": "클라우드 세션에서 저장소를 쓸 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "원격·예약",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/workflow-authoring",
+   "aliases": "",
+   "args": "",
+   "하는일": "[번들 스킬] 동적 워크플로 스크립트 작성 참고 자료를 불러온다.",
+   "쓰는때": "저장된 워크플로 스크립트를 손으로 고치기 전",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  },
+  {
+   "name": "/workflows",
+   "aliases": "",
+   "args": "",
+   "하는일": "실행 중이거나 끝난 워크플로 진행 화면을 열어 보고 멈추고 저장한다.",
+   "쓰는때": "deep-research 진행 상황을 볼 때",
+   "VSCode": "확인 못 함",
+   "VSCode근거": "vs-code 문서: 확장은 명령의 일부만 지원, / 입력으로 확인하라고만 적음",
+   "분류": "도구·확장",
+   "출처": "https://code.claude.com/docs/en/commands"
+  }
+ ],
+ "cli": [
+  {
+   "syntax": "claude",
+   "하는일": "대화형 세션을 시작한다.",
+   "예": "claude",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude \"query\"",
+   "하는일": "첫 질문을 넣고 대화형 세션을 시작한다.",
+   "예": "claude \"이 폴더 구조를 설명해 줘\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude -p \"query\"",
+   "하는일": "질문 하나에 답하고 끝낸다(비대화형).",
+   "예": "claude -p \"이 함수 설명\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "cat file | claude -p \"query\"",
+   "하는일": "파이프로 넘긴 내용을 처리한다.",
+   "예": "cat logs.txt | claude -p \"오류 설명\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude -c",
+   "하는일": "현재 폴더의 가장 최근 대화를 이어 간다.",
+   "예": "claude -c",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude -c -p \"query\"",
+   "하는일": "최근 대화를 이어 비대화형으로 답만 받는다.",
+   "예": "claude -c -p \"형식 오류 점검\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude -r \"<session>\" \"query\"",
+   "하는일": "ID 나 이름으로 세션을 이어 간다.",
+   "예": "claude -r \"보고서작업\" \"3 장 마무리\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude agents [options]",
+   "하는일": "백그라운드 세션을 보고 보내는 agent view 를 연다. --json 은 목록만 출력.",
+   "예": "claude agents --json",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude attach <id>",
+   "하는일": "백그라운드 세션을 이 터미널에 붙인다.",
+   "예": "claude attach 7c5dcf5d",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auth login [--claudeai|--console|--email <email>|--sso]",
+   "하는일": "Anthropic 계정에 로그인한다.",
+   "예": "claude auth login --console",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auth logout",
+   "하는일": "Anthropic 계정에서 로그아웃한다.",
+   "예": "claude auth logout",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auth status [--json|--text]",
+   "하는일": "인증 상태를 보여 준다(기본 JSON).",
+   "예": "claude auth status --text",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auto-mode config",
+   "하는일": "현재 적용 중인 auto 모드 설정을 JSON 으로 출력한다.",
+   "예": "claude auto-mode config",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auto-mode critique [--model <model>]",
+   "하는일": "내가 쓴 auto 모드 규칙에 대해 AI 의견을 받는다.",
+   "예": "claude auto-mode critique",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auto-mode defaults [--label <prefix>]",
+   "하는일": "기본 auto 모드 규칙(environment, allow, soft_deny, hard_deny)을 JSON 으로 출력한다.",
+   "예": "claude auto-mode defaults",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude auto-mode reset [-y]",
+   "하는일": "사용자 설정의 autoMode 절을 지워 기본값으로 되돌린다.",
+   "예": "claude auto-mode reset",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude daemon status",
+   "하는일": "백그라운드 세션 감독 프로세스 상태를 출력한다(--help 명령 목록에는 없음).",
+   "예": "claude daemon status",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude daemon stop --any",
+   "하는일": "감독 프로세스와 그 세션을 멈춘다. --keep-workers 로 세션은 남긴다.",
+   "예": "claude daemon stop --any",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude doctor",
+   "하는일": "세션 없이 설치와 설정 진단을 읽기 전용으로 출력한다.",
+   "예": "claude doctor",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude gateway [--config <path>]",
+   "하는일": "기업용 인증, 원격측정 게이트웨이를 띄운다(관리자용).",
+   "예": "claude gateway --config gw.yaml",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude import [source] [--dry-run] [--yes]",
+   "하는일": "codex, gemini, cursor 설정을 가져오는 /import 세션을 시작한다.",
+   "예": "claude import codex --dry-run",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude install [target] [--force]",
+   "하는일": "네이티브 빌드를 설치하거나 다시 설치한다(stable, latest, 버전).",
+   "예": "claude install stable",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude logs <id>",
+   "하는일": "백그라운드 세션의 최근 터미널 출력을 찍는다.",
+   "예": "claude logs 7c5dcf5d",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp add [options] <name> <commandOrUrl> [args...]",
+   "하는일": "MCP 서버를 추가한다. -t 전송방식, -s 범위(local, user, project), -e 환경변수, -H 헤더.",
+   "예": "claude mcp add --transport http sentry https://mcp.sentry.dev/mcp",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp add-json [-s scope] <name> <json>",
+   "하는일": "JSON 문자열로 MCP 서버를 추가한다.",
+   "예": "claude mcp add-json my '{...}'",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp add-from-claude-desktop [-s scope]",
+   "하는일": "Claude Desktop 의 MCP 서버를 가져온다(Mac, WSL 전용).",
+   "예": "claude mcp add-from-claude-desktop",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp get <name>",
+   "하는일": "MCP 서버 하나의 상세를 본다.",
+   "예": "claude mcp get sentry",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp list",
+   "하는일": "설정된 MCP 서버 목록과 상태를 본다.",
+   "예": "claude mcp list",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp login [--no-browser] <name>",
+   "하는일": "MCP 서버 OAuth 인증을 한다.",
+   "예": "claude mcp login sentry",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp logout <name>",
+   "하는일": "MCP 서버에 저장된 OAuth 자격을 지운다.",
+   "예": "claude mcp logout sentry",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp remove [-s scope] <name>",
+   "하는일": "MCP 서버를 지운다.",
+   "예": "claude mcp remove sentry",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp reset-project-choices",
+   "하는일": "이 프로젝트 .mcp.json 서버의 승인, 거부 선택을 초기화한다.",
+   "예": "claude mcp reset-project-choices",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude mcp serve [-d] [--verbose]",
+   "하는일": "Claude Code 자신을 MCP 서버로 띄운다.",
+   "예": "claude mcp serve",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin details <name>",
+   "하는일": "플러그인 구성 요소와 예상 토큰 비용을 보여 준다.",
+   "예": "claude plugin details code-review",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin disable [-a] [-s scope] [plugin]",
+   "하는일": "켜진 플러그인을 끈다.",
+   "예": "claude plugin disable code-review",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin enable [-s scope] <plugin>",
+   "하는일": "꺼진 플러그인을 켠다.",
+   "예": "claude plugin enable code-review",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin eval [options] [target]",
+   "하는일": "플러그인 평가 사례를 돌려 점수를 낸다.",
+   "예": "claude plugin eval ./my-plugin",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin init|new <name>",
+   "하는일": "사용자 skills 폴더에 새 플러그인 뼈대를 만든다.",
+   "예": "claude plugin init my-tool",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin install|i [-s scope] <plugin>",
+   "하는일": "마켓플레이스에서 플러그인을 설치한다(plugin@marketplace).",
+   "예": "claude plugin install code-review@claude-plugins-official",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin list [--json] [--available]",
+   "하는일": "설치된 플러그인 목록을 본다.",
+   "예": "claude plugin list",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin prune|autoremove [--dry-run]",
+   "하는일": "더는 필요 없는 자동 설치 의존성을 지운다.",
+   "예": "claude plugin prune --dry-run",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin tag [path]",
+   "하는일": "플러그인 배포용 git 태그를 검증 후 만든다.",
+   "예": "claude plugin tag --dry-run",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin uninstall|remove [-s scope] <plugin>",
+   "하는일": "플러그인을 제거한다.",
+   "예": "claude plugin uninstall code-review",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin update [-s scope] <plugin>",
+   "하는일": "플러그인을 최신으로 갱신한다(재시작 필요).",
+   "예": "claude plugin update code-review",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin validate [--strict] <path>",
+   "하는일": "플러그인이나 마켓플레이스 매니페스트를 검증한다.",
+   "예": "claude plugin validate .",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin marketplace add <source>",
+   "하는일": "URL, 경로, GitHub 저장소로 마켓플레이스를 추가한다.",
+   "예": "claude plugin marketplace add owner/repo",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin marketplace list [--json]",
+   "하는일": "설정된 마켓플레이스 목록을 본다.",
+   "예": "claude plugin marketplace list",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin marketplace remove|rm <name>",
+   "하는일": "마켓플레이스를 지운다.",
+   "예": "claude plugin marketplace rm my-market",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude plugin marketplace update [name]",
+   "하는일": "마켓플레이스를 원본에서 갱신한다(이름 없으면 전부).",
+   "예": "claude plugin marketplace update",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude project purge [path] [--all] [--dry-run] [-i] [-y]",
+   "하는일": "한 프로젝트의 Claude Code 상태(기록, 작업, 편집 이력)를 모두 지운다.",
+   "예": "claude project purge --dry-run",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude remote-control [options]",
+   "하는일": "claude.ai 나 모바일 앱에서 조작할 수 있는 Remote Control 서버를 띄운다.",
+   "예": "claude remote-control --name 사무실PC",
+   "출처": "claude remote-control --help"
+  },
+  {
+   "syntax": "claude remote-control --spawn <same-dir|worktree|session>",
+   "하는일": "원격 세션을 같은 폴더, worktree, 단일 세션 중 어떻게 띄울지 정한다.",
+   "예": "claude remote-control --spawn worktree",
+   "출처": "claude remote-control --help"
+  },
+  {
+   "syntax": "claude remote-control --capacity <N>",
+   "하는일": "동시 세션 최대 수(기본 32).",
+   "예": "claude remote-control --capacity 4",
+   "출처": "claude remote-control --help"
+  },
+  {
+   "syntax": "claude remote-control -c | --session-id <id>",
+   "하는일": "이 폴더에서 마지막으로 쓴 원격 세션이나 지정 세션에 다시 붙는다.",
+   "예": "claude remote-control -c",
+   "출처": "claude remote-control --help"
+  },
+  {
+   "syntax": "claude respawn <id>|--all",
+   "하는일": "백그라운드 세션을 현재 버전으로 다시 띄운다.",
+   "예": "claude respawn --all",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude rm <id>",
+   "하는일": "백그라운드 세션과 (안전하면) 그 worktree 를 지운다.",
+   "예": "claude rm 7c5dcf5d",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude self-hosted-runner",
+   "하는일": "이 PC 를 자체 호스팅 환경에 등록해 클라우드 세션을 받게 한다(--help 명령 목록에는 없음).",
+   "예": "claude self-hosted-runner",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "claude setup-token",
+   "하는일": "CI, 스크립트용 장기 인증 토큰을 만든다(구독 필요).",
+   "예": "claude setup-token",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude stop|kill <id>",
+   "하는일": "백그라운드 세션을 멈춘다(대화는 남음).",
+   "예": "claude stop 7c5dcf5d",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude ultrareview [target] [--json] [--post] [--timeout <min>]",
+   "하는일": "클라우드 다중 에이전트 코드 검토를 돌려 결과를 출력한다.",
+   "예": "claude ultrareview 123",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "claude update|upgrade",
+   "하는일": "업데이트를 확인하고 설치한다.",
+   "예": "claude update",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--add-dir <directories...>",
+   "하는일": "추가 작업 폴더에 파일 접근을 허용한다.",
+   "예": "claude --add-dir D:\\원자료",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--advisor <model>",
+   "하는일": "이 세션에 advisor 도구를 켠다(--help 에는 없음).",
+   "예": "claude --advisor opus",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--agent <agent>",
+   "하는일": "이 세션에 쓸 에이전트를 정한다.",
+   "예": "claude --agent my-reviewer",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--agents <json-or-file>",
+   "하는일": "사용자 서브에이전트를 JSON 으로 정의한다.",
+   "예": "claude --agents '{\"reviewer\":{...}}'",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--allow-dangerously-skip-permissions",
+   "하는일": "권한 무시 모드를 Shift+Tab 순환에 넣되 처음부터 켜지는 않는다.",
+   "예": "claude --permission-mode plan --allow-dangerously-skip-permissions",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--allowedTools, --allowed-tools <tools...>",
+   "하는일": "묻지 않고 실행할 도구 규칙.",
+   "예": "claude --allowedTools \"Bash(git *)\" Edit",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--append-subagent-system-prompt[-file]",
+   "하는일": "모든 서브에이전트 시스템 프롬프트 끝에 글이나 파일 내용을 덧붙인다(--help 에는 없음).",
+   "예": "claude --append-subagent-system-prompt \"한국어로 답\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--append-system-prompt <prompt>",
+   "하는일": "기본 시스템 프롬프트 끝에 글을 덧붙인다.",
+   "예": "claude --append-system-prompt \"표는 대조에만\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--append-system-prompt-file <file>",
+   "하는일": "파일 내용을 기본 시스템 프롬프트 끝에 덧붙인다(--help 에는 없음).",
+   "예": "claude --append-system-prompt-file ./규칙.txt",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--autocompact <auto|tokens>",
+   "하는일": "이 세션의 자동 압축 창 크기를 정한다.",
+   "예": "claude --autocompact 500k",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--ax-screen-reader",
+   "하는일": "화면낭독기용 평문 출력.",
+   "예": "claude --ax-screen-reader",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--bare",
+   "하는일": "훅, LSP, 플러그인 동기화, auto memory, CLAUDE.md 자동 탐색을 건너뛰는 최소 모드.",
+   "예": "claude --bare -p \"query\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--betas <betas...>",
+   "하는일": "API 요청에 베타 헤더를 넣는다(API 키 사용자).",
+   "예": "claude --betas interleaved-thinking",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--bg, --background",
+   "하는일": "세션을 백그라운드로 띄우고 바로 돌아온다.",
+   "예": "claude --bg \"모의 결과 집계\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--brief",
+   "하는일": "에이전트가 사용자에게 보내는 SendUserMessage 도구를 켠다(CLI reference 표에는 없음).",
+   "예": "claude --brief",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--channels",
+   "하는일": "(연구 미리보기) 채널 알림을 들을 MCP 서버를 지정한다(--help 에는 없음).",
+   "예": "claude --channels plugin:x@y",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--chrome / --no-chrome",
+   "하는일": "Claude in Chrome 연동을 켜거나 끈다.",
+   "예": "claude --chrome",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--client-data-url <url>",
+   "하는일": "서명된 설정 문서 URL 을 읽는다(CLI reference 표에는 없음).",
+   "예": "claude --client-data-url https://...",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--cloud [description|session_id|url]",
+   "하는일": "클라우드 세션을 만들거나 기존 세션에 붙는다. --remote 는 옛 별칭.",
+   "예": "claude --cloud \"로그인 버그 수정\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-c, --continue",
+   "하는일": "현재 폴더의 최근 대화를 이어 간다.",
+   "예": "claude -c",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--dangerously-load-development-channels",
+   "하는일": "허용 목록 밖 채널을 개발용으로 켠다(--help 에는 없음).",
+   "예": "claude --dangerously-load-development-channels server:x",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--dangerously-skip-permissions",
+   "하는일": "모든 권한 확인을 건너뛴다(bypassPermissions). 격리 환경 전용 권고.",
+   "예": "claude --dangerously-skip-permissions",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-d, --debug [filter]",
+   "하는일": "디버그 모드(범주 거르기 가능).",
+   "예": "claude --debug=\"mcp,startup\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--debug-file <path>",
+   "하는일": "디버그 로그를 지정 파일에 쓴다.",
+   "예": "claude --debug-file C:\\swmm_work\\debug.log",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--disable-slash-commands",
+   "하는일": "모든 스킬과 명령을 끈다.",
+   "예": "claude --disable-slash-commands",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--disallowedTools, --disallowed-tools <tools...>",
+   "하는일": "거부할 도구 규칙.",
+   "예": "claude --disallowedTools \"Bash(rm *)\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--effort <level>",
+   "하는일": "이 세션의 노력 수준(low, medium, high, xhigh, max; 문서는 ultracode 도 적음).",
+   "예": "claude --effort high",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--enable-auto-mode",
+   "하는일": "v2.1.111 에서 삭제됨. --permission-mode auto 를 쓴다.",
+   "예": "claude --permission-mode auto",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--environment <environment_id>",
+   "하는일": "자체 호스팅 환경에서 새 클라우드 세션을 만든다.",
+   "예": "claude --environment ccpool_abc",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--exclude-dynamic-system-prompt-sections",
+   "하는일": "PC 별 정보를 시스템 프롬프트에서 첫 사용자 메시지로 옮겨 캐시 재사용을 높인다.",
+   "예": "claude -p --exclude-dynamic-system-prompt-sections \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--exec",
+   "하는일": "Claude 세션 대신 셸 명령을 PTY 백그라운드 작업으로 돌린다(--bg 와 함께, --help 에는 없음).",
+   "예": "claude --bg --exec \"python run.py\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--fallback-model <model>",
+   "하는일": "주 모델이 과부하일 때 대신 쓸 모델(쉼표 목록).",
+   "예": "claude --fallback-model sonnet",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--file <specs...>",
+   "하는일": "시작할 때 file_id:상대경로 로 파일을 내려받는다(CLI reference 표에는 없음).",
+   "예": "claude --file file_abc:doc.txt",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--fork-session",
+   "하는일": "이어 갈 때 새 세션 ID 로 갈라낸다(--resume, --continue 와 함께).",
+   "예": "claude --resume abc123 --fork-session",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--forward-subagent-text",
+   "하는일": "서브에이전트 글과 생각 블록을 출력 스트림에 넘긴다(-p, stream-json).",
+   "예": "claude -p --output-format stream-json --forward-subagent-text \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--from-pr [value]",
+   "하는일": "PR 에 연결된 세션을 이어 가거나 선택기를 연다.",
+   "예": "claude --from-pr 123",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--ide",
+   "하는일": "시작할 때 IDE 가 하나면 자동 연결한다.",
+   "예": "claude --ide",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--include-hook-events",
+   "하는일": "훅 이벤트를 출력 스트림에 넣는다(stream-json).",
+   "예": "claude -p --output-format stream-json --include-hook-events \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--include-partial-messages",
+   "하는일": "부분 메시지 조각을 도착하는 대로 넣는다(-p, stream-json).",
+   "예": "claude -p --output-format stream-json --verbose --include-partial-messages \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--init / --init-only / --maintenance",
+   "하는일": "Setup 훅을 init 또는 maintenance 로 먼저 돌린다. --init-only 는 훅만 돌리고 끝낸다(--help 에는 없음).",
+   "예": "claude --init-only",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--input-format <text|stream-json>",
+   "하는일": "-p 입력 형식.",
+   "예": "claude -p --input-format stream-json --output-format stream-json",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--json-schema <schema>",
+   "하는일": "결과를 JSON Schema 로 검증한 구조화 출력으로 받는다.",
+   "예": "claude -p --json-schema '{...}' \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--max-budget-usd <amount>",
+   "하는일": "API 지출 상한(-p 전용).",
+   "예": "claude -p --max-budget-usd 2 \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--max-turns",
+   "하는일": "에이전트 턴 수 상한(-p 전용, --help 에는 없음).",
+   "예": "claude -p --max-turns 3 \"q\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--mcp-config <configs...>",
+   "하는일": "JSON 파일이나 문자열에서 MCP 서버를 읽는다.",
+   "예": "claude --mcp-config ./mcp.json",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--model <model>",
+   "하는일": "이 세션의 모델(별칭 fable, opus, sonnet 이나 전체 이름).",
+   "예": "claude --model sonnet",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-n, --name <name>",
+   "하는일": "세션 표시 이름을 정한다.",
+   "예": "claude -n 보고서3장",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--no-session-persistence",
+   "하는일": "세션을 디스크에 저장하지 않는다(-p 전용).",
+   "예": "claude -p --no-session-persistence \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--output-format <text|json|stream-json>",
+   "하는일": "-p 출력 형식.",
+   "예": "claude -p \"q\" --output-format json",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--permission-mode <mode>",
+   "하는일": "시작 권한 모드(acceptEdits, auto, bypassPermissions, manual, dontAsk, plan; 문서는 default 도 적음).",
+   "예": "claude --permission-mode plan",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--permission-prompt-tool",
+   "하는일": "비대화형에서 권한 질문을 받을 MCP 도구를 지정한다(--help 에는 없음).",
+   "예": "claude -p --permission-prompt-tool mcp__auth__prompt \"q\"",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--permission-prompts <host|none>",
+   "하는일": "-p 에서 권한 질문을 누가 답할지. none 이면 자동 거부.",
+   "예": "claude -p --permission-prompts none \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--plugin-dir <path>",
+   "하는일": "폴더나 .zip 플러그인을 이 세션에만 싣는다.",
+   "예": "claude --plugin-dir ./my-plugin",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--plugin-url <url>",
+   "하는일": "URL 의 플러그인 .zip 을 이 세션에만 싣는다.",
+   "예": "claude --plugin-url https://example.com/p.zip",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-p, --print",
+   "하는일": "응답을 출력하고 끝낸다(파이프용). 작업공간 신뢰 확인을 건너뛰므로 믿는 폴더에서만.",
+   "예": "claude -p \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--prompt-suggestions [value]",
+   "하는일": "턴마다 다음 입력 예측을 낸다.",
+   "예": "claude -p --output-format stream-json --verbose --prompt-suggestions \"q\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--ref <branch>",
+   "하는일": "--environment 와 함께 새 세션의 기준 브랜치를 정한다(--help 에는 없음).",
+   "예": "claude -p \"q\" --environment ccpool_abc --ref main",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--remote-control [name], --rc",
+   "하는일": "Remote Control 을 켠 대화형 세션을 시작한다.",
+   "예": "claude --remote-control 사무실",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--remote-control-session-name-prefix <prefix>",
+   "하는일": "자동 생성 원격 세션 이름 앞말(기본 호스트 이름).",
+   "예": "claude --remote-control --remote-control-session-name-prefix swmm",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--replay-user-messages",
+   "하는일": "stdin 사용자 메시지를 stdout 으로 되돌려 확인한다(stream-json 입출력).",
+   "예": "claude -p --input-format stream-json --output-format stream-json --replay-user-messages",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--restricted",
+   "하는일": "명령 실행 도구와 WebFetch 를 빼고 사용자, 프로젝트 설정을 무시하는 제한 모드.",
+   "예": "claude --restricted",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-r, --resume [value]",
+   "하는일": "세션 ID 로 잇거나 선택기를 연다.",
+   "예": "claude -r",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--safe-mode",
+   "하는일": "CLAUDE.md, 스킬, 플러그인, 훅, MCP 같은 사용자 설정을 모두 끄고 시작한다(고장 진단용).",
+   "예": "claude --safe-mode",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--session-id <uuid>",
+   "하는일": "지정 UUID 로 세션을 만든다.",
+   "예": "claude --session-id 550e8400-e29b-41d4-a716-446655440000",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--setting-sources <sources>",
+   "하는일": "읽을 설정 원천(user, project, local).",
+   "예": "claude --setting-sources user",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--settings <file-or-json>",
+   "하는일": "추가 설정 파일이나 JSON 을 이 세션에 덮어 쓴다.",
+   "예": "claude --settings ./test-settings.json",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--strict-mcp-config",
+   "하는일": "--mcp-config 의 MCP 서버만 쓴다.",
+   "예": "claude --mcp-config a.json --strict-mcp-config",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--system-prompt <prompt>",
+   "하는일": "시스템 프롬프트 전체를 바꾼다.",
+   "예": "claude --system-prompt \"You are a Python expert\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--system-prompt-file <file>",
+   "하는일": "파일 내용으로 시스템 프롬프트를 바꾼다(--help 에는 없음).",
+   "예": "claude --system-prompt-file ./prompt.txt",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--system-prompt-snapshot <on|off>",
+   "하는일": "시스템 프롬프트를 첫 요청에 기록해 재사용할지(on 기본) 매번 새로 만들지.",
+   "예": "claude --system-prompt-snapshot off",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--teammate-mode",
+   "하는일": "에이전트 팀 팀원 표시 방식(in-process, auto, tmux, iterm2, --help 에는 없음).",
+   "예": "claude --teammate-mode in-process",
+   "출처": "https://code.claude.com/docs/en/cli-reference"
+  },
+  {
+   "syntax": "--teleport [session]",
+   "하는일": "클라우드 세션을 로컬 터미널에서 잇는다.",
+   "예": "claude --teleport",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--tmux",
+   "하는일": "worktree 용 tmux 세션을 만든다(--worktree 필요).",
+   "예": "claude -w feature --tmux",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--tools <tools...>",
+   "하는일": "쓸 수 있는 기본 도구를 제한한다(\"\" 전부 끔, default).",
+   "예": "claude --tools \"Read,Edit\"",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "--verbose",
+   "하는일": "자세한 출력(설정의 viewMode 를 덮음).",
+   "예": "claude --verbose",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-v, --version",
+   "하는일": "버전을 출력한다. 이 PC 는 2.1.283.",
+   "예": "claude -v",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-w, --worktree [name]",
+   "하는일": "새 git worktree 에서 세션을 시작한다.",
+   "예": "claude -w 보정실험",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  },
+  {
+   "syntax": "-h, --help",
+   "하는일": "도움말을 출력한다. 하위 명령마다 claude <sub> --help 가 된다.",
+   "예": "claude mcp --help",
+   "출처": "claude --help (2.1.283, 이 PC)"
+  }
+ ],
+ "keys": [
+  {
+   "키": "Ctrl+Esc",
+   "하는일": "편집기와 Claude 입력창 사이 초점 전환",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+Shift+Esc",
+   "하는일": "새 대화를 편집기 탭으로 연다",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+N",
+   "하는일": "새 대화 시작(Claude 에 초점, enableNewConversationShortcut 이 true 일 때)",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+Shift+T",
+   "하는일": "마지막으로 닫은 Claude 세션 탭 다시 열기",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Alt+K",
+   "하는일": "현재 파일과 선택 줄을 @ 참조로 넣기(편집기에 초점)",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+Alt+F",
+   "하는일": "Focus view 켜고 끄기(도구 활동 숨김)",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+Shift+P 후 'Claude Code'",
+   "하는일": "명령 팔레트에서 확장 명령 전체 보기",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Shift+Enter",
+   "하는일": "보내지 않고 줄바꿈",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+O",
+   "하는일": "생각(thinking) 블록 전부 펼치기, 접기",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+`",
+   "하는일": "통합 터미널 열기(여기서 claude CLI 실행)",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "좌우 화살표(권한 질문 선택지에서)",
+   "하는일": "승인 저장 위치(모든 프로젝트, 이 세션 등) 바꾸기",
+   "곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "키": "Ctrl+C",
+   "하는일": "실행 중 작업 중단. 비어 있으면 첫 번째는 입력 지움, 두 번째는 종료",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+D",
+   "하는일": "세션 종료(두 번 눌러 확인)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+X Ctrl+K",
+   "하는일": "이 세션의 백그라운드 서브에이전트 모두 정지(3 초 안에 두 번)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+G 또는 Ctrl+X Ctrl+E",
+   "하는일": "입력을 기본 텍스트 편집기에서 쓰기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+L",
+   "하는일": "화면 다시 그리기(입력과 대화 유지)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+O",
+   "하는일": "자세한 기록(transcript) 보기 켜고 끄기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+R",
+   "하는일": "명령 기록 역검색",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Alt+V (Windows)",
+   "하는일": "클립보드 이미지 붙여넣기(다른 OS 는 Ctrl+V)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+B",
+   "하는일": "실행 중 Bash 명령과 에이전트를 백그라운드로",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+T",
+   "하는일": "Claude 할 일 목록 보이기, 숨기기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+S",
+   "하는일": "입력 임시 보관, 빈 입력에서 다시 누르면 복원",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Tab",
+   "하는일": "자동완성 수락, 권한 질문에 댓글 달기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "위/아래 화살표, Ctrl+P/Ctrl+N",
+   "하는일": "커서 이동 또는 명령 기록 탐색",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Esc",
+   "하는일": "Claude 응답 중단(한 작업은 유지) 또는 창 닫기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Esc 두 번",
+   "하는일": "입력이 있으면 지우고 기록에 저장, 비어 있으면 되감기(rewind) 메뉴",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+Enter 또는 Ctrl+X Ctrl+S",
+   "하는일": "대기열 메시지를 지금 보내기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+X Enter",
+   "하는일": "메시지를 대기열로 제출(작업 중 끼어들지 않음)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/keybindings"
+  },
+  {
+   "키": "Shift+Tab (Windows 일부 환경은 Alt+M)",
+   "하는일": "권한 모드 순환(Manual, acceptEdits, plan, 가능하면 bypass, auto)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Alt+P",
+   "하는일": "입력을 지우지 않고 모델 바꾸기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Alt+T",
+   "하는일": "확장 사고 켜고 끄기(Opus 5.5, Sonnet 5.5, Fable 은 늘 켜짐이라 효과 없음)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Alt+O",
+   "하는일": "fast 모드 켜고 끄기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+A / Ctrl+E",
+   "하는일": "줄 처음 / 끝으로",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+K / Ctrl+U",
+   "하는일": "커서부터 줄 끝까지 / 줄 처음까지 지우기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+W",
+   "하는일": "앞의 공백까지 지우기(경로 한 덩어리)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+Backspace (Windows)",
+   "하는일": "앞 낱말 하나 지우기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+Y / Alt+Y",
+   "하는일": "지운 글 붙여넣기 / 붙여넣기 기록 순환",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Alt+B / Alt+F / Alt+D",
+   "하는일": "낱말 뒤로 / 앞으로 / 낱말 끝까지 지우기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+_ 또는 Ctrl+Shift+-",
+   "하는일": "입력 편집 되돌리기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "\\ 뒤 Enter",
+   "하는일": "줄바꿈(모든 터미널)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Shift+Enter",
+   "하는일": "줄바꿈(Windows Terminal 기본, 그 외는 /terminal-setup)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+J",
+   "하는일": "줄바꿈(설정 없이 모든 터미널)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "? (빈 입력에서)",
+   "하는일": "단축키 도움말 패널",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "q, Ctrl+C, Esc (기록 보기 안)",
+   "하는일": "기록 보기 닫기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+E (기록 보기 안, classic 렌더러)",
+   "하는일": "모든 내용 보이기 토글",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "{ / } (기록 보기 안, fullscreen)",
+   "하는일": "이전 / 다음 사용자 입력으로 이동",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Space 길게 또는 짧게",
+   "하는일": "음성 받아쓰기(켜 둔 경우)",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+T (/theme 선택기 안)",
+   "하는일": "코드 구문 강조 켜고 끄기",
+   "곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "키": "Ctrl+/",
+   "하는일": "단축키 목록 보기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+N",
+   "하는일": "새 세션",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+W",
+   "하는일": "세션 닫기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Tab / Ctrl+Shift+Tab",
+   "하는일": "다음 / 이전 세션",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+] / Ctrl+Shift+[",
+   "하는일": "다음 / 이전 세션",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Esc",
+   "하는일": "Claude 응답 멈추기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+D",
+   "하는일": "diff 창 켜고 끄기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+B",
+   "하는일": "브라우저 창 켜고 끄기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+S",
+   "하는일": "브라우저에서 요소 고르기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+`",
+   "하는일": "터미널 창 켜고 끄기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+\\",
+   "하는일": "초점 창 닫기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+;",
+   "하는일": "곁가지 대화(side chat) 열기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+O",
+   "하는일": "보기 모드 순환",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+M",
+   "하는일": "권한 모드 메뉴",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+I",
+   "하는일": "모델 메뉴",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Shift+E",
+   "하는일": "노력 수준 메뉴",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "1 에서 9",
+   "하는일": "열린 메뉴의 항목 고르기",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "키": "Ctrl+Enter (diff 댓글)",
+   "하는일": "diff 줄 댓글을 한꺼번에 제출",
+   "곳": "데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/desktop"
+  }
+ ],
+ "symbols": [
+  {
+   "기호": "/ (맨 앞)",
+   "뜻": "명령이나 스킬 실행. 문장 중간에서 공백 뒤 / 는 자동완성만 되고 실행은 맨 앞일 때만.",
+   "되는곳": "터미널 CLI, VS Code 확장, 데스크톱 앱",
+   "출처": "https://code.claude.com/docs/en/interactive-mode ; https://code.claude.com/docs/en/vs-code ; https://code.claude.com/docs/en/desktop"
+  },
+  {
+   "기호": "! (맨 앞)",
+   "뜻": "셸 모드. 명령을 바로 돌리고 출력을 대화에 넣으면 Claude 가 이어서 답한다.",
+   "되는곳": "터미널 CLI 됨, VS Code 확장 안 됨(비교표 '! Bash shortcut: No')",
+   "출처": "https://code.claude.com/docs/en/interactive-mode ; https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "기호": "@",
+   "뜻": "파일, 폴더 경로 언급 자동완성. 폴더는 끝에 / 를 붙인다.",
+   "되는곳": "터미널 CLI, VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/interactive-mode ; https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "기호": "@파일#5-10",
+   "뜻": "파일의 특정 줄 범위 참조(Alt+K 로 자동 삽입).",
+   "되는곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "기호": "@terminal:이름",
+   "뜻": "VS Code 터미널 출력(제목이 이름인 터미널)을 참조.",
+   "되는곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "기호": "@browser",
+   "뜻": "Chrome 브라우저 작업 지시(Claude in Chrome 확장 1.0.36 이상 필요).",
+   "되는곳": "VS Code 확장",
+   "출처": "https://code.claude.com/docs/en/vs-code"
+  },
+  {
+   "기호": ":이름:",
+   "뜻": "이모지 단축코드 입력(두 글자 이상이면 제안).",
+   "되는곳": "터미널 CLI (v2.1.217 이상)",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "기호": "? (빈 입력)",
+   "뜻": "단축키 도움말 패널 토글.",
+   "되는곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+   "기호": "\\ 뒤 Enter",
+   "뜻": "줄바꿈.",
+   "되는곳": "터미널 CLI",
+   "출처": "https://code.claude.com/docs/en/interactive-mode"
+  }
+ ],
+ "unverified": [
+  "# 로 시작하는 입력(기억 빠르게 추가)은 이번에 받은 공식 문서 16 쪽(commands, interactive-mode, memory 등)에 없음. 현재 동작 [판정보류], 확인: 터미널에서 # 입력 시험 또는 memory 문서 재확인.",
+  "& 로 시작하는 입력은 받은 문서 어디에도 없음(검색 0 건). [판정보류], 확인: claude-code-on-the-web 문서 열람.",
+  "VS Code 확장에서 슬래시 명령 대부분의 동작 여부: 공식 문서는 '일부만 지원, / 를 쳐서 확인'이라고만 적음. 확장 목록은 실행 중 CLI 가 넘기는 supportedCommands 로 정해져(확장 번들 extension.js 확인) 세션을 열지 않고는 확정 불가. 확인: VS Code 에서 / 입력 후 목록 캡처.",
+  "/voice 의 VS Code 확장 동작: 확장 번들 2.1.284 에 'Speech-to-text is not supported in this environment' 문구가 있어 안 될 것으로 [추정].",
+  "/ide, /terminal-setup, /tui, /scroll-speed, /stop 의 VS Code 확장 패널 안 동작은 문서에 언급 없음.",
+  "claude daemon, claude self-hosted-runner 는 CLI reference 에 있으나 이 PC 의 claude --help 명령 목록(2.1.283)에는 없음. --help 로 따로 확인하지 않음.",
+  "--advisor, --append-system-prompt-file, --system-prompt-file, --max-turns, --exec, --init, --init-only, --maintenance, --permission-prompt-tool, --ref, --teammate-mode, --channels, --append-subagent-system-prompt 는 CLI reference 에만 있고 claude --help 출력에는 없음.",
+  "--brief, --client-data-url, --file 은 claude --help 에만 있고 CLI reference 플래그 표에는 없음.",
+  "--effort 의 ultracode 값, --permission-mode 의 default 값은 문서에만 있고 --help 선택지에는 없음(--help 는 manual 을 적음).",
+  "문서 판(2026-09-29 받음)이 v2.1.284 기능을 적고 있으나 이 PC CLI 는 2.1.283 이라, 2.1.284 이상 요구 항목(/effort ultracode on|off 등)은 이 PC 에서 아직 안 될 수 있음.",
+  "데스크톱 앱 단축키는 문서가 Cmd 기준이고 'Windows 는 Cmd 대신 Ctrl' 이라 적은 것을 옮긴 것. 데스크톱 앱에서 직접 확인하지 않음.",
+  "claude.ai 에 동기화된 사용자 스킬, 플러그인 명령(/std-* 등)은 공식 목록 밖이라 넣지 않음."
+ ]
+}

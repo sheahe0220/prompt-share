@@ -1,0 +1,357 @@
+{
+ "플러그인": [
+  [
+   "agent-sdk-dev@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "claude-code-setup@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "claude-md-management@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "code-review@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "code-simplifier@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "coderabbit@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "context7@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "eli5@claude-community",
+   "켜짐"
+  ],
+  [
+   "feature-dev@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "figma@claude-plugins-official",
+   "꺼짐"
+  ],
+  [
+   "frontend-design@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "github@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "gitlab@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "harness@harness-marketplace",
+   "켜짐"
+  ],
+  [
+   "huggingface-skills@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "playwright@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "plugin-dev@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "pr-review-toolkit@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "pyright-lsp@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "ralph-loop@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "security-guidance@claude-plugins-official",
+   "꺼짐"
+  ],
+  [
+   "serena@claude-plugins-official",
+   "꺼짐"
+  ],
+  [
+   "skill-creator@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "stripe@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "superpowers@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "typescript-lsp@claude-plugins-official",
+   "켜짐"
+  ],
+  [
+   "understand-anything@understand-anything",
+   "켜짐"
+  ],
+  [
+   "vercel@claude-plugins-official",
+   "꺼짐"
+  ],
+  [
+   "pdf-viewer@synced",
+   "켜짐"
+  ],
+  [
+   "engineering@synced",
+   "켜짐"
+  ],
+  [
+   "cowork-plugin-management@synced",
+   "켜짐"
+  ],
+  [
+   "productivity@synced",
+   "켜짐"
+  ],
+  [
+   "bio-research@synced",
+   "켜짐"
+  ]
+ ],
+ "장터": [
+  [
+   "claude-plugins-official",
+   "GitHub (anthropics/claude-plugins-official)"
+  ],
+  [
+   "harness-marketplace",
+   "Git (https://github.com/revfactory/harness.git)"
+  ],
+  [
+   "claude-community",
+   "GitHub (anthropics/claude-plugins-community)"
+  ],
+  [
+   "understand-anything",
+   "GitHub (Egonex-AI/Understand-Anything)"
+  ]
+ ],
+ "확장": [
+  "andrepimenta.claude-code-chat@2.3.0",
+  "anthropic.claude-code@2.1.284",
+  "batisteo.vscode-django@1.15.0",
+  "codeflow-studio.claude-code-extension@0.1.10",
+  "davidanson.vscode-markdownlint@0.62.1",
+  "donjayamanne.python-environment-manager@1.2.7",
+  "donjayamanne.python-extension-pack@1.7.0",
+  "dotjoshjohnson.xml@2.5.1",
+  "eamodio.gitlens@19.2.0",
+  "edwardkim.rhwp-vscode@0.8.6",
+  "esbenp.prettier-vscode@12.4.0",
+  "github.vscode-pull-request-github@0.166.1",
+  "kevinrose.vsc-python-indent@1.21.0",
+  "mathematic.vscode-pdf@0.2.6",
+  "mechatroner.rainbow-csv@3.24.1",
+  "mhutchie.git-graph@1.30.0",
+  "mjyoo2.hwpx-editor@0.4.2",
+  "ms-azuretools.vscode-containers@2.5.2",
+  "ms-ceintl.vscode-language-pack-ko@1.131.2026090407",
+  "ms-python.debugpy@2026.6.0",
+  "ms-python.python@2026.4.0",
+  "ms-python.vscode-pylance@2026.4.1",
+  "ms-python.vscode-python-envs@1.38.0",
+  "ms-toolsai.jupyter@2025.9.1",
+  "ms-toolsai.jupyter-keymap@1.1.2",
+  "ms-toolsai.jupyter-renderers@1.3.0",
+  "ms-toolsai.vscode-jupyter-cell-tags@0.1.9",
+  "ms-toolsai.vscode-jupyter-slideshow@0.1.6",
+  "ms-vscode.cmake-tools@1.24.42",
+  "ms-vscode.cpp-devtools@0.6.18",
+  "ms-vscode.cpptools-extension-pack@1.5.1",
+  "ms-vscode.cpptools-themes@2.0.0",
+  "ms-vscode.notepadplusplus-keybindings@1.0.7",
+  "ms-vscode.powershell@2025.4.0",
+  "ms-vscode.vscode-chat-customizations-evaluations@1.0.9",
+  "njpwerner.autodocstring@0.6.1",
+  "openai.chatgpt@26.917.62051",
+  "openai.codex-audio@26.917.62051",
+  "pablodelucca.pixel-agents@1.4.1",
+  "shahilkumar.docxreader@1.4.3",
+  "tomoki1207.pdf@1.2.2",
+  "vscode-icons-team.vscode-icons@12.19.0",
+  "wholroyd.jinja@0.0.10",
+  "yzane.markdown-pdf@2.2.0"
+ ],
+ "mcp": [
+  [
+   "claude.ai Claude Docs",
+   "https://api.anthropic.com/v1/pages/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai DeepL",
+   "https://mcp.deepl.com/v1/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai PDF Viewer",
+   "https://example-server.modelcontextprotocol.io/pdf/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Anthropic Economic Index",
+   "https://econ-index.mcp.claude.com/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Notion",
+   "https://mcp.notion.com/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Google Drive",
+   "https://drivemcp.googleapis.com/mcp/v1",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Gmail",
+   "https://gmailmcp.googleapis.com/mcp/v1",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Google Calendar",
+   "https://calendarmcp.googleapis.com/mcp/v1",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Figma",
+   "https://mcp.figma.com/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Mermaid Chart",
+   "https://chatgpt.mermaid.ai/anthropic/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Context7",
+   "https://mcp.context7.com/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Microsoft Learn",
+   "https://learn.microsoft.com/api/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Canva",
+   "https://mcp.canva.com/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Hugging Face",
+   "https://huggingface.co/mcp",
+   "✔ Connected"
+  ],
+  [
+   "claude.ai Scholar Gateway",
+   "https://connector.scholargateway.ai/mcp",
+   "✔ Connected"
+  ],
+  [
+   "plugin",
+   "huggingface-skills:huggingface",
+   "skills: https://huggingface.co/mcp?login (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "pdf",
+   "viewer:pdf: npx -y @modelcontextprotocol/server-pdf --stdio - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "engineering:gmail:",
+   "- Not configured"
+  ],
+  [
+   "plugin",
+   "productivity:gmail:",
+   "- Not configured"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:pubmed: https://pubmed.mcp.claude.com/mcp (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:biorender: https://mcp.services.biorender.com/mcp (HTTP) - ! Needs authentication"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:biorxiv: https://hcls.mcp.claude.com/biorxiv/mcp (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:consensus: https://mcp.consensus.app/mcp (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "bio-research:c",
+   "trials: https://hcls.mcp.claude.com/clinical_trials/mcp (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:chembl: https://hcls.mcp.claude.com/chembl/mcp (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:synapse: https://mcp.synapse.org/mcp (HTTP) - ! Needs authentication"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:wiley: https://connector.scholargateway.ai/mcp (HTTP) - ! Needs authentication"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:owkin: https://mcp.k.owkin.com/mcp (HTTP) - ✘ Failed to connect — Incompatible auth server: does not support dynamic client registration"
+  ],
+  [
+   "plugin",
+   "bio",
+   "research:ot: https://mcp.platform.opentargets.org/mcp (HTTP) - ✔ Connected"
+  ],
+  [
+   "plugin",
+   "bio-research:benchling:",
+   "- Not configured"
+  ],
+  [
+   "alphaxiv",
+   "https://api.alphaxiv.org/mcp/v1",
+   "✔ Connected"
+  ]
+ ]
+}

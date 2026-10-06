@@ -1,0 +1,14 @@
+# Prompt 모음 저장소.  32_깃.md 를 본다.
+# 원본(md) · 도구(py · bat) · 배포 사본(dist)만 올린다.
+
+__pycache__/
+*.pyc
+
+# 임시로 만든 것
+_workspace/
+*.bak
+*.tmp
+~$*
+
+# browser tool (playwright MCP) drops page snapshots and logs in the working folder
+.playwright-mcp/

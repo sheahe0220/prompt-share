@@ -1,0 +1,440 @@
+{
+ "n_papers": 26,
+ "by_group": {
+  "U": 17,
+  "R": 9
+ },
+ "by_journal": {
+  "Hydrology and Earth System Sciences": 12,
+  "Water Resources Research": 4,
+  "Journal of Hydrology": 4,
+  "Journal of Hydroinformatics": 2,
+  "Environmental Modelling & Software": 2,
+  "Hydrological Processes": 1,
+  "Journal of Environmental Management": 1
+ },
+ "numeric": {
+  "title_words": {
+   "median": 13.0,
+   "min": 9.0,
+   "max": 22.0,
+   "n": 26
+  },
+  "abs_words": {
+   "median": 243.0,
+   "min": 149.0,
+   "max": 581.0,
+   "n": 26
+  },
+  "abs_sentences": {
+   "median": 9.0,
+   "min": 6.0,
+   "max": 21.0,
+   "n": 26
+  },
+  "abs_n_numbers": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 5.0,
+   "n": 26
+  },
+  "n_l1_sections": {
+   "median": 5.0,
+   "min": 4.0,
+   "max": 7.0,
+   "n": 26
+  },
+  "conclusions_words": {
+   "median": 372.0,
+   "min": 241.0,
+   "max": 1350.0,
+   "n": 26
+  },
+  "intro_words": {
+   "median": 1091.0,
+   "min": 629.0,
+   "max": 2762.0,
+   "n": 26
+  },
+  "main_words": {
+   "median": 6627.5,
+   "min": 3720.0,
+   "max": 11534.0,
+   "n": 26
+  },
+  "we_per_k": {
+   "median": 0.7,
+   "min": 0.0,
+   "max": 7.92,
+   "n": 26
+  },
+  "our_per_k": {
+   "median": 0.045,
+   "min": 0.0,
+   "max": 6.4,
+   "n": 26
+  },
+  "thisstudy_per_k": {
+   "median": 1.7,
+   "min": 0.0,
+   "max": 5.85,
+   "n": 26
+  },
+  "passive_per_k": {
+   "median": 20.72,
+   "min": 9.85,
+   "max": 34.74,
+   "n": 26
+  },
+  "n_figs": {
+   "median": 10.0,
+   "min": 5.0,
+   "max": 19.0,
+   "n": 26
+  },
+  "cap_words_median": {
+   "median": 28.5,
+   "min": 10.0,
+   "max": 86.0,
+   "n": 26
+  },
+  "n_tables": {
+   "median": 4.0,
+   "min": 0.0,
+   "max": 9.0,
+   "n": 26
+  },
+  "n_refs": {
+   "median": 55.0,
+   "min": 34.0,
+   "max": 89.0,
+   "n": 26
+  },
+  "refs_recent5_share": {
+   "median": 0.3055,
+   "min": 0.111,
+   "max": 0.638,
+   "n": 26
+  },
+  "n_metric_sentences": {
+   "median": 2.0,
+   "min": 0.0,
+   "max": 18.0,
+   "n": 26
+  },
+  "n_gap_sentences": {
+   "median": 5.0,
+   "min": 1.0,
+   "max": 9.0,
+   "n": 26
+  },
+  "h_may_per_k": {
+   "median": 1.0350000000000001,
+   "min": 0.0,
+   "max": 2.87,
+   "n": 26
+  },
+  "h_might_per_k": {
+   "median": 0.175,
+   "min": 0.0,
+   "max": 0.8,
+   "n": 26
+  },
+  "h_could_per_k": {
+   "median": 0.45499999999999996,
+   "min": 0.0,
+   "max": 3.61,
+   "n": 26
+  },
+  "h_suggest_per_k": {
+   "median": 0.345,
+   "min": 0.0,
+   "max": 2.0,
+   "n": 26
+  },
+  "h_indicate_per_k": {
+   "median": 0.6000000000000001,
+   "min": 0.0,
+   "max": 2.02,
+   "n": 26
+  },
+  "h_demonstrate_per_k": {
+   "median": 0.20500000000000002,
+   "min": 0.0,
+   "max": 1.69,
+   "n": 26
+  },
+  "h_show_per_k": {
+   "median": 2.1950000000000003,
+   "min": 0.33,
+   "max": 4.03,
+   "n": 26
+  },
+  "h_reveal_per_k": {
+   "median": 0.08,
+   "min": 0.0,
+   "max": 0.71,
+   "n": 26
+  },
+  "h_likely_per_k": {
+   "median": 0.055,
+   "min": 0.0,
+   "max": 1.6,
+   "n": 26
+  },
+  "h_possibly_per_k": {
+   "median": 0.29000000000000004,
+   "min": 0.0,
+   "max": 1.01,
+   "n": 26
+  },
+  "h_appear_per_k": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.48,
+   "n": 26
+  }
+ },
+ "share_true": {
+  "title_colon": 0.154,
+  "title_finding_auto": 0.038,
+  "abs_has_numbers": 0.423,
+  "abs_here_we": 0.154,
+  "sep_discussion": 0.385,
+  "results_and_discussion": 0.423,
+  "data_code_availability": 0.615,
+  "limitation_heading": 0.0,
+  "move_context": 0.846,
+  "move_gap": 0.654,
+  "move_aim": 0.846,
+  "move_method": 1.0,
+  "move_numeric_result": 0.423,
+  "move_implication": 0.308
+ },
+ "numeric_by_group": {
+  "R": {
+   "n_figs": {
+    "median": 11.0,
+    "min": 6.0,
+    "max": 19.0,
+    "n": 9
+   },
+   "abs_words": {
+    "median": 199.0,
+    "min": 149.0,
+    "max": 282.0,
+    "n": 9
+   },
+   "we_per_k": {
+    "median": 2.36,
+    "min": 0.0,
+    "max": 7.92,
+    "n": 9
+   },
+   "passive_per_k": {
+    "median": 18.84,
+    "min": 10.76,
+    "max": 30.08,
+    "n": 9
+   },
+   "n_refs": {
+    "median": 55.0,
+    "min": 39.0,
+    "max": 85.0,
+    "n": 9
+   }
+  },
+  "U": {
+   "n_figs": {
+    "median": 9.0,
+    "min": 5.0,
+    "max": 15.0,
+    "n": 17
+   },
+   "abs_words": {
+    "median": 248.0,
+    "min": 163.0,
+    "max": 581.0,
+    "n": 17
+   },
+   "we_per_k": {
+    "median": 0.43,
+    "min": 0.0,
+    "max": 3.73,
+    "n": 17
+   },
+   "passive_per_k": {
+    "median": 21.48,
+    "min": 9.85,
+    "max": 34.74,
+    "n": 17
+   },
+   "n_refs": {
+    "median": 55.0,
+    "min": 34.0,
+    "max": 89.0,
+    "n": 17
+   }
+  }
+ },
+ "abs_we_any_share": 0.385,
+ "limitation_sentence_share": 0.731,
+ "first_fig_type": {
+  "framework/flowchart/schematic": 12,
+  "map/site": 11,
+  "parameter/posterior/sensitivity": 2,
+  "hydrograph/time series": 1
+ },
+ "fig_type_profile": [
+  {
+   "type": "framework/flowchart/schematic",
+   "n": 46,
+   "papers": 23,
+   "mean_pos": 0.3,
+   "median_pos": 0.25
+  },
+  {
+   "type": "map/site",
+   "n": 34,
+   "papers": 19,
+   "mean_pos": 0.389,
+   "median_pos": 0.305
+  },
+  {
+   "type": "rainfall/input data",
+   "n": 8,
+   "papers": 6,
+   "mean_pos": 0.536,
+   "median_pos": 0.465
+  },
+  {
+   "type": "scatter obs-vs-sim",
+   "n": 3,
+   "papers": 3,
+   "mean_pos": 0.607,
+   "median_pos": 0.5
+  },
+  {
+   "type": "parameter/posterior/sensitivity",
+   "n": 50,
+   "papers": 20,
+   "mean_pos": 0.613,
+   "median_pos": 0.61
+  },
+  {
+   "type": "other",
+   "n": 11,
+   "papers": 8,
+   "mean_pos": 0.603,
+   "median_pos": 0.62
+  },
+  {
+   "type": "spatial map of results",
+   "n": 10,
+   "papers": 5,
+   "mean_pos": 0.7,
+   "median_pos": 0.69
+  },
+  {
+   "type": "boxplot/performance comparison",
+   "n": 48,
+   "papers": 18,
+   "mean_pos": 0.665,
+   "median_pos": 0.69
+  },
+  {
+   "type": "convergence",
+   "n": 14,
+   "papers": 6,
+   "mean_pos": 0.688,
+   "median_pos": 0.71
+  },
+  {
+   "type": "hydrograph/time series",
+   "n": 30,
+   "papers": 16,
+   "mean_pos": 0.701,
+   "median_pos": 0.73
+  }
+ ],
+ "fig_type_counts": {
+  "parameter/posterior/sensitivity": 50,
+  "boxplot/performance comparison": 48,
+  "framework/flowchart/schematic": 46,
+  "map/site": 34,
+  "hydrograph/time series": 30,
+  "convergence": 14,
+  "other": 11,
+  "spatial map of results": 10,
+  "rainfall/input data": 8,
+  "scatter obs-vs-sim": 3
+ },
+ "caption_style_share": {
+  "first_is_finding": 0.051,
+  "panels": 0.339,
+  "symbols_colors": 0.217,
+  "units": 0.118
+ },
+ "caption_words": {
+  "median": 23.0,
+  "min": 2.0,
+  "max": 177.0,
+  "n": 254
+ },
+ "caption_sentences": {
+  "median": 1.0,
+  "min": 1.0,
+  "max": 7.0,
+  "n": 254
+ },
+ "tab_type_counts": {
+  "model parameters/ranges": 40,
+  "performance metrics": 20,
+  "other": 18,
+  "event characteristics": 12,
+  "study site/data characteristics": 7,
+  "method comparison": 6
+ },
+ "perf_table_decimals_mode": {
+  "2.0": 7,
+  "3.0": 3,
+  "1.0": 2,
+  "4.0": 1
+ },
+ "perf_table_bold": {
+  "false": 10,
+  "true": 3
+ },
+ "metric_sent_total": 124,
+ "metric_sent_comparison_share": 0.355,
+ "metric_sent_interpretation_share": 0.177,
+ "it_was_found_total": 51,
+ "heading_class_seq": [
+  "Introduction > Methods > Results and Discussion > Conclusions",
+  "Introduction > Methods > Study area/Data > Results > Discussion > Conclusions",
+  "Introduction > Methods > Study area/Data > Conclusions",
+  "Introduction > Study area/Data > Methods > Results and Discussion > Conclusions",
+  "Introduction > Study area/Data > Methods > Results and Discussion > Conclusions",
+  "Introduction > Methods > Results > Discussion > Conclusions",
+  "Introduction > Methods > Other > Conclusions",
+  "Introduction > Methods > Results and Discussion > Conclusions",
+  "Introduction > Methods > Results > Discussion > Conclusions",
+  "Introduction > Study area/Data > Methods > Results > Discussion > Conclusions",
+  "Introduction > Methods > Other > Study area/Data > Results > Discussion > Conclusions",
+  "Introduction > Methods > Results and Discussion > Conclusions",
+  "Introduction > Study area/Data > Methods > Results and Discussion > Conclusions",
+  "Introduction > Methods > Results and Discussion > Conclusions",
+  "Introduction > Study area/Data > Methods > Results > Discussion > Conclusions",
+  "Introduction > Other > Methods > Results and Discussion > Conclusions",
+  "Introduction > Methods > Study area/Data > Results > Conclusions",
+  "Introduction > Methods > Results and Discussion > Conclusions",
+  "Introduction > Methods > Results and Discussion > Other > Conclusions > Study area/Data",
+  "Introduction > Methods > Results > Discussion > Conclusions",
+  "Introduction > Methods > Other > Discussion > Conclusions",
+  "Introduction > Methods > Results > Discussion > Conclusions",
+  "Introduction > Methods > Study area/Data > Conclusions",
+  "Introduction > Methods > Study area/Data > Results > Conclusions",
+  "Introduction > Methods > Study area/Data > Results and Discussion > Conclusions",
+  "Introduction > Methods > Results > Discussion > Conclusions"
+ ]
+}
